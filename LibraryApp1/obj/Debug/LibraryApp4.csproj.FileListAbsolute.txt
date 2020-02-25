@@ -1,0 +1,11 @@
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp4\LibraryApp1\bin\Debug\LibraryApp1.exe.config
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp4\LibraryApp1\bin\Debug\LibraryApp1.exe
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp4\LibraryApp1\bin\Debug\LibraryApp1.pdb
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp4\LibraryApp1\obj\Debug\LibraryApp1.Main.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp4\LibraryApp1\obj\Debug\LibraryApp1.Properties.Resources.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp4\LibraryApp1\obj\Debug\LibraryApp1.User.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp4\LibraryApp1\obj\Debug\LibraryApp4.csproj.GenerateResource.cache
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp4\LibraryApp1\obj\Debug\LibraryApp4.csproj.CoreCompileInputs.cache
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp4\LibraryApp1\obj\Debug\LibraryApp1.exe
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp4\LibraryApp1\obj\Debug\LibraryApp1.pdb
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp4\LibraryApp1\obj\Debug\LibraryApp4.csprojAssemblyReference.cache

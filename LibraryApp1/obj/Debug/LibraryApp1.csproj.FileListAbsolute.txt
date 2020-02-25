@@ -1,0 +1,10 @@
+C:\Temp\LibraryApps\LibraryApp1\LibraryApp1\bin\Debug\LibraryApp1.exe.config
+C:\Temp\LibraryApps\LibraryApp1\LibraryApp1\bin\Debug\LibraryApp1.exe
+C:\Temp\LibraryApps\LibraryApp1\LibraryApp1\bin\Debug\LibraryApp1.pdb
+C:\Temp\LibraryApps\LibraryApp1\LibraryApp1\obj\Debug\LibraryApp1.csprojAssemblyReference.cache
+C:\Temp\LibraryApps\LibraryApp1\LibraryApp1\obj\Debug\LibraryApp1.Properties.Resources.resources
+C:\Temp\LibraryApps\LibraryApp1\LibraryApp1\obj\Debug\LibraryApp1.csproj.GenerateResource.cache
+C:\Temp\LibraryApps\LibraryApp1\LibraryApp1\obj\Debug\LibraryApp1.csproj.CoreCompileInputs.cache
+C:\Temp\LibraryApps\LibraryApp1\LibraryApp1\obj\Debug\LibraryApp1.exe
+C:\Temp\LibraryApps\LibraryApp1\LibraryApp1\obj\Debug\LibraryApp1.pdb
+C:\Temp\LibraryApps\LibraryApp1\LibraryApp1\obj\Debug\LibraryApp1.User.resources

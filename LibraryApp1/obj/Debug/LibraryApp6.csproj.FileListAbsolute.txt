@@ -1,0 +1,16 @@
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.Main.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.Properties.Resources.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.SupportingClass.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.User.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp6.csproj.GenerateResource.cache
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp6.csproj.CoreCompileInputs.cache
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.exe
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.pdb
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\bin\Debug\LibraryApp1.exe.config
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\bin\Debug\LibraryApp1.exe
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\bin\Debug\LibraryApp1.pdb
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.SupportingClassAddEdit.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.Undelete.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.Search.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp6.csprojAssemblyReference.cache
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.SearchSelect.resources
