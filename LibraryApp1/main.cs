@@ -12,6 +12,7 @@ namespace LibraryApp1
 {
     public partial class Main : Form
     {
+        public Task TaskForm;
         public User UserForm;
         public String Username = "kmclaren";
         public long Password = 12345;
@@ -23,6 +24,7 @@ namespace LibraryApp1
         public SupportingClass SupportingClassForm;
         public Undelete UndeleteForm;
         public Search SearchForm;
+        public SearchTask SearchTaskForm;
 
 
         public void LaunchSupportingClassWindow(String NewText, String NewDescription,
@@ -57,6 +59,16 @@ String NewRec1)
             
         }
 
+        public void LaunchSearchTaskWindow(String NewText, String NewDescription,
+String NewRec1)
+        {
+            SearchTaskForm = new SearchTask(this, NewText, NewDescription, NewRec1);
+            SearchTaskForm.MdiParent = this;
+            SearchTaskForm.Show();
+            SearchTaskForm.Location = new Point(300, 200);
+
+        }
+
 
         //--------------------------------------------------------------------------------
         //---------------------- Dr. Hicks Initializtion Utilities -----------------------
@@ -67,6 +79,8 @@ String NewRec1)
         public Main()
         {
             InitializeComponent();
+            TaskForm = new Task(this);
+            TaskForm.MdiParent = this;
             UserForm = new User(this);
             UserForm.MdiParent = this;
             menuStrip1.Renderer = new MyRenderer();
@@ -124,6 +138,11 @@ String NewRec1)
         private void UserSubSystemToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UserForm.Show();
+        }
+
+        private void TaskSubSystemMenuItem_Click(object sender, EventArgs e)
+        {
+            TaskForm.Show();
         }
     }
 }
