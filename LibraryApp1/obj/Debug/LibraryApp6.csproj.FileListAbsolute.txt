@@ -14,3 +14,22 @@
 \\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.Search.resources
 \\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp6.csprojAssemblyReference.cache
 \\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp6\LibraryApp1\obj\Debug\LibraryApp1.SearchSelect.resources
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\bin\Debug\LibraryApp1.exe.config
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\bin\Debug\LibraryApp1.exe
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\bin\Debug\LibraryApp1.pdb
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp6.csprojAssemblyReference.cache
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.Main.resources
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.Properties.Resources.resources
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.Search.resources
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.SearchSelect.resources
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.SupportingClass.resources
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.SupportingClassAddEdit.resources
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.Undelete.resources
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.User.resources
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp6.csproj.GenerateResource.cache
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp6.csproj.CoreCompileInputs.cache
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.exe
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.pdb
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.Task.resources
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.SearchSelectTask.resources
+C:\Users\maxtr\Source\Repos\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.SearchTask.resources

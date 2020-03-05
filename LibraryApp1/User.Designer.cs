@@ -73,6 +73,16 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.btnUp = new System.Windows.Forms.Button();
+            this.btnUp2 = new System.Windows.Forms.Button();
+            this.btnDown = new System.Windows.Forms.Button();
+            this.btnLeft = new System.Windows.Forms.Button();
+            this.btnDown2 = new System.Windows.Forms.Button();
+            this.btnRight = new System.Windows.Forms.Button();
+            this.btnLeft2 = new System.Windows.Forms.Button();
+            this.btnRight2 = new System.Windows.Forms.Button();
+            this.btnCellPhone = new System.Windows.Forms.Button();
+            this.btnHomePhone = new System.Windows.Forms.Button();
             this.txtNotes = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.PersonalInfo = new System.Windows.Forms.TabPage();
@@ -153,7 +163,25 @@
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cancelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.byNameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.byIDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.byUniversityIDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.byPhoneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.repotsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.printAllInfoForToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thisUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allUsersInViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allUsersMatchingThisSearchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.printContactListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allUsersToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.allUsersInViewToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.printUsersWhoOweFinesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.printUsersHowHaveBooksOverdueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.printLabelsForToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allUsersInViewToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.allUsersWhoOweMoneyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.adminstrativeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.departmentsAddEditDeleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -166,34 +194,6 @@
             this.label19 = new System.Windows.Forms.Label();
             this.cbOrderBy = new System.Windows.Forms.ComboBox();
             this.lbTrace = new System.Windows.Forms.ListBox();
-            this.byNameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.byIDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.byUniversityIDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.byPhoneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnUp = new System.Windows.Forms.Button();
-            this.btnUp2 = new System.Windows.Forms.Button();
-            this.btnDown = new System.Windows.Forms.Button();
-            this.btnLeft = new System.Windows.Forms.Button();
-            this.btnDown2 = new System.Windows.Forms.Button();
-            this.btnRight = new System.Windows.Forms.Button();
-            this.btnLeft2 = new System.Windows.Forms.Button();
-            this.btnRight2 = new System.Windows.Forms.Button();
-            this.btnCellPhone = new System.Windows.Forms.Button();
-            this.btnHomePhone = new System.Windows.Forms.Button();
-            this.printAllInfoForToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thisUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allUsersInViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allUsersMatchingThisSearchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.printContactListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.printUsersWhoOweFinesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.printUsersHowHaveBooksOverdueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.printLabelsForToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allUsersInViewToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.allUsersWhoOweMoneyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allUsersToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.allUsersInViewToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.PersonalInfo.SuspendLayout();
             this.Notes.SuspendLayout();
@@ -746,6 +746,136 @@
             this.toolTip1.SetToolTip(this.button8, "Return This Book");
             this.button8.UseVisualStyleBackColor = false;
             // 
+            // btnUp
+            // 
+            this.btnUp.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
+            this.btnUp.FlatAppearance.BorderSize = 0;
+            this.btnUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUp.Location = new System.Drawing.Point(38, 5);
+            this.btnUp.Name = "btnUp";
+            this.btnUp.Size = new System.Drawing.Size(35, 30);
+            this.btnUp.TabIndex = 39;
+            this.toolTip1.SetToolTip(this.btnUp, "Navegate To The First Logical Record Within The View");
+            this.btnUp.UseVisualStyleBackColor = true;
+            this.btnUp.Click += new System.EventHandler(this.BtnUp_Click_1);
+            // 
+            // btnUp2
+            // 
+            this.btnUp2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
+            this.btnUp2.FlatAppearance.BorderSize = 0;
+            this.btnUp2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUp2.Location = new System.Drawing.Point(778, 5);
+            this.btnUp2.Name = "btnUp2";
+            this.btnUp2.Size = new System.Drawing.Size(35, 30);
+            this.btnUp2.TabIndex = 39;
+            this.toolTip1.SetToolTip(this.btnUp2, "Navegate To The First Logical Record Within The View");
+            this.btnUp2.UseVisualStyleBackColor = true;
+            this.btnUp2.Click += new System.EventHandler(this.BtnUp2_Click_1);
+            // 
+            // btnDown
+            // 
+            this.btnDown.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
+            this.btnDown.FlatAppearance.BorderSize = 0;
+            this.btnDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDown.Location = new System.Drawing.Point(38, 67);
+            this.btnDown.Name = "btnDown";
+            this.btnDown.Size = new System.Drawing.Size(35, 30);
+            this.btnDown.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.btnDown, "Navegate To The Last Logical Record Within The View");
+            this.btnDown.UseVisualStyleBackColor = true;
+            this.btnDown.Click += new System.EventHandler(this.BtnDown_Click_1);
+            // 
+            // btnLeft
+            // 
+            this.btnLeft.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
+            this.btnLeft.FlatAppearance.BorderSize = 0;
+            this.btnLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLeft.Location = new System.Drawing.Point(8, 35);
+            this.btnLeft.Name = "btnLeft";
+            this.btnLeft.Size = new System.Drawing.Size(30, 35);
+            this.btnLeft.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.btnLeft, "Navegate To The Previous Logical Record Within The View");
+            this.btnLeft.UseVisualStyleBackColor = true;
+            this.btnLeft.Click += new System.EventHandler(this.BtnLeft_Click_1);
+            // 
+            // btnDown2
+            // 
+            this.btnDown2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
+            this.btnDown2.FlatAppearance.BorderSize = 0;
+            this.btnDown2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDown2.Location = new System.Drawing.Point(778, 67);
+            this.btnDown2.Name = "btnDown2";
+            this.btnDown2.Size = new System.Drawing.Size(35, 30);
+            this.btnDown2.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.btnDown2, "Navegate To The Last Logical Record Within The View");
+            this.btnDown2.UseVisualStyleBackColor = true;
+            this.btnDown2.Click += new System.EventHandler(this.BtnDown2_Click_1);
+            // 
+            // btnRight
+            // 
+            this.btnRight.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
+            this.btnRight.FlatAppearance.BorderSize = 0;
+            this.btnRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRight.Location = new System.Drawing.Point(71, 35);
+            this.btnRight.Name = "btnRight";
+            this.btnRight.Size = new System.Drawing.Size(30, 35);
+            this.btnRight.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.btnRight, "Navegate To The Next Logical Record Within The View");
+            this.btnRight.UseVisualStyleBackColor = true;
+            this.btnRight.Click += new System.EventHandler(this.BtnRight_Click_1);
+            // 
+            // btnLeft2
+            // 
+            this.btnLeft2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
+            this.btnLeft2.FlatAppearance.BorderSize = 0;
+            this.btnLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLeft2.Location = new System.Drawing.Point(748, 35);
+            this.btnLeft2.Name = "btnLeft2";
+            this.btnLeft2.Size = new System.Drawing.Size(30, 35);
+            this.btnLeft2.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.btnLeft2, "Navegate To The Previous Logical Record Within The View");
+            this.btnLeft2.UseVisualStyleBackColor = true;
+            this.btnLeft2.Click += new System.EventHandler(this.BtnLeft2_Click_1);
+            // 
+            // btnRight2
+            // 
+            this.btnRight2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
+            this.btnRight2.FlatAppearance.BorderSize = 0;
+            this.btnRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRight2.Location = new System.Drawing.Point(811, 35);
+            this.btnRight2.Name = "btnRight2";
+            this.btnRight2.Size = new System.Drawing.Size(30, 35);
+            this.btnRight2.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.btnRight2, "Navegate To The Next Logical Record Within The View");
+            this.btnRight2.UseVisualStyleBackColor = true;
+            this.btnRight2.Click += new System.EventHandler(this.BtnRight2_Click_1);
+            // 
+            // btnCellPhone
+            // 
+            this.btnCellPhone.BackgroundImage = global::LibraryApp1.Properties.Resources.phoneTrans;
+            this.btnCellPhone.FlatAppearance.BorderSize = 0;
+            this.btnCellPhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCellPhone.Location = new System.Drawing.Point(694, 174);
+            this.btnCellPhone.Name = "btnCellPhone";
+            this.btnCellPhone.Size = new System.Drawing.Size(30, 31);
+            this.btnCellPhone.TabIndex = 35;
+            this.toolTip1.SetToolTip(this.btnCellPhone, "Dialing Cell Phone");
+            this.btnCellPhone.UseVisualStyleBackColor = true;
+            this.btnCellPhone.Click += new System.EventHandler(this.BtnCellPhone_Click);
+            // 
+            // btnHomePhone
+            // 
+            this.btnHomePhone.BackgroundImage = global::LibraryApp1.Properties.Resources.phoneTrans;
+            this.btnHomePhone.FlatAppearance.BorderSize = 0;
+            this.btnHomePhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHomePhone.Location = new System.Drawing.Point(326, 174);
+            this.btnHomePhone.Name = "btnHomePhone";
+            this.btnHomePhone.Size = new System.Drawing.Size(30, 31);
+            this.btnHomePhone.TabIndex = 34;
+            this.toolTip1.SetToolTip(this.btnHomePhone, "Dialing Home Phone");
+            this.btnHomePhone.UseVisualStyleBackColor = true;
+            this.btnHomePhone.Click += new System.EventHandler(this.BtnHomePhone_Click);
+            // 
             // txtNotes
             // 
             this.txtNotes.Location = new System.Drawing.Point(43, 67);
@@ -1116,10 +1246,10 @@
             this.Notes.Controls.Add(this.txtMI2);
             this.Notes.Controls.Add(this.txtID2);
             this.Notes.Controls.Add(this.txtNotes);
-            this.Notes.Location = new System.Drawing.Point(4, 22);
+            this.Notes.Location = new System.Drawing.Point(4, 28);
             this.Notes.Name = "Notes";
             this.Notes.Padding = new System.Windows.Forms.Padding(3);
-            this.Notes.Size = new System.Drawing.Size(866, 358);
+            this.Notes.Size = new System.Drawing.Size(866, 352);
             this.Notes.TabIndex = 1;
             this.Notes.Text = "Notes";
             this.Notes.Click += new System.EventHandler(this.Notes_Click);
@@ -1652,6 +1782,34 @@
             this.searhToolStripMenuItem.Text = "Search";
             this.searhToolStripMenuItem.Click += new System.EventHandler(this.SearhToolStripMenuItem_Click);
             // 
+            // byNameToolStripMenuItem
+            // 
+            this.byNameToolStripMenuItem.Name = "byNameToolStripMenuItem";
+            this.byNameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.byNameToolStripMenuItem.Text = "By Name";
+            this.byNameToolStripMenuItem.Click += new System.EventHandler(this.ByNameToolStripMenuItem_Click);
+            // 
+            // byIDToolStripMenuItem
+            // 
+            this.byIDToolStripMenuItem.Name = "byIDToolStripMenuItem";
+            this.byIDToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.byIDToolStripMenuItem.Text = "By ID";
+            this.byIDToolStripMenuItem.Click += new System.EventHandler(this.ByIDToolStripMenuItem_Click);
+            // 
+            // byUniversityIDToolStripMenuItem
+            // 
+            this.byUniversityIDToolStripMenuItem.Name = "byUniversityIDToolStripMenuItem";
+            this.byUniversityIDToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.byUniversityIDToolStripMenuItem.Text = "By University ID";
+            this.byUniversityIDToolStripMenuItem.Click += new System.EventHandler(this.ByUniversityIDToolStripMenuItem_Click);
+            // 
+            // byPhoneToolStripMenuItem
+            // 
+            this.byPhoneToolStripMenuItem.Name = "byPhoneToolStripMenuItem";
+            this.byPhoneToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.byPhoneToolStripMenuItem.Text = "By Phone";
+            this.byPhoneToolStripMenuItem.Click += new System.EventHandler(this.ByPhoneToolStripMenuItem_Click);
+            // 
             // repotsToolStripMenuItem
             // 
             this.repotsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1663,6 +1821,102 @@
             this.repotsToolStripMenuItem.Name = "repotsToolStripMenuItem";
             this.repotsToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.repotsToolStripMenuItem.Text = "Reports";
+            // 
+            // printAllInfoForToolStripMenuItem
+            // 
+            this.printAllInfoForToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thisUserToolStripMenuItem,
+            this.allUsersInViewToolStripMenuItem,
+            this.allUsersMatchingThisSearchToolStripMenuItem});
+            this.printAllInfoForToolStripMenuItem.Name = "printAllInfoForToolStripMenuItem";
+            this.printAllInfoForToolStripMenuItem.Size = new System.Drawing.Size(271, 22);
+            this.printAllInfoForToolStripMenuItem.Text = "Print All Info for";
+            // 
+            // thisUserToolStripMenuItem
+            // 
+            this.thisUserToolStripMenuItem.Name = "thisUserToolStripMenuItem";
+            this.thisUserToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
+            this.thisUserToolStripMenuItem.Text = "This user";
+            // 
+            // allUsersInViewToolStripMenuItem
+            // 
+            this.allUsersInViewToolStripMenuItem.Name = "allUsersInViewToolStripMenuItem";
+            this.allUsersInViewToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
+            this.allUsersInViewToolStripMenuItem.Text = "All users in view";
+            // 
+            // allUsersMatchingThisSearchToolStripMenuItem
+            // 
+            this.allUsersMatchingThisSearchToolStripMenuItem.Name = "allUsersMatchingThisSearchToolStripMenuItem";
+            this.allUsersMatchingThisSearchToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
+            this.allUsersMatchingThisSearchToolStripMenuItem.Text = "All users matching this search";
+            // 
+            // printContactListToolStripMenuItem
+            // 
+            this.printContactListToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.allUsersToolStripMenuItem1,
+            this.allUsersInViewToolStripMenuItem2});
+            this.printContactListToolStripMenuItem.Name = "printContactListToolStripMenuItem";
+            this.printContactListToolStripMenuItem.Size = new System.Drawing.Size(271, 22);
+            this.printContactListToolStripMenuItem.Text = "Print Contact List";
+            // 
+            // allUsersToolStripMenuItem1
+            // 
+            this.allUsersToolStripMenuItem1.Name = "allUsersToolStripMenuItem1";
+            this.allUsersToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.allUsersToolStripMenuItem1.Text = "All Users";
+            // 
+            // allUsersInViewToolStripMenuItem2
+            // 
+            this.allUsersInViewToolStripMenuItem2.Name = "allUsersInViewToolStripMenuItem2";
+            this.allUsersInViewToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.allUsersInViewToolStripMenuItem2.Text = "All Users In View";
+            // 
+            // printUsersWhoOweFinesToolStripMenuItem
+            // 
+            this.printUsersWhoOweFinesToolStripMenuItem.Name = "printUsersWhoOweFinesToolStripMenuItem";
+            this.printUsersWhoOweFinesToolStripMenuItem.Size = new System.Drawing.Size(271, 22);
+            this.printUsersWhoOweFinesToolStripMenuItem.Text = "Print Users Who Owe Fines";
+            // 
+            // printUsersHowHaveBooksOverdueToolStripMenuItem
+            // 
+            this.printUsersHowHaveBooksOverdueToolStripMenuItem.Name = "printUsersHowHaveBooksOverdueToolStripMenuItem";
+            this.printUsersHowHaveBooksOverdueToolStripMenuItem.Size = new System.Drawing.Size(271, 22);
+            this.printUsersHowHaveBooksOverdueToolStripMenuItem.Text = "Print Users How Have Books Overdue";
+            // 
+            // printLabelsForToolStripMenuItem
+            // 
+            this.printLabelsForToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.allUsersToolStripMenuItem,
+            this.allUsersInViewToolStripMenuItem1,
+            this.allUsersWhoOweMoneyToolStripMenuItem,
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem});
+            this.printLabelsForToolStripMenuItem.Name = "printLabelsForToolStripMenuItem";
+            this.printLabelsForToolStripMenuItem.Size = new System.Drawing.Size(271, 22);
+            this.printLabelsForToolStripMenuItem.Text = "Print Labels For";
+            // 
+            // allUsersToolStripMenuItem
+            // 
+            this.allUsersToolStripMenuItem.Name = "allUsersToolStripMenuItem";
+            this.allUsersToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.allUsersToolStripMenuItem.Text = "All Users";
+            // 
+            // allUsersInViewToolStripMenuItem1
+            // 
+            this.allUsersInViewToolStripMenuItem1.Name = "allUsersInViewToolStripMenuItem1";
+            this.allUsersInViewToolStripMenuItem1.Size = new System.Drawing.Size(259, 22);
+            this.allUsersInViewToolStripMenuItem1.Text = "All Users In View";
+            // 
+            // allUsersWhoOweMoneyToolStripMenuItem
+            // 
+            this.allUsersWhoOweMoneyToolStripMenuItem.Name = "allUsersWhoOweMoneyToolStripMenuItem";
+            this.allUsersWhoOweMoneyToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.allUsersWhoOweMoneyToolStripMenuItem.Text = "All Users Who Owe Money";
+            // 
+            // allUsersWhoHaveBooksOverdueToolStripMenuItem
+            // 
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Name = "allUsersWhoHaveBooksOverdueToolStripMenuItem";
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Text = "All users Who Have Books Overdue";
             // 
             // toolStripMenuItem1
             // 
@@ -1817,260 +2071,6 @@
             this.lbTrace.Name = "lbTrace";
             this.lbTrace.Size = new System.Drawing.Size(287, 452);
             this.lbTrace.TabIndex = 68;
-            // 
-            // byNameToolStripMenuItem
-            // 
-            this.byNameToolStripMenuItem.Name = "byNameToolStripMenuItem";
-            this.byNameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.byNameToolStripMenuItem.Text = "By Name";
-            this.byNameToolStripMenuItem.Click += new System.EventHandler(this.ByNameToolStripMenuItem_Click);
-            // 
-            // byIDToolStripMenuItem
-            // 
-            this.byIDToolStripMenuItem.Name = "byIDToolStripMenuItem";
-            this.byIDToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.byIDToolStripMenuItem.Text = "By ID";
-            this.byIDToolStripMenuItem.Click += new System.EventHandler(this.ByIDToolStripMenuItem_Click);
-            // 
-            // byUniversityIDToolStripMenuItem
-            // 
-            this.byUniversityIDToolStripMenuItem.Name = "byUniversityIDToolStripMenuItem";
-            this.byUniversityIDToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.byUniversityIDToolStripMenuItem.Text = "By University ID";
-            this.byUniversityIDToolStripMenuItem.Click += new System.EventHandler(this.ByUniversityIDToolStripMenuItem_Click);
-            // 
-            // byPhoneToolStripMenuItem
-            // 
-            this.byPhoneToolStripMenuItem.Name = "byPhoneToolStripMenuItem";
-            this.byPhoneToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.byPhoneToolStripMenuItem.Text = "By Phone";
-            this.byPhoneToolStripMenuItem.Click += new System.EventHandler(this.ByPhoneToolStripMenuItem_Click);
-            // 
-            // btnUp
-            // 
-            this.btnUp.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
-            this.btnUp.FlatAppearance.BorderSize = 0;
-            this.btnUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUp.Location = new System.Drawing.Point(38, 5);
-            this.btnUp.Name = "btnUp";
-            this.btnUp.Size = new System.Drawing.Size(35, 30);
-            this.btnUp.TabIndex = 39;
-            this.toolTip1.SetToolTip(this.btnUp, "Navegate To The First Logical Record Within The View");
-            this.btnUp.UseVisualStyleBackColor = true;
-            this.btnUp.Click += new System.EventHandler(this.BtnUp_Click_1);
-            // 
-            // btnUp2
-            // 
-            this.btnUp2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
-            this.btnUp2.FlatAppearance.BorderSize = 0;
-            this.btnUp2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUp2.Location = new System.Drawing.Point(778, 5);
-            this.btnUp2.Name = "btnUp2";
-            this.btnUp2.Size = new System.Drawing.Size(35, 30);
-            this.btnUp2.TabIndex = 39;
-            this.toolTip1.SetToolTip(this.btnUp2, "Navegate To The First Logical Record Within The View");
-            this.btnUp2.UseVisualStyleBackColor = true;
-            this.btnUp2.Click += new System.EventHandler(this.BtnUp2_Click_1);
-            // 
-            // btnDown
-            // 
-            this.btnDown.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
-            this.btnDown.FlatAppearance.BorderSize = 0;
-            this.btnDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDown.Location = new System.Drawing.Point(38, 67);
-            this.btnDown.Name = "btnDown";
-            this.btnDown.Size = new System.Drawing.Size(35, 30);
-            this.btnDown.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.btnDown, "Navegate To The Last Logical Record Within The View");
-            this.btnDown.UseVisualStyleBackColor = true;
-            this.btnDown.Click += new System.EventHandler(this.BtnDown_Click_1);
-            // 
-            // btnLeft
-            // 
-            this.btnLeft.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
-            this.btnLeft.FlatAppearance.BorderSize = 0;
-            this.btnLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLeft.Location = new System.Drawing.Point(8, 35);
-            this.btnLeft.Name = "btnLeft";
-            this.btnLeft.Size = new System.Drawing.Size(30, 35);
-            this.btnLeft.TabIndex = 37;
-            this.toolTip1.SetToolTip(this.btnLeft, "Navegate To The Previous Logical Record Within The View");
-            this.btnLeft.UseVisualStyleBackColor = true;
-            this.btnLeft.Click += new System.EventHandler(this.BtnLeft_Click_1);
-            // 
-            // btnDown2
-            // 
-            this.btnDown2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
-            this.btnDown2.FlatAppearance.BorderSize = 0;
-            this.btnDown2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDown2.Location = new System.Drawing.Point(778, 67);
-            this.btnDown2.Name = "btnDown2";
-            this.btnDown2.Size = new System.Drawing.Size(35, 30);
-            this.btnDown2.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.btnDown2, "Navegate To The Last Logical Record Within The View");
-            this.btnDown2.UseVisualStyleBackColor = true;
-            this.btnDown2.Click += new System.EventHandler(this.BtnDown2_Click_1);
-            // 
-            // btnRight
-            // 
-            this.btnRight.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
-            this.btnRight.FlatAppearance.BorderSize = 0;
-            this.btnRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRight.Location = new System.Drawing.Point(71, 35);
-            this.btnRight.Name = "btnRight";
-            this.btnRight.Size = new System.Drawing.Size(30, 35);
-            this.btnRight.TabIndex = 36;
-            this.toolTip1.SetToolTip(this.btnRight, "Navegate To The Next Logical Record Within The View");
-            this.btnRight.UseVisualStyleBackColor = true;
-            this.btnRight.Click += new System.EventHandler(this.BtnRight_Click_1);
-            // 
-            // btnLeft2
-            // 
-            this.btnLeft2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
-            this.btnLeft2.FlatAppearance.BorderSize = 0;
-            this.btnLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLeft2.Location = new System.Drawing.Point(748, 35);
-            this.btnLeft2.Name = "btnLeft2";
-            this.btnLeft2.Size = new System.Drawing.Size(30, 35);
-            this.btnLeft2.TabIndex = 37;
-            this.toolTip1.SetToolTip(this.btnLeft2, "Navegate To The Previous Logical Record Within The View");
-            this.btnLeft2.UseVisualStyleBackColor = true;
-            this.btnLeft2.Click += new System.EventHandler(this.BtnLeft2_Click_1);
-            // 
-            // btnRight2
-            // 
-            this.btnRight2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
-            this.btnRight2.FlatAppearance.BorderSize = 0;
-            this.btnRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRight2.Location = new System.Drawing.Point(811, 35);
-            this.btnRight2.Name = "btnRight2";
-            this.btnRight2.Size = new System.Drawing.Size(30, 35);
-            this.btnRight2.TabIndex = 36;
-            this.toolTip1.SetToolTip(this.btnRight2, "Navegate To The Next Logical Record Within The View");
-            this.btnRight2.UseVisualStyleBackColor = true;
-            this.btnRight2.Click += new System.EventHandler(this.BtnRight2_Click_1);
-            // 
-            // btnCellPhone
-            // 
-            this.btnCellPhone.BackgroundImage = global::LibraryApp1.Properties.Resources.phoneTrans;
-            this.btnCellPhone.FlatAppearance.BorderSize = 0;
-            this.btnCellPhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCellPhone.Location = new System.Drawing.Point(694, 174);
-            this.btnCellPhone.Name = "btnCellPhone";
-            this.btnCellPhone.Size = new System.Drawing.Size(30, 31);
-            this.btnCellPhone.TabIndex = 35;
-            this.toolTip1.SetToolTip(this.btnCellPhone, "Dialing Cell Phone");
-            this.btnCellPhone.UseVisualStyleBackColor = true;
-            this.btnCellPhone.Click += new System.EventHandler(this.BtnCellPhone_Click);
-            // 
-            // btnHomePhone
-            // 
-            this.btnHomePhone.BackgroundImage = global::LibraryApp1.Properties.Resources.phoneTrans;
-            this.btnHomePhone.FlatAppearance.BorderSize = 0;
-            this.btnHomePhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHomePhone.Location = new System.Drawing.Point(326, 174);
-            this.btnHomePhone.Name = "btnHomePhone";
-            this.btnHomePhone.Size = new System.Drawing.Size(30, 31);
-            this.btnHomePhone.TabIndex = 34;
-            this.toolTip1.SetToolTip(this.btnHomePhone, "Dialing Home Phone");
-            this.btnHomePhone.UseVisualStyleBackColor = true;
-            this.btnHomePhone.Click += new System.EventHandler(this.BtnHomePhone_Click);
-            // 
-            // printAllInfoForToolStripMenuItem
-            // 
-            this.printAllInfoForToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thisUserToolStripMenuItem,
-            this.allUsersInViewToolStripMenuItem,
-            this.allUsersMatchingThisSearchToolStripMenuItem});
-            this.printAllInfoForToolStripMenuItem.Name = "printAllInfoForToolStripMenuItem";
-            this.printAllInfoForToolStripMenuItem.Size = new System.Drawing.Size(271, 22);
-            this.printAllInfoForToolStripMenuItem.Text = "Print All Info for";
-            // 
-            // thisUserToolStripMenuItem
-            // 
-            this.thisUserToolStripMenuItem.Name = "thisUserToolStripMenuItem";
-            this.thisUserToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.thisUserToolStripMenuItem.Text = "This user";
-            // 
-            // allUsersInViewToolStripMenuItem
-            // 
-            this.allUsersInViewToolStripMenuItem.Name = "allUsersInViewToolStripMenuItem";
-            this.allUsersInViewToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.allUsersInViewToolStripMenuItem.Text = "All users in view";
-            // 
-            // allUsersMatchingThisSearchToolStripMenuItem
-            // 
-            this.allUsersMatchingThisSearchToolStripMenuItem.Name = "allUsersMatchingThisSearchToolStripMenuItem";
-            this.allUsersMatchingThisSearchToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.allUsersMatchingThisSearchToolStripMenuItem.Text = "All users matching this search";
-            // 
-            // printContactListToolStripMenuItem
-            // 
-            this.printContactListToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.allUsersToolStripMenuItem1,
-            this.allUsersInViewToolStripMenuItem2});
-            this.printContactListToolStripMenuItem.Name = "printContactListToolStripMenuItem";
-            this.printContactListToolStripMenuItem.Size = new System.Drawing.Size(271, 22);
-            this.printContactListToolStripMenuItem.Text = "Print Contact List";
-            // 
-            // printUsersWhoOweFinesToolStripMenuItem
-            // 
-            this.printUsersWhoOweFinesToolStripMenuItem.Name = "printUsersWhoOweFinesToolStripMenuItem";
-            this.printUsersWhoOweFinesToolStripMenuItem.Size = new System.Drawing.Size(271, 22);
-            this.printUsersWhoOweFinesToolStripMenuItem.Text = "Print Users Who Owe Fines";
-            // 
-            // printUsersHowHaveBooksOverdueToolStripMenuItem
-            // 
-            this.printUsersHowHaveBooksOverdueToolStripMenuItem.Name = "printUsersHowHaveBooksOverdueToolStripMenuItem";
-            this.printUsersHowHaveBooksOverdueToolStripMenuItem.Size = new System.Drawing.Size(271, 22);
-            this.printUsersHowHaveBooksOverdueToolStripMenuItem.Text = "Print Users How Have Books Overdue";
-            // 
-            // printLabelsForToolStripMenuItem
-            // 
-            this.printLabelsForToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.allUsersToolStripMenuItem,
-            this.allUsersInViewToolStripMenuItem1,
-            this.allUsersWhoOweMoneyToolStripMenuItem,
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem});
-            this.printLabelsForToolStripMenuItem.Name = "printLabelsForToolStripMenuItem";
-            this.printLabelsForToolStripMenuItem.Size = new System.Drawing.Size(271, 22);
-            this.printLabelsForToolStripMenuItem.Text = "Print Labels For";
-            // 
-            // allUsersToolStripMenuItem
-            // 
-            this.allUsersToolStripMenuItem.Name = "allUsersToolStripMenuItem";
-            this.allUsersToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
-            this.allUsersToolStripMenuItem.Text = "All Users";
-            // 
-            // allUsersInViewToolStripMenuItem1
-            // 
-            this.allUsersInViewToolStripMenuItem1.Name = "allUsersInViewToolStripMenuItem1";
-            this.allUsersInViewToolStripMenuItem1.Size = new System.Drawing.Size(259, 22);
-            this.allUsersInViewToolStripMenuItem1.Text = "All Users In View";
-            // 
-            // allUsersWhoOweMoneyToolStripMenuItem
-            // 
-            this.allUsersWhoOweMoneyToolStripMenuItem.Name = "allUsersWhoOweMoneyToolStripMenuItem";
-            this.allUsersWhoOweMoneyToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
-            this.allUsersWhoOweMoneyToolStripMenuItem.Text = "All Users Who Owe Money";
-            // 
-            // allUsersWhoHaveBooksOverdueToolStripMenuItem
-            // 
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Name = "allUsersWhoHaveBooksOverdueToolStripMenuItem";
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Text = "All users Who Have Books Overdue";
-            // 
-            // allUsersToolStripMenuItem1
-            // 
-            this.allUsersToolStripMenuItem1.Name = "allUsersToolStripMenuItem1";
-            this.allUsersToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.allUsersToolStripMenuItem1.Text = "All Users";
-            // 
-            // allUsersInViewToolStripMenuItem2
-            // 
-            this.allUsersInViewToolStripMenuItem2.Name = "allUsersInViewToolStripMenuItem2";
-            this.allUsersInViewToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.allUsersInViewToolStripMenuItem2.Text = "All Users In View";
             // 
             // User
             // 

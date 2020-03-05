@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userSubSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TaskSubSystemMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkOutSubSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mediaSubSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,6 +46,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addToolStripMenuItem,
             this.userSubSystemToolStripMenuItem,
+            this.TaskSubSystemMenuItem,
             this.checkOutSubSystemToolStripMenuItem,
             this.mediaSubSystemToolStripMenuItem,
             this.toolStripMenuItem1,
@@ -70,6 +72,13 @@
             this.userSubSystemToolStripMenuItem.Text = "User Sub-System";
             this.userSubSystemToolStripMenuItem.ToolTipText = "Load The User Sub-System";
             this.userSubSystemToolStripMenuItem.Click += new System.EventHandler(this.UserSubSystemToolStripMenuItem_Click);
+            // 
+            // TaskSubSystemMenuItem
+            // 
+            this.TaskSubSystemMenuItem.Name = "TaskSubSystemMenuItem";
+            this.TaskSubSystemMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.TaskSubSystemMenuItem.Text = "Tasks";
+            this.TaskSubSystemMenuItem.Click += new System.EventHandler(this.TaskSubSystemMenuItem_Click);
             // 
             // checkOutSubSystemToolStripMenuItem
             // 
@@ -128,5 +137,6 @@
         private System.Windows.Forms.ToolStripMenuItem mediaSubSystemToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TaskSubSystemMenuItem;
     }
 }
