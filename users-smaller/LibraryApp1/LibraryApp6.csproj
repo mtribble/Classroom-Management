@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91B94CFC-F615-4ED3-8F8D-3028F579D134}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LibraryApp1</RootNamespace>
+    <AssemblyName>LibraryApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchSelect.Designer.cs">
+      <DependentUpon>SearchSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupportingClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupportingClass.Designer.cs">
+      <DependentUpon>SupportingClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupportingClassAddEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupportingClassAddEdit.Designer.cs">
+      <DependentUpon>SupportingClassAddEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Undelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Undelete.Designer.cs">
+      <DependentUpon>Undelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchSelect.resx">
+      <DependentUpon>SearchSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupportingClass.resx">
+      <DependentUpon>SupportingClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupportingClassAddEdit.resx">
+      <DependentUpon>SupportingClassAddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Undelete.resx">
+      <DependentUpon>Undelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\phoneTrans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\arrowRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\arrowUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\arrowDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\arrowLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\sydney-purple-blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\purple-books.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\blue-library.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\slanted-blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\straight-blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\computers-blue.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
