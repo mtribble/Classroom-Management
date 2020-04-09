@@ -1,0 +1,11 @@
+C:\Users\logan\Documents\Software\Classroom-Management\LibraryApp1\bin\Debug\LibraryApp1.exe.config
+C:\Users\logan\Documents\Software\Classroom-Management\LibraryApp1\bin\Debug\LibraryApp1.exe
+C:\Users\logan\Documents\Software\Classroom-Management\LibraryApp1\bin\Debug\LibraryApp1.pdb
+C:\Users\logan\Documents\Software\Classroom-Management\LibraryApp1\obj\Debug\Classroom Management.csprojAssemblyReference.cache
+C:\Users\logan\Documents\Software\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.Main.resources
+C:\Users\logan\Documents\Software\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.Properties.Resources.resources
+C:\Users\logan\Documents\Software\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.SupportingClass.resources
+C:\Users\logan\Documents\Software\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.Class.resources
+C:\Users\logan\Documents\Software\Classroom-Management\LibraryApp1\obj\Debug\Classroom Management.csproj.GenerateResource.cache
+C:\Users\logan\Documents\Software\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.exe
+C:\Users\logan\Documents\Software\Classroom-Management\LibraryApp1\obj\Debug\LibraryApp1.pdb
