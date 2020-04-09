@@ -1,0 +1,9 @@
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp2\LibraryApp1\bin\Release\LibraryApp1.exe.config
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp2\LibraryApp1\bin\Release\LibraryApp1.exe
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp2\LibraryApp1\bin\Release\LibraryApp1.pdb
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp2\LibraryApp1\obj\Release\LibraryApp1.Properties.Resources.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp2\LibraryApp1\obj\Release\LibraryApp1.User.resources
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp2\LibraryApp1\obj\Release\LibraryApp2.csproj.GenerateResource.cache
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp2\LibraryApp1\obj\Release\LibraryApp2.csproj.CoreCompileInputs.cache
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp2\LibraryApp1\obj\Release\LibraryApp1.exe
+\\mars.cs.trinity.edu\3321_11_20\KennethMcLaren\Work In Progress\LibraryApp2\LibraryApp1\obj\Release\LibraryApp1.pdb
