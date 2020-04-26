@@ -12,9 +12,11 @@ namespace LibraryApp1
 {
     public partial class Main : Form
     {
-        public ClassList UserForm;
+        public Task TaskForm;
+        public ClassList ClassListForm;
         public String Username = "kmclaren";
         public long Password = 12345;
+        public SearchTask SearchTaskForm;
 
         public bool UserInViewMode = true;
         public bool UserInEditMode = false;
@@ -67,9 +69,11 @@ String NewRec1)
         public Main()
         {
             InitializeComponent();
-            UserForm = new ClassList(this);
-            UserForm.MdiParent = this;
+            ClassListForm = new ClassList(this);
+            ClassListForm.MdiParent = this;
             menuStrip1.Renderer = new MyRenderer();
+            TaskForm = new Task(this);
+            TaskForm.MdiParent = this;
         }
 
         private void Main_Load(object sender, EventArgs e)
@@ -123,12 +127,28 @@ String NewRec1)
 
         private void UserSubSystemToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UserForm.Show();
+            ClassListForm.Show();
         }
 
         private void CheckOutSubSystemToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+
+        public void LaunchSearchTaskWindow(String NewText, String NewDescription,
+String NewRec1)
+        {
+            SearchTaskForm = new SearchTask(this, NewText, NewDescription, NewRec1);
+            SearchTaskForm.MdiParent = this;
+            SearchTaskForm.Show();
+            SearchTaskForm.Location = new Point(300, 200);
+
+        }
+
+        private void taskSubSystemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TaskForm.Show();
         }
     }
 }

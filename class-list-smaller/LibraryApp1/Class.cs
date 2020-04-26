@@ -262,7 +262,7 @@ namespace LibraryApp1
             SID3.Visible = Stud3.Visible = Mail3.Visible = LoadAss3.Visible = Rm3.Visible = false;
         }
 
-        private void InitializeComponent()
+      /*  private void InitializeComponent()
         {
             this.SuspendLayout();
             // 
@@ -273,7 +273,7 @@ namespace LibraryApp1
             this.Load += new System.EventHandler(this.Class_Load_1);
             this.ResumeLayout(false);
 
-        }
+        }*/
 
         private void Class_Load_1(object sender, EventArgs e)
         {
