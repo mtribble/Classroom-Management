@@ -33,9 +33,9 @@
             this.userSubSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkOutSubSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mediaSubSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.taskSubSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.taskSubSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,9 +56,10 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.ShowItemToolTips = true;
-            this.menuStrip1.Size = new System.Drawing.Size(1862, 35);
+            this.menuStrip1.Size = new System.Drawing.Size(1862, 33);
             this.menuStrip1.TabIndex = 33;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // addToolStripMenuItem
             // 
@@ -90,6 +91,13 @@
             this.mediaSubSystemToolStripMenuItem.Text = "Class Sub-System";
             this.mediaSubSystemToolStripMenuItem.ToolTipText = "Load The Media Sub-System";
             // 
+            // taskSubSystemToolStripMenuItem
+            // 
+            this.taskSubSystemToolStripMenuItem.Name = "taskSubSystemToolStripMenuItem";
+            this.taskSubSystemToolStripMenuItem.Size = new System.Drawing.Size(161, 29);
+            this.taskSubSystemToolStripMenuItem.Text = "Task Sub-System";
+            this.taskSubSystemToolStripMenuItem.Click += new System.EventHandler(this.taskSubSystemToolStripMenuItem_Click);
+            // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
@@ -104,13 +112,6 @@
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.ToolTipText = "Exit The Library System";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
-            // 
-            // taskSubSystemToolStripMenuItem
-            // 
-            this.taskSubSystemToolStripMenuItem.Name = "taskSubSystemToolStripMenuItem";
-            this.taskSubSystemToolStripMenuItem.Size = new System.Drawing.Size(161, 29);
-            this.taskSubSystemToolStripMenuItem.Text = "Task Sub-System";
-            this.taskSubSystemToolStripMenuItem.Click += new System.EventHandler(this.taskSubSystemToolStripMenuItem_Click);
             // 
             // Main
             // 
