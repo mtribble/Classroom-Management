@@ -17,6 +17,8 @@ namespace LibraryApp1
         public String Username = "kmclaren";
         public long Password = 12345;
         public SearchTask SearchTaskForm;
+        public User UserForm;
+       
 
         public bool UserInViewMode = true;
         public bool UserInEditMode = false;
@@ -74,6 +76,9 @@ String NewRec1)
             menuStrip1.Renderer = new MyRenderer();
             TaskForm = new Task(this);
             TaskForm.MdiParent = this;
+            UserForm = new User(this);
+            UserForm.MdiParent = this;
+            menuStrip1.Renderer = new MyRenderer();
         }
 
         private void Main_Load(object sender, EventArgs e)
@@ -132,7 +137,7 @@ String NewRec1)
 
         private void CheckOutSubSystemToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            UserForm.Show();
         }
 
 

@@ -9,3 +9,8 @@ C:\Users\18322\Documents\software\Classroom-Management\class-list-smaller\Librar
 C:\Users\18322\Documents\software\Classroom-Management\class-list-smaller\LibraryApp1\obj\Debug\LibraryApp1.Undelete.resources
 C:\Users\18322\Documents\software\Classroom-Management\class-list-smaller\LibraryApp1\obj\Debug\LibraryApp1.ClassList.resources
 C:\Users\18322\Documents\software\Classroom-Management\class-list-smaller\LibraryApp1\obj\Debug\ClassroomManagementClassList.csproj.GenerateResource.cache
+C:\Users\18322\Documents\software\Classroom-Management\class-list-smaller\LibraryApp1\bin\Debug\LibraryApp1.exe.config
+C:\Users\18322\Documents\software\Classroom-Management\class-list-smaller\LibraryApp1\bin\Debug\LibraryApp1.exe
+C:\Users\18322\Documents\software\Classroom-Management\class-list-smaller\LibraryApp1\bin\Debug\LibraryApp1.pdb
+C:\Users\18322\Documents\software\Classroom-Management\class-list-smaller\LibraryApp1\obj\Debug\LibraryApp1.exe
+C:\Users\18322\Documents\software\Classroom-Management\class-list-smaller\LibraryApp1\obj\Debug\LibraryApp1.pdb

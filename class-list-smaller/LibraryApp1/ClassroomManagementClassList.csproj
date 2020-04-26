@@ -71,6 +71,10 @@
     <Compile Include="SearchSelect.Designer.cs">
       <DependentUpon>SearchSelect.cs</DependentUpon>
     </Compile>
+    <Compile Include="SearchSelectTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchSelectTask.Designer.cs" />
     <Compile Include="SearchTask.cs">
       <SubType>Form</SubType>
     </Compile>
