@@ -12,9 +12,14 @@ namespace LibraryApp1
 {
     public partial class Main : Form
     {
-        public ClassList UserForm;
+        public Task TaskForm;
+        public ClassList ClassListForm;
         public String Username = "kmclaren";
         public long Password = 12345;
+        public SearchTask SearchTaskForm;
+        public User UserForm;
+        public Class ClassForm;
+
 
         public bool UserInViewMode = true;
         public bool UserInEditMode = false;
@@ -67,8 +72,16 @@ String NewRec1)
         public Main()
         {
             InitializeComponent();
-            UserForm = new ClassList(this);
+            ClassListForm = new ClassList(this);
+            ClassListForm.MdiParent = this;
+            menuStrip1.Renderer = new MyRenderer();
+            TaskForm = new Task(this);
+            TaskForm.MdiParent = this;
+            UserForm = new User(this);
             UserForm.MdiParent = this;
+            menuStrip1.Renderer = new MyRenderer();
+            ClassForm = new Class(this);
+            ClassForm.MdiParent = this;
             menuStrip1.Renderer = new MyRenderer();
         }
 
@@ -123,12 +136,33 @@ String NewRec1)
 
         private void UserSubSystemToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UserForm.Show();
+            ClassListForm.Show();
         }
 
         private void CheckOutSubSystemToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            UserForm.Show();
+        }
 
+
+        public void LaunchSearchTaskWindow(String NewText, String NewDescription,
+String NewRec1)
+        {
+            SearchTaskForm = new SearchTask(this, NewText, NewDescription, NewRec1);
+            SearchTaskForm.MdiParent = this;
+            SearchTaskForm.Show();
+            SearchTaskForm.Location = new Point(300, 200);
+
+        }
+
+        private void taskSubSystemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TaskForm.Show();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            ClassForm.Show();
         }
     }
 }
