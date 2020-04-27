@@ -20,7 +20,7 @@ namespace LibraryApp1
         String QuickLinkText = "Full Name";
         int currClass = 0;
         int numClasses = 3;
-        
+        Boolean pastVis = false;
 
         Main pf;
 
@@ -313,83 +313,86 @@ namespace LibraryApp1
         {
             if (currClass == 0)
             {
-                txtMeetTimeEnd.Text = " 830";
-                txtMeetTimeStart.Text = " 920";
+                
 
-                txtMeetLocation.Text = "CSI 270";
+                
                 txtCourseCode.Text = "CSCI-3362";
                 txtCourseName.Text = "Big Data";
                 txtID.Text = "140";
                 txtAdministrator.Text = "F";
-                txtEndDate.Text = "07152020";
+                
                 txtDeptID.Text = "1";
                 
                 txtGenderID.Text = "M";
-                txtStartDate.Text = "01152020";
+               
                
                 txtNotes.Text = "Satisfies the applications requirement";
                
                 
                 txtProfessor.Text = "Lewis";
-                cbDeptId.SelectedValue = 1;
+                
                 bool tmp = pf.UserInEditMode;
                 pf.UserInEditMode = true;
-                
+                rbSpring.Checked = true;
+                rbInfrequent.Checked = true;
+                cbDeptId.SelectedValue = 1;
                 rb3.Checked = true;
                 pf.UserInEditMode = tmp;
                 //cbDeptId.Text = "Mathematics";
+
+
             }
             else if (currClass == 1)
             {
-                txtMeetTimeEnd.Text = "1120";
-                txtMeetTimeStart.Text = "1030";
-                txtMeetLocation.Text = "MML 140";
+                
                 txtCourseCode.Text = "MATH-3323";
                 txtCourseName.Text = "Real Analysis";
                 txtID.Text = "145";
                 txtAdministrator.Text = "T";
-                txtEndDate.Text = "07152020";
+                
                 txtDeptID.Text = "2";
                 
                 txtGenderID.Text = "M";
-                txtStartDate.Text = "01152020";
+                
                
                 txtNotes.Text = "Required for the Math Major";
                
                 
                 txtProfessor.Text = "Elaydi";
-                cbDeptId.SelectedValue = 4;
+                
                 bool tmp = pf.UserInEditMode;
                 pf.UserInEditMode = true;
-                
+                rbFall.Checked = true;
+                rbEveryYear.Checked = true;
                 rb3.Checked = true;
+                cbDeptId.SelectedValue = 4;
                 pf.UserInEditMode = tmp;
                 //cbDeptId.Text = "Mathematics";
             }
 
             else if (currClass == 2)
             {
-                txtMeetTimeEnd.Text = " 220";
-                txtMeetTimeStart.Text = " 130";
-                txtMeetLocation.Text = "Storch 42";
+               
                 txtCourseCode.Text = "BUSI-1101";
                 txtCourseName.Text = "Networking Workshop";
                 txtID.Text = "231";
                 txtAdministrator.Text = "T";
-                txtEndDate.Text = "12052019";
+               
                 txtDeptID.Text = "6";
 
                 txtGenderID.Text = "M";
-                txtStartDate.Text = "08252019";
+               
 
                 txtNotes.Text = "Includes a required field trip";
 
 
                 txtProfessor.Text = "Smith";
-                cbDeptId.SelectedValue = 6;
+                
                 bool tmp = pf.UserInEditMode;
                 pf.UserInEditMode = true;
-
+                rbFall.Checked = true;
+                rbAlternate.Checked = true;
+                cbDeptId.SelectedValue = 6;
                 rb1.Checked = true;
                 pf.UserInEditMode = tmp;
 
@@ -411,24 +414,29 @@ namespace LibraryApp1
             txtCourseName.Text = "";
             txtID.Text = "";
             txtAdministrator.Text = "";
-            txtEndDate.Text = "";
+           
             txtDeptID.Text = "";
-            txtMeetLocation.Text = "";
-            txtGenderID.Text = "";
-            txtStartDate.Text = "";
-            
+           
+           
             txtNotes.Text = "";
           
-            txtMeetTimeStart.Text = "";
+          
             txtProfessor.Text = "";
-            cbDeptId.SelectedValue = 0;
+            
             bool tmp = pf.UserInEditMode;
             pf.UserInEditMode = true;
-            
+            cbDeptId.SelectedValue = 0;
             rb2.Checked = false;
             rb1.Checked = false;
             rb3.Checked = false;
             rb4.Checked = false;
+            rbFall.Checked = false;
+            rbSpring.Checked = false;
+            rbInfrequent.Checked = false;
+            rbAlternate.Checked = false;
+            rbEverySem.Checked = false;
+            rbEveryYear.Checked = false;
+            
             pf.UserInEditMode = tmp;
 
         }
@@ -699,20 +707,12 @@ namespace LibraryApp1
             txtProfessor.BackColor = Color.White;
 
           
-            txtEndDate.ReadOnly = true;
-            txtEndDate.BackColor = Color.White;
-            txtStartDate.ReadOnly = true;
-            txtStartDate.BackColor = Color.White;
+         
             txtNotes.ReadOnly = true;
             txtNotes.BackColor = Color.White;
-            txtMeetTimeStart.ReadOnly = true;
-            txtMeetTimeStart.BackColor = Color.White;
+         
 
-            txtMeetTimeEnd.ReadOnly = true;
-            txtMeetTimeEnd.BackColor = Color.White;
             
-            txtMeetLocation.ReadOnly = true;
-            txtMeetLocation.BackColor = Color.White;
 
             //txtFirst2.ReadOnly = true;
             //txtFirst2.BackColor = Color.White;
@@ -802,25 +802,16 @@ namespace LibraryApp1
             txtCourseCode.BackColor = Color.LightGoldenrodYellow;
             txtCourseName.ReadOnly = false;
             txtCourseName.BackColor = Color.LightGoldenrodYellow;
-            txtMeetTimeEnd.ReadOnly = false;
-            txtMeetTimeEnd.BackColor = Color.LightGoldenrodYellow;
-            txtMeetTimeStart.ReadOnly = false;
-            txtMeetTimeStart.BackColor = Color.LightGoldenrodYellow;
-            txtMeetLocation.ReadOnly = false;
-            txtMeetLocation.BackColor = Color.LightGoldenrodYellow;
+           
 
             txtProfessor.ReadOnly = false;
             txtProfessor.BackColor = Color.LightGoldenrodYellow;
 
        
-            txtEndDate.ReadOnly = false;
-            txtEndDate.BackColor = Color.LightGoldenrodYellow;
-            txtStartDate.ReadOnly = false;
-            txtStartDate.BackColor = Color.LightGoldenrodYellow;
+           
             txtNotes.ReadOnly = false;
             txtNotes.BackColor = Color.LightGoldenrodYellow;
-            txtMeetTimeStart.ReadOnly = false;
-            txtMeetTimeStart.BackColor = Color.LightGoldenrodYellow;
+     
 
             //txtFirst2.ReadOnly = false;
             //txtFirst2.BackColor = Color.LightGoldenrodYellow;
@@ -974,6 +965,7 @@ namespace LibraryApp1
         {
             txtCode2.Text = txtCourseCode.Text;
             txtCode3.Text = txtCourseCode.Text;
+            txtCode4.Text = txtCourseCode.Text;
         }
 
         private void Label11_Click(object sender, EventArgs e)
@@ -1003,6 +995,7 @@ namespace LibraryApp1
         {
             txtID2.Text = txtID.Text;
             txtID3.Text = txtID.Text;
+            txtID4.Text = txtID.Text; 
 
         }
 
@@ -1085,6 +1078,7 @@ namespace LibraryApp1
         {
             txtName2.Text = txtCourseName.Text;
             txtName3.Text = txtCourseName.Text;
+            txtName4.Text = txtCourseName.Text;
         }
 
         private void DATAToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1258,11 +1252,7 @@ namespace LibraryApp1
 
         private void ChAdministrator_CheckedChanged(object sender, EventArgs e)
         {
-            if (pf.UserInEditMode == false)
-            {
-                MessageBox.Show("You Must Edit - If You Want To Change This");
-                btnLeft.Focus();
-            }
+
         }
 
         private void Label6_Click(object sender, EventArgs e)
@@ -1418,7 +1408,8 @@ namespace LibraryApp1
 
         private void BtnCheckOutTransfer_Click(object sender, EventArgs e)
         {
-
+            pf.ClassForm.Show();
+            pf.ClassForm.BringToFront();
         }
 
         private void Rb3_CheckedChanged(object sender, EventArgs e)
@@ -1444,6 +1435,131 @@ namespace LibraryApp1
             currClass = 0;
             FillFormVariables();
 
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (pf.UserInEditMode == false)
+            {
+                MessageBox.Show("You Must Edit - If You Want To Change This");
+                btnLeft.Focus();
+            }
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (pf.UserInEditMode == false)
+            {
+                MessageBox.Show("You Must Edit - If You Want To Change This");
+                btnLeft.Focus();
+            }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (pf.UserInEditMode == false)
+            {
+                MessageBox.Show("You Must Edit - If You Want To Change This");
+                btnLeft.Focus();
+            }
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (pf.UserInEditMode == false)
+            {
+                MessageBox.Show("You Must Edit - If You Want To Change This");
+                btnLeft.Focus();
+            }
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (pf.UserInEditMode == false)
+            {
+                MessageBox.Show("You Must Edit - If You Want To Change This");
+                btnLeft.Focus();
+            }
+        }
+
+        private void btnEmailProfessor_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Emailing Professor");
+        }
+
+        private void rbEverySem_CheckedChanged(object sender, EventArgs e)
+        {
+            if (pf.UserInEditMode == false)
+            {
+                MessageBox.Show("You Must Edit - If You Want To Change This");
+                btnLeft.Focus();
+            }
+        }
+
+        private void btnClassTransfer_Click(object sender, EventArgs e)
+        {
+            pf.ClassForm.Show();
+            pf.ClassForm.BringToFront();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            pf.ClassForm.Show();
+            pf.ClassForm.BringToFront();
+        }
+
+        private void btnTogglePast_Click(object sender, EventArgs e)
+        {
+            pastVis = !pastVis;
+            pastSectionsPanel.Visible = pastVis;
+            if (pastVis)
+            {
+                btnTogglePast.BackColor=Color.FromArgb(171, 204, 204);
+                btnTogglePast.FlatAppearance.BorderSize = 3;
+            }
+            else
+            {
+                btnTogglePast.BackColor = Color.FromArgb(171, 134, 179);
+                btnTogglePast.FlatAppearance.BorderSize = 1;
+            }
+        }
+
+        private void textBox11_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            pf.ClassForm.Show();
+            pf.ClassForm.BringToFront();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            pf.ClassForm.Show();
+            pf.ClassForm.BringToFront();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            pf.ClassForm.Show();
+            pf.ClassForm.BringToFront();
         }
     }
 }

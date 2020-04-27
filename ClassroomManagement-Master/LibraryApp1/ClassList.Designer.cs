@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnTest = new System.Windows.Forms.Button();
             this.btnA = new System.Windows.Forms.Button();
@@ -60,7 +61,6 @@
             this.btnS = new System.Windows.Forms.Button();
             this.btnG = new System.Windows.Forms.Button();
             this.btnX = new System.Windows.Forms.Button();
-            this.btnClassTransfer = new System.Windows.Forms.Button();
             this.btnCOViewDel = new System.Windows.Forms.Button();
             this.btnCODel = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -82,23 +82,13 @@
             this.PersonalInfo = new System.Windows.Forms.TabPage();
             this.rb4 = new System.Windows.Forms.RadioButton();
             this.rb3 = new System.Windows.Forms.RadioButton();
-            this.txtMeetLocation = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtMeetTimeEnd = new System.Windows.Forms.MaskedTextBox();
-            this.txtMeetTimeStart = new System.Windows.Forms.MaskedTextBox();
-            this.txtEndDate = new System.Windows.Forms.MaskedTextBox();
-            this.txtStartDate = new System.Windows.Forms.MaskedTextBox();
             this.rb2 = new System.Windows.Forms.RadioButton();
             this.rb1 = new System.Windows.Forms.RadioButton();
             this.cbDeptId = new System.Windows.Forms.ComboBox();
             this.txtCourseCode = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.txtDeptID = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -124,26 +114,18 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BookTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewButtonColumn2 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label25 = new System.Windows.Forms.Label();
             this.pnlCheckoutList = new System.Windows.Forms.Panel();
             this.txtCODel = new System.Windows.Forms.TextBox();
             this.txtCoDel2 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.UserID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TransactionID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TDelete = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.ViewDetails = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label23 = new System.Windows.Forms.Label();
             this.txtCode3 = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.txtName3 = new System.Windows.Forms.TextBox();
             this.txtID3 = new System.Windows.Forms.TextBox();
+            this.Sections = new System.Windows.Forms.TabPage();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -180,6 +162,50 @@
             this.label19 = new System.Windows.Forms.Label();
             this.cbOrderBy = new System.Windows.Forms.ComboBox();
             this.lbTrace = new System.Windows.Forms.ListBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.rbEverySem = new System.Windows.Forms.RadioButton();
+            this.rbSpring = new System.Windows.Forms.RadioButton();
+            this.rbFall = new System.Windows.Forms.RadioButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnClassTransfer = new System.Windows.Forms.Button();
+            this.rbEveryYear = new System.Windows.Forms.RadioButton();
+            this.rbAlternate = new System.Windows.Forms.RadioButton();
+            this.rbInfrequent = new System.Windows.Forms.RadioButton();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnEmailProfessor = new System.Windows.Forms.Button();
+            this.UserID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TransactionID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TDelete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.ViewDetails = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BookTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewButtonColumn2 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewButtonColumn1 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pastSectionsPanel = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtCode4 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txtName4 = new System.Windows.Forms.TextBox();
+            this.txtID4 = new System.Windows.Forms.TextBox();
+            this.btnTogglePast = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.PersonalInfo.SuspendLayout();
             this.Notes.SuspendLayout();
@@ -189,8 +215,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.pnlCheckoutList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.Sections.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.pnlNavigation.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            this.pastSectionsPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnTest
@@ -551,21 +582,6 @@
             this.toolTip1.SetToolTip(this.btnX, "btnTest might be use to display local variables");
             this.btnX.UseVisualStyleBackColor = false;
             // 
-            // btnClassTransfer
-            // 
-            this.btnClassTransfer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.btnClassTransfer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClassTransfer.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.btnClassTransfer.ForeColor = System.Drawing.Color.Black;
-            this.btnClassTransfer.Location = new System.Drawing.Point(440, 262);
-            this.btnClassTransfer.Name = "btnClassTransfer";
-            this.btnClassTransfer.Size = new System.Drawing.Size(366, 27);
-            this.btnClassTransfer.TabIndex = 51;
-            this.btnClassTransfer.Text = "Go To Class Page";
-            this.toolTip1.SetToolTip(this.btnClassTransfer, "Transfer To Class Sub-System");
-            this.btnClassTransfer.UseVisualStyleBackColor = false;
-            this.btnClassTransfer.Click += new System.EventHandler(this.BtnCheckOutTransfer_Click);
-            // 
             // btnCOViewDel
             // 
             this.btnCOViewDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
@@ -775,7 +791,7 @@
             this.btnCellPhone.BackgroundImage = global::LibraryApp1.Properties.Resources.phoneTrans;
             this.btnCellPhone.FlatAppearance.BorderSize = 0;
             this.btnCellPhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCellPhone.Location = new System.Drawing.Point(810, 177);
+            this.btnCellPhone.Location = new System.Drawing.Point(819, 214);
             this.btnCellPhone.Name = "btnCellPhone";
             this.btnCellPhone.Size = new System.Drawing.Size(30, 31);
             this.btnCellPhone.TabIndex = 35;
@@ -798,6 +814,7 @@
             this.tabControl1.Controls.Add(this.PersonalInfo);
             this.tabControl1.Controls.Add(this.Notes);
             this.tabControl1.Controls.Add(this.CheckOut);
+            this.tabControl1.Controls.Add(this.Sections);
             this.tabControl1.Location = new System.Drawing.Point(0, 28);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -808,16 +825,13 @@
             // PersonalInfo
             // 
             this.PersonalInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
+            this.PersonalInfo.Controls.Add(this.btnEmailProfessor);
+            this.PersonalInfo.Controls.Add(this.label5);
+            this.PersonalInfo.Controls.Add(this.panel2);
+            this.PersonalInfo.Controls.Add(this.label4);
+            this.PersonalInfo.Controls.Add(this.panel1);
             this.PersonalInfo.Controls.Add(this.rb4);
             this.PersonalInfo.Controls.Add(this.rb3);
-            this.PersonalInfo.Controls.Add(this.txtMeetLocation);
-            this.PersonalInfo.Controls.Add(this.label12);
-            this.PersonalInfo.Controls.Add(this.label4);
-            this.PersonalInfo.Controls.Add(this.txtMeetTimeEnd);
-            this.PersonalInfo.Controls.Add(this.btnClassTransfer);
-            this.PersonalInfo.Controls.Add(this.txtMeetTimeStart);
-            this.PersonalInfo.Controls.Add(this.txtEndDate);
-            this.PersonalInfo.Controls.Add(this.txtStartDate);
             this.PersonalInfo.Controls.Add(this.rb2);
             this.PersonalInfo.Controls.Add(this.rb1);
             this.PersonalInfo.Controls.Add(this.cbDeptId);
@@ -825,11 +839,8 @@
             this.PersonalInfo.Controls.Add(this.btnTest);
             this.PersonalInfo.Controls.Add(this.txtCourseCode);
             this.PersonalInfo.Controls.Add(this.label1);
-            this.PersonalInfo.Controls.Add(this.label13);
             this.PersonalInfo.Controls.Add(this.txtDeptID);
             this.PersonalInfo.Controls.Add(this.label14);
-            this.PersonalInfo.Controls.Add(this.label5);
-            this.PersonalInfo.Controls.Add(this.label6);
             this.PersonalInfo.Controls.Add(this.label7);
             this.PersonalInfo.Controls.Add(this.label8);
             this.PersonalInfo.Controls.Add(this.label9);
@@ -850,7 +861,7 @@
             // rb4
             // 
             this.rb4.AutoSize = true;
-            this.rb4.Location = new System.Drawing.Point(330, 266);
+            this.rb4.Location = new System.Drawing.Point(330, 99);
             this.rb4.Name = "rb4";
             this.rb4.Size = new System.Drawing.Size(36, 23);
             this.rb4.TabIndex = 57;
@@ -862,7 +873,7 @@
             // rb3
             // 
             this.rb3.AutoSize = true;
-            this.rb3.Location = new System.Drawing.Point(269, 266);
+            this.rb3.Location = new System.Drawing.Point(269, 99);
             this.rb3.Name = "rb3";
             this.rb3.Size = new System.Drawing.Size(36, 23);
             this.rb3.TabIndex = 56;
@@ -871,75 +882,10 @@
             this.rb3.UseVisualStyleBackColor = true;
             this.rb3.CheckedChanged += new System.EventHandler(this.Rb3_CheckedChanged);
             // 
-            // txtMeetLocation
-            // 
-            this.txtMeetLocation.Location = new System.Drawing.Point(509, 207);
-            this.txtMeetLocation.Name = "txtMeetLocation";
-            this.txtMeetLocation.Size = new System.Drawing.Size(179, 26);
-            this.txtMeetLocation.TabIndex = 55;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(362, 210);
-            this.label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(140, 19);
-            this.label12.TabIndex = 54;
-            this.label12.Text = "Meeting Location";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(201, 215);
-            this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 19);
-            this.label4.TabIndex = 53;
-            this.label4.Text = "—";
-            // 
-            // txtMeetTimeEnd
-            // 
-            this.txtMeetTimeEnd.Location = new System.Drawing.Point(229, 210);
-            this.txtMeetTimeEnd.Mask = "90:00";
-            this.txtMeetTimeEnd.Name = "txtMeetTimeEnd";
-            this.txtMeetTimeEnd.Size = new System.Drawing.Size(52, 26);
-            this.txtMeetTimeEnd.TabIndex = 52;
-            this.txtMeetTimeEnd.ValidatingType = typeof(System.DateTime);
-            // 
-            // txtMeetTimeStart
-            // 
-            this.txtMeetTimeStart.Location = new System.Drawing.Point(146, 210);
-            this.txtMeetTimeStart.Mask = "90:00";
-            this.txtMeetTimeStart.Name = "txtMeetTimeStart";
-            this.txtMeetTimeStart.Size = new System.Drawing.Size(52, 26);
-            this.txtMeetTimeStart.TabIndex = 50;
-            this.txtMeetTimeStart.ValidatingType = typeof(System.DateTime);
-            // 
-            // txtEndDate
-            // 
-            this.txtEndDate.Location = new System.Drawing.Point(510, 153);
-            this.txtEndDate.Mask = "00/00/0000";
-            this.txtEndDate.Name = "txtEndDate";
-            this.txtEndDate.Size = new System.Drawing.Size(178, 26);
-            this.txtEndDate.TabIndex = 49;
-            this.txtEndDate.ValidatingType = typeof(System.DateTime);
-            // 
-            // txtStartDate
-            // 
-            this.txtStartDate.Location = new System.Drawing.Point(146, 155);
-            this.txtStartDate.Mask = "00/00/0000";
-            this.txtStartDate.Name = "txtStartDate";
-            this.txtStartDate.Size = new System.Drawing.Size(174, 26);
-            this.txtStartDate.TabIndex = 48;
-            this.txtStartDate.ValidatingType = typeof(System.DateTime);
-            // 
             // rb2
             // 
             this.rb2.AutoSize = true;
-            this.rb2.Location = new System.Drawing.Point(208, 266);
+            this.rb2.Location = new System.Drawing.Point(208, 99);
             this.rb2.Name = "rb2";
             this.rb2.Size = new System.Drawing.Size(36, 23);
             this.rb2.TabIndex = 47;
@@ -951,7 +897,7 @@
             // rb1
             // 
             this.rb1.AutoSize = true;
-            this.rb1.Location = new System.Drawing.Point(147, 265);
+            this.rb1.Location = new System.Drawing.Point(147, 98);
             this.rb1.Name = "rb1";
             this.rb1.Size = new System.Drawing.Size(36, 23);
             this.rb1.TabIndex = 46;
@@ -970,7 +916,7 @@
             "Non-Administrators",
             "Males",
             "Females"});
-            this.cbDeptId.Location = new System.Drawing.Point(510, 98);
+            this.cbDeptId.Location = new System.Drawing.Point(510, 97);
             this.cbDeptId.Name = "cbDeptId";
             this.cbDeptId.Size = new System.Drawing.Size(178, 27);
             this.cbDeptId.TabIndex = 44;
@@ -995,17 +941,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Course Name";
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(46, 158);
-            this.label13.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(84, 19);
-            this.label13.TabIndex = 30;
-            this.label13.Text = "Start Date";
-            // 
             // txtDeptID
             // 
             this.txtDeptID.Location = new System.Drawing.Point(707, 304);
@@ -1017,35 +952,12 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(398, 100);
+            this.label14.Location = new System.Drawing.Point(398, 101);
             this.label14.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(103, 19);
             this.label14.TabIndex = 28;
             this.label14.Text = "Deptartment";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(23, 213);
-            this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 19);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Meeting Time";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(422, 156);
-            this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 19);
-            this.label6.TabIndex = 24;
-            this.label6.Text = "End Date";
-            this.label6.Click += new System.EventHandler(this.Label6_Click);
             // 
             // label7
             // 
@@ -1063,7 +975,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(27, 268);
+            this.label8.Location = new System.Drawing.Point(22, 101);
             this.label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(106, 19);
@@ -1092,19 +1004,19 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(46, 103);
+            this.label11.Location = new System.Drawing.Point(23, 155);
             this.label11.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(84, 19);
+            this.label11.Size = new System.Drawing.Size(199, 19);
             this.label11.TabIndex = 11;
-            this.label11.Text = "Professor";
+            this.label11.Text = "Most Recently Taught By";
             this.label11.Click += new System.EventHandler(this.Label11_Click);
             // 
             // txtProfessor
             // 
-            this.txtProfessor.Location = new System.Drawing.Point(146, 100);
+            this.txtProfessor.Location = new System.Drawing.Point(232, 151);
             this.txtProfessor.Name = "txtProfessor";
-            this.txtProfessor.Size = new System.Drawing.Size(201, 26);
+            this.txtProfessor.Size = new System.Drawing.Size(435, 26);
             this.txtProfessor.TabIndex = 3;
             this.txtProfessor.TextChanged += new System.EventHandler(this.TxtUsername_TextChanged);
             // 
@@ -1146,10 +1058,10 @@
             this.Notes.Controls.Add(this.txtName2);
             this.Notes.Controls.Add(this.txtID2);
             this.Notes.Controls.Add(this.txtNotes);
-            this.Notes.Location = new System.Drawing.Point(4, 22);
+            this.Notes.Location = new System.Drawing.Point(4, 28);
             this.Notes.Name = "Notes";
             this.Notes.Padding = new System.Windows.Forms.Padding(3);
-            this.Notes.Size = new System.Drawing.Size(866, 358);
+            this.Notes.Size = new System.Drawing.Size(866, 352);
             this.Notes.TabIndex = 1;
             this.Notes.Text = "Notes";
             this.Notes.Click += new System.EventHandler(this.Notes_Click);
@@ -1331,14 +1243,14 @@
             // 
             this.dataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle38.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -1347,34 +1259,9 @@
             this.dataGridViewButtonColumn2});
             this.dataGridView2.Location = new System.Drawing.Point(12, 23);
             this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 62;
             this.dataGridView2.Size = new System.Drawing.Size(813, 150);
             this.dataGridView2.TabIndex = 30;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle6;
-            this.dataGridViewTextBoxColumn1.HeaderText = "Course ID";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 120;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "Course Code";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 120;
-            // 
-            // BookTitle
-            // 
-            this.BookTitle.HeaderText = "Course Name";
-            this.BookTitle.Name = "BookTitle";
-            this.BookTitle.Width = 389;
-            // 
-            // dataGridViewButtonColumn2
-            // 
-            this.dataGridViewButtonColumn2.HeaderText = "";
-            this.dataGridViewButtonColumn2.Name = "dataGridViewButtonColumn2";
-            this.dataGridViewButtonColumn2.Width = 109;
             // 
             // label25
             // 
@@ -1424,14 +1311,14 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle40.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle40.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle40;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.UserID,
@@ -1441,37 +1328,9 @@
             this.ViewDetails});
             this.dataGridView1.Location = new System.Drawing.Point(39, 55);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.Size = new System.Drawing.Size(813, 149);
             this.dataGridView1.TabIndex = 26;
-            // 
-            // UserID
-            // 
-            this.UserID.HeaderText = "Prerequisite ID";
-            this.UserID.Name = "UserID";
-            this.UserID.Width = 150;
-            // 
-            // TransactionID
-            // 
-            this.TransactionID.HeaderText = "Required";
-            this.TransactionID.Name = "TransactionID";
-            // 
-            // TDate
-            // 
-            this.TDate.HeaderText = "PreRequisite";
-            this.TDate.Name = "TDate";
-            this.TDate.Width = 200;
-            // 
-            // TDelete
-            // 
-            this.TDelete.HeaderText = "";
-            this.TDelete.Name = "TDelete";
-            this.TDelete.Width = 145;
-            // 
-            // ViewDetails
-            // 
-            this.ViewDetails.HeaderText = "";
-            this.ViewDetails.Name = "ViewDetails";
-            this.ViewDetails.Width = 142;
             // 
             // label23
             // 
@@ -1531,7 +1390,7 @@
             this.txtName3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtName3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txtName3.Location = new System.Drawing.Point(495, 14);
+            this.txtName3.Location = new System.Drawing.Point(494, 14);
             this.txtName3.Name = "txtName3";
             this.txtName3.ReadOnly = true;
             this.txtName3.Size = new System.Drawing.Size(225, 19);
@@ -1551,10 +1410,36 @@
             this.txtID3.Text = "1234";
             this.txtID3.TextChanged += new System.EventHandler(this.TextBox8_TextChanged);
             // 
+            // Sections
+            // 
+            this.Sections.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
+            this.Sections.Controls.Add(this.btnTogglePast);
+            this.Sections.Controls.Add(this.label10);
+            this.Sections.Controls.Add(this.txtCode4);
+            this.Sections.Controls.Add(this.label12);
+            this.Sections.Controls.Add(this.label13);
+            this.Sections.Controls.Add(this.txtName4);
+            this.Sections.Controls.Add(this.txtID4);
+            this.Sections.Controls.Add(this.btnClassTransfer);
+            this.Sections.Controls.Add(this.button1);
+            this.Sections.Controls.Add(this.pastSectionsPanel);
+            this.Sections.Controls.Add(this.textBox2);
+            this.Sections.Controls.Add(this.textBox1);
+            this.Sections.Controls.Add(this.label6);
+            this.Sections.Controls.Add(this.dataGridView3);
+            this.Sections.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.Sections.Location = new System.Drawing.Point(4, 28);
+            this.Sections.Name = "Sections";
+            this.Sections.Padding = new System.Windows.Forms.Padding(3);
+            this.Sections.Size = new System.Drawing.Size(866, 352);
+            this.Sections.TabIndex = 3;
+            this.Sections.Text = "Sections";
+            // 
             // menuStrip1
             // 
             this.menuStrip1.AllowMerge = false;
             this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addToolStripMenuItem,
             this.editToolStripMenuItem,
@@ -1861,10 +1746,12 @@
             this.cbSelect.FormattingEnabled = true;
             this.cbSelect.Items.AddRange(new object[] {
             "All Classes",
-            "Three Credit Hour Classes",
             "One Credit Hour Classes",
             "Two Credit Hour Classes",
-            "Four Credit Hour Classes"});
+            "Three Credit Hour Classes",
+            "Four Credit Hour Classes",
+            "Offered In The Spring",
+            "Offered In The Fall"});
             this.cbSelect.Location = new System.Drawing.Point(524, 79);
             this.cbSelect.Name = "cbSelect";
             this.cbSelect.Size = new System.Drawing.Size(178, 27);
@@ -1888,7 +1775,7 @@
             "ID",
             "Course Code",
             "Course Name",
-            "Professor"});
+            "Most Recent Professor"});
             this.cbOrderBy.Location = new System.Drawing.Point(236, 79);
             this.cbOrderBy.Name = "cbOrderBy";
             this.cbOrderBy.Size = new System.Drawing.Size(178, 27);
@@ -1902,8 +1789,500 @@
             this.lbTrace.ItemHeight = 14;
             this.lbTrace.Location = new System.Drawing.Point(880, 56);
             this.lbTrace.Name = "lbTrace";
-            this.lbTrace.Size = new System.Drawing.Size(287, 452);
+            this.lbTrace.Size = new System.Drawing.Size(287, 438);
             this.lbTrace.TabIndex = 68;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.rbEverySem);
+            this.panel1.Controls.Add(this.rbSpring);
+            this.panel1.Controls.Add(this.rbFall);
+            this.panel1.Location = new System.Drawing.Point(183, 196);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(324, 53);
+            this.panel1.TabIndex = 58;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // rbEverySem
+            // 
+            this.rbEverySem.AutoSize = true;
+            this.rbEverySem.Location = new System.Drawing.Point(158, 14);
+            this.rbEverySem.Name = "rbEverySem";
+            this.rbEverySem.Size = new System.Drawing.Size(149, 23);
+            this.rbEverySem.TabIndex = 59;
+            this.rbEverySem.TabStop = true;
+            this.rbEverySem.Text = "Both Semesters";
+            this.rbEverySem.UseVisualStyleBackColor = true;
+            this.rbEverySem.CheckedChanged += new System.EventHandler(this.rbEverySem_CheckedChanged);
+            // 
+            // rbSpring
+            // 
+            this.rbSpring.AutoSize = true;
+            this.rbSpring.Location = new System.Drawing.Point(74, 14);
+            this.rbSpring.Name = "rbSpring";
+            this.rbSpring.Size = new System.Drawing.Size(78, 23);
+            this.rbSpring.TabIndex = 58;
+            this.rbSpring.TabStop = true;
+            this.rbSpring.Text = "Spring";
+            this.rbSpring.UseVisualStyleBackColor = true;
+            this.rbSpring.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // rbFall
+            // 
+            this.rbFall.AutoSize = true;
+            this.rbFall.Location = new System.Drawing.Point(13, 14);
+            this.rbFall.Name = "rbFall";
+            this.rbFall.Size = new System.Drawing.Size(54, 23);
+            this.rbFall.TabIndex = 57;
+            this.rbFall.TabStop = true;
+            this.rbFall.Text = "Fall";
+            this.rbFall.UseVisualStyleBackColor = true;
+            this.rbFall.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(22, 214);
+            this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(152, 19);
+            this.label4.TabIndex = 61;
+            this.label4.Text = "Commonly Offered";
+            this.label4.Click += new System.EventHandler(this.label4_Click_1);
+            // 
+            // btnClassTransfer
+            // 
+            this.btnClassTransfer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.btnClassTransfer.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnClassTransfer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClassTransfer.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.btnClassTransfer.ForeColor = System.Drawing.Color.Black;
+            this.btnClassTransfer.Location = new System.Drawing.Point(530, 79);
+            this.btnClassTransfer.Name = "btnClassTransfer";
+            this.btnClassTransfer.Size = new System.Drawing.Size(289, 27);
+            this.btnClassTransfer.TabIndex = 52;
+            this.btnClassTransfer.Text = "Go To Class Page";
+            this.toolTip1.SetToolTip(this.btnClassTransfer, "Transfer To Class Sub-System");
+            this.btnClassTransfer.UseVisualStyleBackColor = false;
+            this.btnClassTransfer.Click += new System.EventHandler(this.btnClassTransfer_Click);
+            // 
+            // rbEveryYear
+            // 
+            this.rbEveryYear.AutoSize = true;
+            this.rbEveryYear.Location = new System.Drawing.Point(13, 14);
+            this.rbEveryYear.Name = "rbEveryYear";
+            this.rbEveryYear.Size = new System.Drawing.Size(108, 23);
+            this.rbEveryYear.TabIndex = 57;
+            this.rbEveryYear.TabStop = true;
+            this.rbEveryYear.Text = "Every Year";
+            this.rbEveryYear.UseVisualStyleBackColor = true;
+            this.rbEveryYear.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
+            // 
+            // rbAlternate
+            // 
+            this.rbAlternate.AutoSize = true;
+            this.rbAlternate.Location = new System.Drawing.Point(127, 14);
+            this.rbAlternate.Name = "rbAlternate";
+            this.rbAlternate.Size = new System.Drawing.Size(141, 23);
+            this.rbAlternate.TabIndex = 58;
+            this.rbAlternate.TabStop = true;
+            this.rbAlternate.Text = "Alternate Years";
+            this.rbAlternate.UseVisualStyleBackColor = true;
+            this.rbAlternate.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
+            // 
+            // rbInfrequent
+            // 
+            this.rbInfrequent.AutoSize = true;
+            this.rbInfrequent.Location = new System.Drawing.Point(281, 14);
+            this.rbInfrequent.Name = "rbInfrequent";
+            this.rbInfrequent.Size = new System.Drawing.Size(118, 23);
+            this.rbInfrequent.TabIndex = 59;
+            this.rbInfrequent.TabStop = true;
+            this.rbInfrequent.Text = "Infrequently";
+            this.rbInfrequent.UseVisualStyleBackColor = true;
+            this.rbInfrequent.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.rbInfrequent);
+            this.panel2.Controls.Add(this.rbAlternate);
+            this.panel2.Controls.Add(this.rbEveryYear);
+            this.panel2.Location = new System.Drawing.Point(121, 259);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(414, 52);
+            this.panel2.TabIndex = 62;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(25, 274);
+            this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(91, 19);
+            this.label5.TabIndex = 63;
+            this.label5.Text = "Frequency";
+            // 
+            // btnEmailProfessor
+            // 
+            this.btnEmailProfessor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.btnEmailProfessor.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnEmailProfessor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmailProfessor.ForeColor = System.Drawing.Color.Black;
+            this.btnEmailProfessor.Location = new System.Drawing.Point(689, 150);
+            this.btnEmailProfessor.Name = "btnEmailProfessor";
+            this.btnEmailProfessor.Size = new System.Drawing.Size(150, 28);
+            this.btnEmailProfessor.TabIndex = 64;
+            this.btnEmailProfessor.Text = "Email Professor";
+            this.toolTip1.SetToolTip(this.btnEmailProfessor, "Send An Email To The Professor");
+            this.btnEmailProfessor.UseVisualStyleBackColor = false;
+            this.btnEmailProfessor.Click += new System.EventHandler(this.btnEmailProfessor_Click);
+            // 
+            // UserID
+            // 
+            this.UserID.HeaderText = "Prerequisite ID";
+            this.UserID.MinimumWidth = 8;
+            this.UserID.Name = "UserID";
+            this.UserID.Width = 120;
+            // 
+            // TransactionID
+            // 
+            this.TransactionID.HeaderText = "Required";
+            this.TransactionID.MinimumWidth = 8;
+            this.TransactionID.Name = "TransactionID";
+            this.TransactionID.Width = 110;
+            // 
+            // TDate
+            // 
+            this.TDate.HeaderText = "PreRequisite";
+            this.TDate.MinimumWidth = 8;
+            this.TDate.Name = "TDate";
+            this.TDate.Width = 200;
+            // 
+            // TDelete
+            // 
+            this.TDelete.HeaderText = "";
+            this.TDelete.MinimumWidth = 8;
+            this.TDelete.Name = "TDelete";
+            this.TDelete.Width = 145;
+            // 
+            // ViewDetails
+            // 
+            this.ViewDetails.HeaderText = "";
+            this.ViewDetails.MinimumWidth = 8;
+            this.ViewDetails.Name = "ViewDetails";
+            this.ViewDetails.Width = 142;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle39;
+            this.dataGridViewTextBoxColumn1.HeaderText = "Course ID";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.HeaderText = "Course Code";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 120;
+            // 
+            // BookTitle
+            // 
+            this.BookTitle.HeaderText = "Course Name";
+            this.BookTitle.MinimumWidth = 8;
+            this.BookTitle.Name = "BookTitle";
+            this.BookTitle.Width = 389;
+            // 
+            // dataGridViewButtonColumn2
+            // 
+            this.dataGridViewButtonColumn2.HeaderText = "";
+            this.dataGridViewButtonColumn2.MinimumWidth = 8;
+            this.dataGridViewButtonColumn2.Name = "dataGridViewButtonColumn2";
+            this.dataGridViewButtonColumn2.Width = 109;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
+            this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle37.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle37.Font = new System.Drawing.Font("Arial", 9.75F);
+            dataGridViewCellStyle37.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewButtonColumn1});
+            this.dataGridView3.Location = new System.Drawing.Point(39, 55);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowHeadersWidth = 62;
+            this.dataGridView3.Size = new System.Drawing.Size(813, 149);
+            this.dataGridView3.TabIndex = 53;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.label6.Location = new System.Drawing.Point(37, 33);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(784, 16);
+            this.label6.TabIndex = 54;
+            this.label6.Text = "---------------------------------------------------------------------------------" +
+    "--- Sections Offered -----------------------------------------------------------" +
+    "-------------------------";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(39, 79);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(491, 26);
+            this.textBox1.TabIndex = 55;
+            this.textBox1.Text = "           FL20          1      Lewis";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.HeaderText = "Semester";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 120;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.HeaderText = "Section";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 110;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.HeaderText = "Professor";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Width = 200;
+            // 
+            // dataGridViewButtonColumn1
+            // 
+            this.dataGridViewButtonColumn1.HeaderText = "";
+            this.dataGridViewButtonColumn1.MinimumWidth = 8;
+            this.dataGridViewButtonColumn1.Name = "dataGridViewButtonColumn1";
+            this.dataGridViewButtonColumn1.Width = 287;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(39, 105);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(491, 26);
+            this.textBox2.TabIndex = 56;
+            this.textBox2.Text = "           FL20          2      Lewis";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(530, 105);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(289, 27);
+            this.button1.TabIndex = 57;
+            this.button1.Text = "Go To Class Page";
+            this.toolTip1.SetToolTip(this.button1, "Transfer To Class Sub-System");
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // pastSectionsPanel
+            // 
+            this.pastSectionsPanel.Controls.Add(this.button9);
+            this.pastSectionsPanel.Controls.Add(this.textBox8);
+            this.pastSectionsPanel.Controls.Add(this.button8);
+            this.pastSectionsPanel.Controls.Add(this.textBox7);
+            this.pastSectionsPanel.Controls.Add(this.button3);
+            this.pastSectionsPanel.Controls.Add(this.textBox6);
+            this.pastSectionsPanel.Location = new System.Drawing.Point(39, 131);
+            this.pastSectionsPanel.Name = "pastSectionsPanel";
+            this.pastSectionsPanel.Size = new System.Drawing.Size(782, 135);
+            this.pastSectionsPanel.TabIndex = 58;
+            this.pastSectionsPanel.Visible = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(491, 0);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(289, 27);
+            this.button3.TabIndex = 59;
+            this.button3.Text = "Go To Class Page";
+            this.toolTip1.SetToolTip(this.button3, "Transfer To Class Sub-System");
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(0, 0);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
+            this.textBox6.Size = new System.Drawing.Size(491, 26);
+            this.textBox6.TabIndex = 58;
+            this.textBox6.Text = "           SP19          1      Lewis";
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.button8.ForeColor = System.Drawing.Color.Black;
+            this.button8.Location = new System.Drawing.Point(491, 26);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(289, 27);
+            this.button8.TabIndex = 61;
+            this.button8.Text = "Go To Class Page";
+            this.toolTip1.SetToolTip(this.button8, "Transfer To Class Sub-System");
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // textBox7
+            // 
+            this.textBox7.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(0, 26);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.ReadOnly = true;
+            this.textBox7.Size = new System.Drawing.Size(491, 26);
+            this.textBox7.TabIndex = 60;
+            this.textBox7.Text = "           SP19          2      Horn";
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.button9.ForeColor = System.Drawing.Color.Black;
+            this.button9.Location = new System.Drawing.Point(491, 52);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(289, 27);
+            this.button9.TabIndex = 63;
+            this.button9.Text = "Go To Class Page";
+            this.toolTip1.SetToolTip(this.button9, "Transfer To Class Sub-System");
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // textBox8
+            // 
+            this.textBox8.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(0, 52);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.ReadOnly = true;
+            this.textBox8.Size = new System.Drawing.Size(491, 26);
+            this.textBox8.TabIndex = 62;
+            this.textBox8.Text = "           Fl19          1      Jiang";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.label10.Location = new System.Drawing.Point(11, 14);
+            this.label10.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(110, 19);
+            this.label10.TabIndex = 64;
+            this.label10.Text = "Course Code";
+            // 
+            // txtCode4
+            // 
+            this.txtCode4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
+            this.txtCode4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCode4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCode4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txtCode4.Location = new System.Drawing.Point(128, 14);
+            this.txtCode4.Name = "txtCode4";
+            this.txtCode4.ReadOnly = true;
+            this.txtCode4.Size = new System.Drawing.Size(201, 19);
+            this.txtCode4.TabIndex = 59;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.label12.Location = new System.Drawing.Point(753, 12);
+            this.label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(25, 19);
+            this.label12.TabIndex = 61;
+            this.label12.Text = "ID";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.label13.Location = new System.Drawing.Point(362, 14);
+            this.label13.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(113, 19);
+            this.label13.TabIndex = 62;
+            this.label13.Text = "Course Name";
+            // 
+            // txtName4
+            // 
+            this.txtName4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
+            this.txtName4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtName4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txtName4.Location = new System.Drawing.Point(494, 14);
+            this.txtName4.Name = "txtName4";
+            this.txtName4.ReadOnly = true;
+            this.txtName4.Size = new System.Drawing.Size(225, 19);
+            this.txtName4.TabIndex = 60;
+            // 
+            // txtID4
+            // 
+            this.txtID4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
+            this.txtID4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtID4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtID4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txtID4.Location = new System.Drawing.Point(795, 12);
+            this.txtID4.Name = "txtID4";
+            this.txtID4.Size = new System.Drawing.Size(45, 19);
+            this.txtID4.TabIndex = 63;
+            this.txtID4.Text = "1234";
+            this.txtID4.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
+            // 
+            // btnTogglePast
+            // 
+            this.btnTogglePast.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.btnTogglePast.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnTogglePast.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTogglePast.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.btnTogglePast.ForeColor = System.Drawing.Color.Black;
+            this.btnTogglePast.Location = new System.Drawing.Point(293, 286);
+            this.btnTogglePast.Name = "btnTogglePast";
+            this.btnTogglePast.Size = new System.Drawing.Size(289, 27);
+            this.btnTogglePast.TabIndex = 65;
+            this.btnTogglePast.Text = "Include Previous Semsters";
+            this.toolTip1.SetToolTip(this.btnTogglePast, "Toggle Wether Sections From Preveious Semesters Are Shown");
+            this.btnTogglePast.UseVisualStyleBackColor = false;
+            this.btnTogglePast.Click += new System.EventHandler(this.btnTogglePast_Click);
             // 
             // ClassList
             // 
@@ -1941,10 +2320,19 @@
             this.pnlCheckoutList.ResumeLayout(false);
             this.pnlCheckoutList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Sections.ResumeLayout(false);
+            this.Sections.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.pnlNavigation.ResumeLayout(false);
             this.pnlNavigation.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            this.pastSectionsPanel.ResumeLayout(false);
+            this.pastSectionsPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1954,7 +2342,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtCourseCode;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
@@ -1966,10 +2353,8 @@
         private System.Windows.Forms.TextBox txtAdministrator;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.TextBox txtNotes;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtDeptID;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage PersonalInfo;
         private System.Windows.Forms.TabPage Notes;
@@ -2028,10 +2413,6 @@
         private System.Windows.Forms.ComboBox cbDeptId;
         private System.Windows.Forms.RadioButton rb1;
         private System.Windows.Forms.RadioButton rb2;
-        private System.Windows.Forms.MaskedTextBox txtStartDate;
-        private System.Windows.Forms.MaskedTextBox txtEndDate;
-        private System.Windows.Forms.MaskedTextBox txtMeetTimeStart;
-        private System.Windows.Forms.Button btnClassTransfer;
         private System.Windows.Forms.Panel pnlNavigation;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.ComboBox cbSelect;
@@ -2087,10 +2468,19 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RadioButton rb4;
         private System.Windows.Forms.RadioButton rb3;
-        private System.Windows.Forms.TextBox txtMeetLocation;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TabPage Sections;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.RadioButton rbEverySem;
+        private System.Windows.Forms.RadioButton rbSpring;
+        private System.Windows.Forms.RadioButton rbFall;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.MaskedTextBox txtMeetTimeEnd;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.RadioButton rbInfrequent;
+        private System.Windows.Forms.RadioButton rbAlternate;
+        private System.Windows.Forms.RadioButton rbEveryYear;
+        private System.Windows.Forms.Button btnClassTransfer;
+        private System.Windows.Forms.Button btnEmailProfessor;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn BookTitle;
@@ -2100,6 +2490,29 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TDate;
         private System.Windows.Forms.DataGridViewButtonColumn TDelete;
         private System.Windows.Forms.DataGridViewButtonColumn ViewDetails;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn1;
+        private System.Windows.Forms.Panel pastSectionsPanel;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button btnTogglePast;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtCode4;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox txtName4;
+        private System.Windows.Forms.TextBox txtID4;
     }
 }
 
