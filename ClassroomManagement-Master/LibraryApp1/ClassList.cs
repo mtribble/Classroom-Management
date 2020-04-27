@@ -1252,11 +1252,7 @@ namespace LibraryApp1
 
         private void ChAdministrator_CheckedChanged(object sender, EventArgs e)
         {
-            if (pf.UserInEditMode == false)
-            {
-                MessageBox.Show("You Must Edit - If You Want To Change This");
-                btnLeft.Focus();
-            }
+
         }
 
         private void Label6_Click(object sender, EventArgs e)
@@ -1533,17 +1529,37 @@ namespace LibraryApp1
             pastSectionsPanel.Visible = pastVis;
             if (pastVis)
             {
-                btnTogglePast.BackColor=Color.FromArgb(131, 114, 139);
+                btnTogglePast.BackColor=Color.FromArgb(171, 204, 204);
+                btnTogglePast.FlatAppearance.BorderSize = 3;
             }
             else
             {
-                btnTogglePast.BackColor=Color.FromArgb(171, 134, 179);
+                btnTogglePast.BackColor = Color.FromArgb(171, 134, 179);
+                btnTogglePast.FlatAppearance.BorderSize = 1;
             }
         }
 
         private void textBox11_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            pf.ClassForm.Show();
+            pf.ClassForm.BringToFront();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            pf.ClassForm.Show();
+            pf.ClassForm.BringToFront();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            pf.ClassForm.Show();
+            pf.ClassForm.BringToFront();
         }
     }
 }
