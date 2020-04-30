@@ -162,6 +162,11 @@ String NewRec1)
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
+           
+        }
+
+        private void mediaSubSystemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             ClassForm.Show();
         }
     }

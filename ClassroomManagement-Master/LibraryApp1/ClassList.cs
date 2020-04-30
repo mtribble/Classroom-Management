@@ -653,6 +653,9 @@ namespace LibraryApp1
             pnlCheckoutList.Show();
             pnlDetails.Hide();
 
+            btnNewSec.Show();
+            btnEmailProfessor.Text = "Email Professor";
+
             if (Testing)
             {
                 lbTrace.Show();
@@ -774,7 +777,8 @@ namespace LibraryApp1
 
             pnlNavigation.Hide();
             btnTest.Hide();
-
+            btnNewSec.Hide();
+            btnEmailProfessor.Text="Select Professor";
             
             btnCellPhone.Hide();
             
@@ -1499,7 +1503,14 @@ namespace LibraryApp1
 
         private void btnEmailProfessor_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Emailing Professor");
+            if (pf.UserInEditMode)
+            {
+                pf.LaunchSearchWindow("Search For A Professor", "Enter Name", "Hicks");
+            }
+            else
+            {
+                MessageBox.Show("Emailing Professor");
+            }
         }
 
         private void rbEverySem_CheckedChanged(object sender, EventArgs e)
@@ -1560,6 +1571,13 @@ namespace LibraryApp1
         {
             pf.ClassForm.Show();
             pf.ClassForm.BringToFront();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            pf.ClassForm.Show();
+            pf.ClassForm.BringToFront();
+            //pf.ClassForm.EditMode();
         }
     }
 }
