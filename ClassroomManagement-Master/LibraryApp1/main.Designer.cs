@@ -90,6 +90,7 @@
             this.mediaSubSystemToolStripMenuItem.Size = new System.Drawing.Size(168, 29);
             this.mediaSubSystemToolStripMenuItem.Text = "Class Sub-System";
             this.mediaSubSystemToolStripMenuItem.ToolTipText = "Load The Media Sub-System";
+            this.mediaSubSystemToolStripMenuItem.Click += new System.EventHandler(this.mediaSubSystemToolStripMenuItem_Click);
             // 
             // taskSubSystemToolStripMenuItem
             // 
@@ -118,7 +119,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::LibraryApp1.Properties.Resources.slanted_blue;
-            this.ClientSize = new System.Drawing.Size(1862, 1088);
+            this.ClientSize = new System.Drawing.Size(1862, 1050);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(255)))));
             this.IsMdiContainer = true;

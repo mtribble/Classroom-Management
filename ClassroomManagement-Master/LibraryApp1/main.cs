@@ -28,6 +28,7 @@ namespace LibraryApp1
         public SupportingClass SupportingClassForm;
         public Undelete UndeleteForm;
         public Search SearchForm;
+        public ProfSearch ProfSearchForm;
 
 
         public void LaunchSupportingClassWindow(String NewText, String NewDescription,
@@ -60,6 +61,16 @@ String NewRec1)
             SearchForm.Show();
             SearchForm.Location = new Point(300,200);
             
+        }
+
+        public void LaunchProfSearchWindow(String NewText, String NewDescription,
+String NewRec1)
+        {
+            ProfSearchForm = new ProfSearch(this, NewText, NewDescription, NewRec1);
+            ProfSearchForm.MdiParent = this;
+            ProfSearchForm.Show();
+            ProfSearchForm.Location = new Point(300, 200);
+
         }
 
 
@@ -161,6 +172,11 @@ String NewRec1)
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+           
+        }
+
+        private void mediaSubSystemToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ClassForm.Show();
         }

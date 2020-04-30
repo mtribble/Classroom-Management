@@ -329,7 +329,7 @@ namespace LibraryApp1
                 txtNotes.Text = "Satisfies the applications requirement";
                
                 
-                txtProfessor.Text = "Lewis";
+                txtProfessor.Text = "Lewis, Mark";
                 
                 bool tmp = pf.UserInEditMode;
                 pf.UserInEditMode = true;
@@ -358,7 +358,7 @@ namespace LibraryApp1
                 txtNotes.Text = "Required for the Math Major";
                
                 
-                txtProfessor.Text = "Elaydi";
+                txtProfessor.Text = "Elaydi, Saber";
                 
                 bool tmp = pf.UserInEditMode;
                 pf.UserInEditMode = true;
@@ -386,7 +386,7 @@ namespace LibraryApp1
                 txtNotes.Text = "Includes a required field trip";
 
 
-                txtProfessor.Text = "Smith";
+                txtProfessor.Text = "Smith, Dave";
                 
                 bool tmp = pf.UserInEditMode;
                 pf.UserInEditMode = true;
@@ -653,6 +653,9 @@ namespace LibraryApp1
             pnlCheckoutList.Show();
             pnlDetails.Hide();
 
+            btnNewSec.Show();
+            btnEmailProfessor.Text = "Email Professor";
+
             if (Testing)
             {
                 lbTrace.Show();
@@ -774,7 +777,8 @@ namespace LibraryApp1
 
             pnlNavigation.Hide();
             btnTest.Hide();
-
+            btnNewSec.Hide();
+            btnEmailProfessor.Text="Select Professor";
             
             btnCellPhone.Hide();
             
@@ -1406,6 +1410,11 @@ namespace LibraryApp1
 
         }
 
+        public void updateProf(string txt)
+        {
+            txtProfessor.Text = txt;
+        }
+
         private void BtnCheckOutTransfer_Click(object sender, EventArgs e)
         {
             pf.ClassForm.Show();
@@ -1499,7 +1508,14 @@ namespace LibraryApp1
 
         private void btnEmailProfessor_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Emailing Professor");
+            if (pf.UserInEditMode)
+            {
+                pf.LaunchProfSearchWindow("Search For A Professor", "Enter Name", "Hicks");
+            }
+            else
+            {
+                MessageBox.Show("Emailing Professor");
+            }
         }
 
         private void rbEverySem_CheckedChanged(object sender, EventArgs e)
@@ -1560,6 +1576,108 @@ namespace LibraryApp1
         {
             pf.ClassForm.Show();
             pf.ClassForm.BringToFront();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            pf.ClassForm.Show();
+            pf.ClassForm.BringToFront();
+            //pf.ClassForm.EditMode();
+        }
+
+        private void allUsersWhoHaveBooksOverdueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void allUsersWhoOweMoneyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            currClass = 2;
+            FillFormVariables();
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            currClass = 0;
+            FillFormVariables();
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            currClass = 1;
+            FillFormVariables();
+        }
+
+        private void button33_Click_1(object sender, EventArgs e)
+        {
+            currClass = 2;
+            FillFormVariables();
+        }
+
+        private void button35_Click_1(object sender, EventArgs e)
+        {
+            currClass = 0;
+            FillFormVariables();
+        }
+
+        private void button40_Click_1(object sender, EventArgs e)
+        {
+            currClass = 1;
+            FillFormVariables();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            currClass = (numClasses + currClass - 1) % numClasses;
+            FillFormVariables();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+
+            currClass = 0;
+            FillFormVariables();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            currClass = numClasses - 1;
+            FillFormVariables();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            currClass = (numClasses + currClass - 1) % numClasses;
+            FillFormVariables();
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            currClass = (numClasses + currClass - 1) % numClasses;
+            FillFormVariables();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            currClass = 0;
+            FillFormVariables();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            currClass = (numClasses + currClass - 1) % numClasses;
+            FillFormVariables();
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            currClass = numClasses - 1;
+            FillFormVariables();
         }
     }
 }
