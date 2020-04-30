@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnTest = new System.Windows.Forms.Button();
             this.btnA = new System.Windows.Forms.Button();
@@ -75,6 +75,16 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.btnTogglePast = new System.Windows.Forms.Button();
+            this.btnNewSec = new System.Windows.Forms.Button();
+            this.btnCellPhone = new System.Windows.Forms.Button();
+            this.btnRight2 = new System.Windows.Forms.Button();
+            this.btnLeft2 = new System.Windows.Forms.Button();
+            this.btnRight = new System.Windows.Forms.Button();
+            this.btnDown2 = new System.Windows.Forms.Button();
+            this.btnLeft = new System.Windows.Forms.Button();
+            this.btnDown = new System.Windows.Forms.Button();
+            this.btnUp2 = new System.Windows.Forms.Button();
+            this.btnUp = new System.Windows.Forms.Button();
             this.txtNotes = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.PersonalInfo = new System.Windows.Forms.TabPage();
@@ -173,18 +183,32 @@
             this.byIDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.byUniversityIDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.repotsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesOfferedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.numerOfClassesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.printAllInfoForToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thisUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allUsersInViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allUsersMatchingThisSearchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesOfferedThisSemesterToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.printContactListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allUsersToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.thisClassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allUsersInViewToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesMatchingThisSearchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allUsersToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesOfferedThisSemesterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.printLabelsForToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thisClassToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.allUsersInViewToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.allUsersWhoOweMoneyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allUsersWhoHaveBooksOverdueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allUsersWhoOweMoneyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.emailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thisClassToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesTaughtThisSemesterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.adminstrativeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.departmentsAddEditDeleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -197,30 +221,45 @@
             this.label19 = new System.Windows.Forms.Label();
             this.cbOrderBy = new System.Windows.Forms.ComboBox();
             this.lbTrace = new System.Windows.Forms.ListBox();
-            this.btnNewSec = new System.Windows.Forms.Button();
-            this.btnCellPhone = new System.Windows.Forms.Button();
-            this.btnRight2 = new System.Windows.Forms.Button();
-            this.btnLeft2 = new System.Windows.Forms.Button();
-            this.btnRight = new System.Windows.Forms.Button();
-            this.btnDown2 = new System.Windows.Forms.Button();
-            this.btnLeft = new System.Windows.Forms.Button();
-            this.btnDown = new System.Windows.Forms.Button();
-            this.btnUp2 = new System.Windows.Forms.Button();
-            this.btnUp = new System.Windows.Forms.Button();
-            this.thisClassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allClassesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allClassesMatchingThisSearchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thisClassToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.allClassesOfferedThisSemesterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allClassesOfferedThisSemesterToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.emailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thisClassToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.allClassesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.allClassesTaughtThisSemesterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allClassesOfferedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.numerOfClassesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.button10 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button11 = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.button40 = new System.Windows.Forms.Button();
+            this.button41 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.button43 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.PersonalInfo.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -237,6 +276,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.pnlNavigation.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnTest
@@ -808,6 +848,140 @@
             this.btnTogglePast.UseVisualStyleBackColor = false;
             this.btnTogglePast.Click += new System.EventHandler(this.btnTogglePast_Click);
             // 
+            // btnNewSec
+            // 
+            this.btnNewSec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.btnNewSec.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnNewSec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNewSec.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.btnNewSec.ForeColor = System.Drawing.Color.Black;
+            this.btnNewSec.Location = new System.Drawing.Point(579, 205);
+            this.btnNewSec.Name = "btnNewSec";
+            this.btnNewSec.Size = new System.Drawing.Size(261, 85);
+            this.btnNewSec.TabIndex = 65;
+            this.btnNewSec.Text = "Create a New Section Of This Class";
+            this.toolTip1.SetToolTip(this.btnNewSec, "Transfer To Class Sub-System");
+            this.btnNewSec.UseVisualStyleBackColor = false;
+            this.btnNewSec.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // btnCellPhone
+            // 
+            this.btnCellPhone.BackgroundImage = global::LibraryApp1.Properties.Resources.phoneTrans;
+            this.btnCellPhone.FlatAppearance.BorderSize = 0;
+            this.btnCellPhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCellPhone.Location = new System.Drawing.Point(819, 214);
+            this.btnCellPhone.Name = "btnCellPhone";
+            this.btnCellPhone.Size = new System.Drawing.Size(30, 31);
+            this.btnCellPhone.TabIndex = 35;
+            this.toolTip1.SetToolTip(this.btnCellPhone, "Dialing Cell Phone");
+            this.btnCellPhone.UseVisualStyleBackColor = true;
+            this.btnCellPhone.Visible = false;
+            this.btnCellPhone.Click += new System.EventHandler(this.BtnCellPhone_Click);
+            // 
+            // btnRight2
+            // 
+            this.btnRight2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
+            this.btnRight2.FlatAppearance.BorderSize = 0;
+            this.btnRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRight2.Location = new System.Drawing.Point(811, 35);
+            this.btnRight2.Name = "btnRight2";
+            this.btnRight2.Size = new System.Drawing.Size(30, 35);
+            this.btnRight2.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.btnRight2, "Navegate To The Next Logical Record Within The View");
+            this.btnRight2.UseVisualStyleBackColor = true;
+            this.btnRight2.Click += new System.EventHandler(this.BtnRight2_Click_1);
+            // 
+            // btnLeft2
+            // 
+            this.btnLeft2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
+            this.btnLeft2.FlatAppearance.BorderSize = 0;
+            this.btnLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLeft2.Location = new System.Drawing.Point(748, 35);
+            this.btnLeft2.Name = "btnLeft2";
+            this.btnLeft2.Size = new System.Drawing.Size(30, 35);
+            this.btnLeft2.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.btnLeft2, "Navegate To The Previous Logical Record Within The View");
+            this.btnLeft2.UseVisualStyleBackColor = true;
+            this.btnLeft2.Click += new System.EventHandler(this.BtnLeft2_Click_1);
+            // 
+            // btnRight
+            // 
+            this.btnRight.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
+            this.btnRight.FlatAppearance.BorderSize = 0;
+            this.btnRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRight.Location = new System.Drawing.Point(71, 35);
+            this.btnRight.Name = "btnRight";
+            this.btnRight.Size = new System.Drawing.Size(30, 35);
+            this.btnRight.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.btnRight, "Navegate To The Next Logical Record Within The View");
+            this.btnRight.UseVisualStyleBackColor = true;
+            this.btnRight.Click += new System.EventHandler(this.BtnRight_Click_1);
+            // 
+            // btnDown2
+            // 
+            this.btnDown2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
+            this.btnDown2.FlatAppearance.BorderSize = 0;
+            this.btnDown2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDown2.Location = new System.Drawing.Point(778, 67);
+            this.btnDown2.Name = "btnDown2";
+            this.btnDown2.Size = new System.Drawing.Size(35, 30);
+            this.btnDown2.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.btnDown2, "Navegate To The Last Logical Record Within The View");
+            this.btnDown2.UseVisualStyleBackColor = true;
+            this.btnDown2.Click += new System.EventHandler(this.BtnDown2_Click_1);
+            // 
+            // btnLeft
+            // 
+            this.btnLeft.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
+            this.btnLeft.FlatAppearance.BorderSize = 0;
+            this.btnLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLeft.Location = new System.Drawing.Point(8, 35);
+            this.btnLeft.Name = "btnLeft";
+            this.btnLeft.Size = new System.Drawing.Size(30, 35);
+            this.btnLeft.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.btnLeft, "Navegate To The Previous Logical Record Within The View");
+            this.btnLeft.UseVisualStyleBackColor = true;
+            this.btnLeft.Click += new System.EventHandler(this.BtnLeft_Click_1);
+            // 
+            // btnDown
+            // 
+            this.btnDown.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
+            this.btnDown.FlatAppearance.BorderSize = 0;
+            this.btnDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDown.Location = new System.Drawing.Point(38, 67);
+            this.btnDown.Name = "btnDown";
+            this.btnDown.Size = new System.Drawing.Size(35, 30);
+            this.btnDown.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.btnDown, "Navegate To The Last Logical Record Within The View");
+            this.btnDown.UseVisualStyleBackColor = true;
+            this.btnDown.Click += new System.EventHandler(this.BtnDown_Click_1);
+            // 
+            // btnUp2
+            // 
+            this.btnUp2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
+            this.btnUp2.FlatAppearance.BorderSize = 0;
+            this.btnUp2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUp2.Location = new System.Drawing.Point(778, 5);
+            this.btnUp2.Name = "btnUp2";
+            this.btnUp2.Size = new System.Drawing.Size(35, 30);
+            this.btnUp2.TabIndex = 39;
+            this.toolTip1.SetToolTip(this.btnUp2, "Navegate To The First Logical Record Within The View");
+            this.btnUp2.UseVisualStyleBackColor = true;
+            this.btnUp2.Click += new System.EventHandler(this.BtnUp2_Click_1);
+            // 
+            // btnUp
+            // 
+            this.btnUp.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
+            this.btnUp.FlatAppearance.BorderSize = 0;
+            this.btnUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUp.Location = new System.Drawing.Point(38, 5);
+            this.btnUp.Name = "btnUp";
+            this.btnUp.Size = new System.Drawing.Size(35, 30);
+            this.btnUp.TabIndex = 39;
+            this.toolTip1.SetToolTip(this.btnUp, "Navegate To The First Logical Record Within The View");
+            this.btnUp.UseVisualStyleBackColor = true;
+            this.btnUp.Click += new System.EventHandler(this.BtnUp_Click_1);
+            // 
             // txtNotes
             // 
             this.txtNotes.Location = new System.Drawing.Point(43, 67);
@@ -1368,14 +1542,14 @@
             // 
             this.dataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle41.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle41.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle41.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle41.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle41.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle41.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle41;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -1390,8 +1564,8 @@
             // 
             // dataGridViewTextBoxColumn1
             // 
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle42;
             this.dataGridViewTextBoxColumn1.HeaderText = "Course ID";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
@@ -1466,14 +1640,14 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle43.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle43.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle43.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle43;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.UserID,
@@ -1618,10 +1792,10 @@
             this.Sections.Controls.Add(this.label6);
             this.Sections.Controls.Add(this.dataGridView3);
             this.Sections.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Sections.Location = new System.Drawing.Point(4, 38);
+            this.Sections.Location = new System.Drawing.Point(4, 29);
             this.Sections.Name = "Sections";
             this.Sections.Padding = new System.Windows.Forms.Padding(3);
-            this.Sections.Size = new System.Drawing.Size(866, 342);
+            this.Sections.Size = new System.Drawing.Size(866, 351);
             this.Sections.TabIndex = 3;
             this.Sections.Text = "Sections";
             // 
@@ -1778,14 +1952,14 @@
             // 
             this.dataGridView3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Arial", 9.75F);
-            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle44.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Arial", 9.75F);
+            dataGridViewCellStyle44.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle44;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
@@ -1830,6 +2004,7 @@
             // 
             this.menuStrip1.AllowMerge = false;
             this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addToolStripMenuItem,
@@ -1945,6 +2120,18 @@
             this.repotsToolStripMenuItem.Size = new System.Drawing.Size(89, 29);
             this.repotsToolStripMenuItem.Text = "Reports";
             // 
+            // allClassesOfferedToolStripMenuItem
+            // 
+            this.allClassesOfferedToolStripMenuItem.Name = "allClassesOfferedToolStripMenuItem";
+            this.allClassesOfferedToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
+            this.allClassesOfferedToolStripMenuItem.Text = "All Classes Offered";
+            // 
+            // numerOfClassesToolStripMenuItem
+            // 
+            this.numerOfClassesToolStripMenuItem.Name = "numerOfClassesToolStripMenuItem";
+            this.numerOfClassesToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
+            this.numerOfClassesToolStripMenuItem.Text = "Numer Of Classes Offered";
+            // 
             // printAllInfoForToolStripMenuItem
             // 
             this.printAllInfoForToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1960,21 +2147,33 @@
             // thisUserToolStripMenuItem
             // 
             this.thisUserToolStripMenuItem.Name = "thisUserToolStripMenuItem";
-            this.thisUserToolStripMenuItem.Size = new System.Drawing.Size(363, 34);
+            this.thisUserToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
             this.thisUserToolStripMenuItem.Text = "This Class";
             // 
             // allUsersInViewToolStripMenuItem
             // 
             this.allUsersInViewToolStripMenuItem.Name = "allUsersInViewToolStripMenuItem";
-            this.allUsersInViewToolStripMenuItem.Size = new System.Drawing.Size(363, 34);
+            this.allUsersInViewToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
             this.allUsersInViewToolStripMenuItem.Text = "All Classes in View";
             // 
             // allUsersMatchingThisSearchToolStripMenuItem
             // 
             this.allUsersMatchingThisSearchToolStripMenuItem.Name = "allUsersMatchingThisSearchToolStripMenuItem";
-            this.allUsersMatchingThisSearchToolStripMenuItem.Size = new System.Drawing.Size(363, 34);
+            this.allUsersMatchingThisSearchToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
             this.allUsersMatchingThisSearchToolStripMenuItem.Text = "All Classes matching this search";
             this.allUsersMatchingThisSearchToolStripMenuItem.Click += new System.EventHandler(this.AllUsersMatchingThisSearchToolStripMenuItem_Click);
+            // 
+            // allClassesToolStripMenuItem
+            // 
+            this.allClassesToolStripMenuItem.Name = "allClassesToolStripMenuItem";
+            this.allClassesToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
+            this.allClassesToolStripMenuItem.Text = "All Classes";
+            // 
+            // allClassesOfferedThisSemesterToolStripMenuItem1
+            // 
+            this.allClassesOfferedThisSemesterToolStripMenuItem1.Name = "allClassesOfferedThisSemesterToolStripMenuItem1";
+            this.allClassesOfferedThisSemesterToolStripMenuItem1.Size = new System.Drawing.Size(376, 34);
+            this.allClassesOfferedThisSemesterToolStripMenuItem1.Text = "All Classes Offered This Semester";
             // 
             // printContactListToolStripMenuItem
             // 
@@ -1988,17 +2187,35 @@
             this.printContactListToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
             this.printContactListToolStripMenuItem.Text = "Print Professor\'s Contact For";
             // 
-            // allUsersToolStripMenuItem1
+            // thisClassToolStripMenuItem
             // 
-            this.allUsersToolStripMenuItem1.Name = "allUsersToolStripMenuItem1";
-            this.allUsersToolStripMenuItem1.Size = new System.Drawing.Size(368, 34);
-            this.allUsersToolStripMenuItem1.Text = "All Classes";
+            this.thisClassToolStripMenuItem.Name = "thisClassToolStripMenuItem";
+            this.thisClassToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
+            this.thisClassToolStripMenuItem.Text = "This Class";
             // 
             // allUsersInViewToolStripMenuItem2
             // 
             this.allUsersInViewToolStripMenuItem2.Name = "allUsersInViewToolStripMenuItem2";
-            this.allUsersInViewToolStripMenuItem2.Size = new System.Drawing.Size(258, 34);
+            this.allUsersInViewToolStripMenuItem2.Size = new System.Drawing.Size(376, 34);
             this.allUsersInViewToolStripMenuItem2.Text = "All Classes In View";
+            // 
+            // allClassesMatchingThisSearchToolStripMenuItem
+            // 
+            this.allClassesMatchingThisSearchToolStripMenuItem.Name = "allClassesMatchingThisSearchToolStripMenuItem";
+            this.allClassesMatchingThisSearchToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
+            this.allClassesMatchingThisSearchToolStripMenuItem.Text = "All Classes Matching This Search";
+            // 
+            // allUsersToolStripMenuItem1
+            // 
+            this.allUsersToolStripMenuItem1.Name = "allUsersToolStripMenuItem1";
+            this.allUsersToolStripMenuItem1.Size = new System.Drawing.Size(376, 34);
+            this.allUsersToolStripMenuItem1.Text = "All Classes";
+            // 
+            // allClassesOfferedThisSemesterToolStripMenuItem
+            // 
+            this.allClassesOfferedThisSemesterToolStripMenuItem.Name = "allClassesOfferedThisSemesterToolStripMenuItem";
+            this.allClassesOfferedThisSemesterToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
+            this.allClassesOfferedThisSemesterToolStripMenuItem.Text = "All Classes Offered This Semester";
             // 
             // printLabelsForToolStripMenuItem
             // 
@@ -2009,20 +2226,33 @@
             this.allUsersToolStripMenuItem,
             this.allUsersWhoOweMoneyToolStripMenuItem});
             this.printLabelsForToolStripMenuItem.Name = "printLabelsForToolStripMenuItem";
-            this.printLabelsForToolStripMenuItem.Size = new System.Drawing.Size(339, 34);
+            this.printLabelsForToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
             this.printLabelsForToolStripMenuItem.Text = "Print Labels For";
             // 
-            // allUsersToolStripMenuItem
+            // thisClassToolStripMenuItem1
             // 
-            this.allUsersToolStripMenuItem.Name = "allUsersToolStripMenuItem";
-            this.allUsersToolStripMenuItem.Size = new System.Drawing.Size(409, 34);
-            this.allUsersToolStripMenuItem.Text = "All Classes";
+            this.thisClassToolStripMenuItem1.Name = "thisClassToolStripMenuItem1";
+            this.thisClassToolStripMenuItem1.Size = new System.Drawing.Size(376, 34);
+            this.thisClassToolStripMenuItem1.Text = "This Class";
             // 
             // allUsersInViewToolStripMenuItem1
             // 
             this.allUsersInViewToolStripMenuItem1.Name = "allUsersInViewToolStripMenuItem1";
-            this.allUsersInViewToolStripMenuItem1.Size = new System.Drawing.Size(409, 34);
+            this.allUsersInViewToolStripMenuItem1.Size = new System.Drawing.Size(376, 34);
             this.allUsersInViewToolStripMenuItem1.Text = "All Classes In View";
+            // 
+            // allUsersWhoHaveBooksOverdueToolStripMenuItem
+            // 
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Name = "allUsersWhoHaveBooksOverdueToolStripMenuItem";
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Text = "All Classes Matching This Search";
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Click += new System.EventHandler(this.allUsersWhoHaveBooksOverdueToolStripMenuItem_Click);
+            // 
+            // allUsersToolStripMenuItem
+            // 
+            this.allUsersToolStripMenuItem.Name = "allUsersToolStripMenuItem";
+            this.allUsersToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
+            this.allUsersToolStripMenuItem.Text = "All Classes";
             // 
             // allUsersWhoOweMoneyToolStripMenuItem
             // 
@@ -2031,12 +2261,47 @@
             this.allUsersWhoOweMoneyToolStripMenuItem.Text = "All Classes Offered This Semester";
             this.allUsersWhoOweMoneyToolStripMenuItem.Click += new System.EventHandler(this.allUsersWhoOweMoneyToolStripMenuItem_Click);
             // 
-            // allUsersWhoHaveBooksOverdueToolStripMenuItem
+            // emailToolStripMenuItem
             // 
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Name = "allUsersWhoHaveBooksOverdueToolStripMenuItem";
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Text = "All Classes Matching This Search";
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Click += new System.EventHandler(this.allUsersWhoHaveBooksOverdueToolStripMenuItem_Click);
+            this.emailToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thisClassToolStripMenuItem2,
+            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem,
+            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem,
+            this.allClassesToolStripMenuItem1,
+            this.allClassesTaughtThisSemesterToolStripMenuItem});
+            this.emailToolStripMenuItem.Name = "emailToolStripMenuItem";
+            this.emailToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
+            this.emailToolStripMenuItem.Text = "Email Professors Currently Teaching";
+            // 
+            // thisClassToolStripMenuItem2
+            // 
+            this.thisClassToolStripMenuItem2.Name = "thisClassToolStripMenuItem2";
+            this.thisClassToolStripMenuItem2.Size = new System.Drawing.Size(368, 34);
+            this.thisClassToolStripMenuItem2.Text = "This Class";
+            // 
+            // allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem
+            // 
+            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem.Name = "allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem";
+            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
+            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem.Text = "All Classes in View";
+            // 
+            // allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem
+            // 
+            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem.Name = "allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem";
+            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
+            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem.Text = "All Classes Matching This Search";
+            // 
+            // allClassesToolStripMenuItem1
+            // 
+            this.allClassesToolStripMenuItem1.Name = "allClassesToolStripMenuItem1";
+            this.allClassesToolStripMenuItem1.Size = new System.Drawing.Size(368, 34);
+            this.allClassesToolStripMenuItem1.Text = "All Classes";
+            // 
+            // allClassesTaughtThisSemesterToolStripMenuItem
+            // 
+            this.allClassesTaughtThisSemesterToolStripMenuItem.Name = "allClassesTaughtThisSemesterToolStripMenuItem";
+            this.allClassesTaughtThisSemesterToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
+            this.allClassesTaughtThisSemesterToolStripMenuItem.Text = "All Classes Taught This Semester";
             // 
             // toolStripMenuItem1
             // 
@@ -2194,229 +2459,546 @@
             this.lbTrace.Size = new System.Drawing.Size(287, 424);
             this.lbTrace.TabIndex = 68;
             // 
-            // btnNewSec
+            // panel3
             // 
-            this.btnNewSec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.btnNewSec.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnNewSec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNewSec.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.btnNewSec.ForeColor = System.Drawing.Color.Black;
-            this.btnNewSec.Location = new System.Drawing.Point(579, 205);
-            this.btnNewSec.Name = "btnNewSec";
-            this.btnNewSec.Size = new System.Drawing.Size(261, 85);
-            this.btnNewSec.TabIndex = 65;
-            this.btnNewSec.Text = "Create a New Section Of This Class";
-            this.toolTip1.SetToolTip(this.btnNewSec, "Transfer To Class Sub-System");
-            this.btnNewSec.UseVisualStyleBackColor = false;
-            this.btnNewSec.Click += new System.EventHandler(this.button10_Click);
+            this.panel3.Controls.Add(this.label15);
+            this.panel3.Controls.Add(this.button10);
+            this.panel3.Controls.Add(this.comboBox1);
+            this.panel3.Controls.Add(this.button11);
+            this.panel3.Controls.Add(this.label16);
+            this.panel3.Controls.Add(this.button12);
+            this.panel3.Controls.Add(this.comboBox2);
+            this.panel3.Controls.Add(this.button13);
+            this.panel3.Controls.Add(this.button14);
+            this.panel3.Controls.Add(this.button15);
+            this.panel3.Controls.Add(this.button16);
+            this.panel3.Controls.Add(this.button17);
+            this.panel3.Controls.Add(this.button18);
+            this.panel3.Controls.Add(this.button19);
+            this.panel3.Controls.Add(this.button20);
+            this.panel3.Controls.Add(this.button21);
+            this.panel3.Controls.Add(this.button22);
+            this.panel3.Controls.Add(this.button23);
+            this.panel3.Controls.Add(this.button24);
+            this.panel3.Controls.Add(this.button25);
+            this.panel3.Controls.Add(this.button26);
+            this.panel3.Controls.Add(this.button27);
+            this.panel3.Controls.Add(this.button28);
+            this.panel3.Controls.Add(this.button29);
+            this.panel3.Controls.Add(this.button30);
+            this.panel3.Controls.Add(this.button31);
+            this.panel3.Controls.Add(this.button32);
+            this.panel3.Controls.Add(this.button33);
+            this.panel3.Controls.Add(this.button34);
+            this.panel3.Controls.Add(this.button35);
+            this.panel3.Controls.Add(this.button36);
+            this.panel3.Controls.Add(this.button37);
+            this.panel3.Controls.Add(this.button38);
+            this.panel3.Controls.Add(this.button39);
+            this.panel3.Controls.Add(this.button40);
+            this.panel3.Controls.Add(this.button41);
+            this.panel3.Controls.Add(this.button42);
+            this.panel3.Controls.Add(this.button43);
+            this.panel3.Location = new System.Drawing.Point(12, 431);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(851, 118);
+            this.panel3.TabIndex = 68;
             // 
-            // btnCellPhone
+            // label15
             // 
-            this.btnCellPhone.BackgroundImage = global::LibraryApp1.Properties.Resources.phoneTrans;
-            this.btnCellPhone.FlatAppearance.BorderSize = 0;
-            this.btnCellPhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCellPhone.Location = new System.Drawing.Point(819, 214);
-            this.btnCellPhone.Name = "btnCellPhone";
-            this.btnCellPhone.Size = new System.Drawing.Size(30, 31);
-            this.btnCellPhone.TabIndex = 35;
-            this.toolTip1.SetToolTip(this.btnCellPhone, "Dialing Cell Phone");
-            this.btnCellPhone.UseVisualStyleBackColor = true;
-            this.btnCellPhone.Visible = false;
-            this.btnCellPhone.Click += new System.EventHandler(this.BtnCellPhone_Click);
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(452, 85);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(72, 29);
+            this.label15.TabIndex = 43;
+            this.label15.Text = "Filter";
             // 
-            // btnRight2
+            // button10
             // 
-            this.btnRight2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
-            this.btnRight2.FlatAppearance.BorderSize = 0;
-            this.btnRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRight2.Location = new System.Drawing.Point(811, 35);
-            this.btnRight2.Name = "btnRight2";
-            this.btnRight2.Size = new System.Drawing.Size(30, 35);
-            this.btnRight2.TabIndex = 36;
-            this.toolTip1.SetToolTip(this.btnRight2, "Navegate To The Next Logical Record Within The View");
-            this.btnRight2.UseVisualStyleBackColor = true;
-            this.btnRight2.Click += new System.EventHandler(this.BtnRight2_Click_1);
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.ForeColor = System.Drawing.Color.Black;
+            this.button10.Location = new System.Drawing.Point(610, 40);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(28, 28);
+            this.button10.TabIndex = 65;
+            this.button10.Text = "X";
+            this.toolTip1.SetToolTip(this.button10, "btnTest might be use to display local variables");
+            this.button10.UseVisualStyleBackColor = false;
             // 
-            // btnLeft2
+            // comboBox1
             // 
-            this.btnLeft2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
-            this.btnLeft2.FlatAppearance.BorderSize = 0;
-            this.btnLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLeft2.Location = new System.Drawing.Point(748, 35);
-            this.btnLeft2.Name = "btnLeft2";
-            this.btnLeft2.Size = new System.Drawing.Size(30, 35);
-            this.btnLeft2.TabIndex = 37;
-            this.toolTip1.SetToolTip(this.btnLeft2, "Navegate To The Previous Logical Record Within The View");
-            this.btnLeft2.UseVisualStyleBackColor = true;
-            this.btnLeft2.Click += new System.EventHandler(this.BtnLeft2_Click_1);
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "All Classes",
+            "One Credit Hour Classes",
+            "Two Credit Hour Classes",
+            "Three Credit Hour Classes",
+            "Four Credit Hour Classes",
+            "Offered In The Spring",
+            "Offered In The Fall"});
+            this.comboBox1.Location = new System.Drawing.Point(524, 79);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(178, 37);
+            this.comboBox1.TabIndex = 42;
+            this.comboBox1.Text = "All Classes";
             // 
-            // btnRight
+            // button11
             // 
-            this.btnRight.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
-            this.btnRight.FlatAppearance.BorderSize = 0;
-            this.btnRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRight.Location = new System.Drawing.Point(71, 35);
-            this.btnRight.Name = "btnRight";
-            this.btnRight.Size = new System.Drawing.Size(30, 35);
-            this.btnRight.TabIndex = 36;
-            this.toolTip1.SetToolTip(this.btnRight, "Navegate To The Next Logical Record Within The View");
-            this.btnRight.UseVisualStyleBackColor = true;
-            this.btnRight.Click += new System.EventHandler(this.BtnRight_Click_1);
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.ForeColor = System.Drawing.Color.Black;
+            this.button11.Location = new System.Drawing.Point(322, 7);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(28, 28);
+            this.button11.TabIndex = 64;
+            this.button11.Text = "G";
+            this.toolTip1.SetToolTip(this.button11, "btnTest might be use to display local variables");
+            this.button11.UseVisualStyleBackColor = false;
             // 
-            // btnDown2
+            // label16
             // 
-            this.btnDown2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
-            this.btnDown2.FlatAppearance.BorderSize = 0;
-            this.btnDown2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDown2.Location = new System.Drawing.Point(778, 67);
-            this.btnDown2.Name = "btnDown2";
-            this.btnDown2.Size = new System.Drawing.Size(35, 30);
-            this.btnDown2.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.btnDown2, "Navegate To The Last Logical Record Within The View");
-            this.btnDown2.UseVisualStyleBackColor = true;
-            this.btnDown2.Click += new System.EventHandler(this.BtnDown2_Click_1);
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(143, 85);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(114, 29);
+            this.label16.TabIndex = 41;
+            this.label16.Text = "Order By";
             // 
-            // btnLeft
+            // button12
             // 
-            this.btnLeft.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
-            this.btnLeft.FlatAppearance.BorderSize = 0;
-            this.btnLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLeft.Location = new System.Drawing.Point(8, 35);
-            this.btnLeft.Name = "btnLeft";
-            this.btnLeft.Size = new System.Drawing.Size(30, 35);
-            this.btnLeft.TabIndex = 37;
-            this.toolTip1.SetToolTip(this.btnLeft, "Navegate To The Previous Logical Record Within The View");
-            this.btnLeft.UseVisualStyleBackColor = true;
-            this.btnLeft.Click += new System.EventHandler(this.BtnLeft_Click_1);
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.ForeColor = System.Drawing.Color.Black;
+            this.button12.Location = new System.Drawing.Point(130, 40);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(28, 28);
+            this.button12.TabIndex = 63;
+            this.button12.Text = "S";
+            this.toolTip1.SetToolTip(this.button12, "btnTest might be use to display local variables");
+            this.button12.UseVisualStyleBackColor = false;
             // 
-            // btnDown
+            // comboBox2
             // 
-            this.btnDown.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
-            this.btnDown.FlatAppearance.BorderSize = 0;
-            this.btnDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDown.Location = new System.Drawing.Point(38, 67);
-            this.btnDown.Name = "btnDown";
-            this.btnDown.Size = new System.Drawing.Size(35, 30);
-            this.btnDown.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.btnDown, "Navegate To The Last Logical Record Within The View");
-            this.btnDown.UseVisualStyleBackColor = true;
-            this.btnDown.Click += new System.EventHandler(this.BtnDown_Click_1);
+            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "ID",
+            "Course Code",
+            "Course Name",
+            "Most Recent Professor"});
+            this.comboBox2.Location = new System.Drawing.Point(236, 79);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(178, 37);
+            this.comboBox2.TabIndex = 40;
+            this.comboBox2.Text = "Course Code";
             // 
-            // btnUp2
+            // button13
             // 
-            this.btnUp2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
-            this.btnUp2.FlatAppearance.BorderSize = 0;
-            this.btnUp2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUp2.Location = new System.Drawing.Point(778, 5);
-            this.btnUp2.Name = "btnUp2";
-            this.btnUp2.Size = new System.Drawing.Size(35, 30);
-            this.btnUp2.TabIndex = 39;
-            this.toolTip1.SetToolTip(this.btnUp2, "Navegate To The First Logical Record Within The View");
-            this.btnUp2.UseVisualStyleBackColor = true;
-            this.btnUp2.Click += new System.EventHandler(this.BtnUp2_Click_1);
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.ForeColor = System.Drawing.Color.Black;
+            this.button13.Location = new System.Drawing.Point(162, 40);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(28, 28);
+            this.button13.TabIndex = 62;
+            this.button13.Text = "T";
+            this.toolTip1.SetToolTip(this.button13, "btnTest might be use to display local variables");
+            this.button13.UseVisualStyleBackColor = false;
             // 
-            // btnUp
+            // button14
             // 
-            this.btnUp.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
-            this.btnUp.FlatAppearance.BorderSize = 0;
-            this.btnUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUp.Location = new System.Drawing.Point(38, 5);
-            this.btnUp.Name = "btnUp";
-            this.btnUp.Size = new System.Drawing.Size(35, 30);
-            this.btnUp.TabIndex = 39;
-            this.toolTip1.SetToolTip(this.btnUp, "Navegate To The First Logical Record Within The View");
-            this.btnUp.UseVisualStyleBackColor = true;
-            this.btnUp.Click += new System.EventHandler(this.BtnUp_Click_1);
+            this.button14.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Location = new System.Drawing.Point(38, 5);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(35, 30);
+            this.button14.TabIndex = 39;
+            this.toolTip1.SetToolTip(this.button14, "Navegate To The First Logical Record Within The View");
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
-            // thisClassToolStripMenuItem
+            // button15
             // 
-            this.thisClassToolStripMenuItem.Name = "thisClassToolStripMenuItem";
-            this.thisClassToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
-            this.thisClassToolStripMenuItem.Text = "This Class";
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.ForeColor = System.Drawing.Color.Black;
+            this.button15.Location = new System.Drawing.Point(194, 40);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(28, 28);
+            this.button15.TabIndex = 61;
+            this.button15.Text = "U";
+            this.toolTip1.SetToolTip(this.button15, "btnTest might be use to display local variables");
+            this.button15.UseVisualStyleBackColor = false;
             // 
-            // allClassesToolStripMenuItem
+            // button16
             // 
-            this.allClassesToolStripMenuItem.Name = "allClassesToolStripMenuItem";
-            this.allClassesToolStripMenuItem.Size = new System.Drawing.Size(363, 34);
-            this.allClassesToolStripMenuItem.Text = "All Classes";
+            this.button16.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Location = new System.Drawing.Point(778, 5);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(35, 30);
+            this.button16.TabIndex = 39;
+            this.toolTip1.SetToolTip(this.button16, "Navegate To The First Logical Record Within The View");
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
-            // allClassesMatchingThisSearchToolStripMenuItem
+            // button17
             // 
-            this.allClassesMatchingThisSearchToolStripMenuItem.Name = "allClassesMatchingThisSearchToolStripMenuItem";
-            this.allClassesMatchingThisSearchToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
-            this.allClassesMatchingThisSearchToolStripMenuItem.Text = "All Classes Matching This Search";
+            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.ForeColor = System.Drawing.Color.Black;
+            this.button17.Location = new System.Drawing.Point(642, 40);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(28, 28);
+            this.button17.TabIndex = 60;
+            this.button17.Text = "Y";
+            this.toolTip1.SetToolTip(this.button17, "btnTest might be use to display local variables");
+            this.button17.UseVisualStyleBackColor = false;
             // 
-            // thisClassToolStripMenuItem1
+            // button18
             // 
-            this.thisClassToolStripMenuItem1.Name = "thisClassToolStripMenuItem1";
-            this.thisClassToolStripMenuItem1.Size = new System.Drawing.Size(376, 34);
-            this.thisClassToolStripMenuItem1.Text = "This Class";
+            this.button18.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
+            this.button18.FlatAppearance.BorderSize = 0;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Location = new System.Drawing.Point(38, 67);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(35, 30);
+            this.button18.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.button18, "Navegate To The Last Logical Record Within The View");
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
-            // allClassesOfferedThisSemesterToolStripMenuItem
+            // button19
             // 
-            this.allClassesOfferedThisSemesterToolStripMenuItem.Name = "allClassesOfferedThisSemesterToolStripMenuItem";
-            this.allClassesOfferedThisSemesterToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
-            this.allClassesOfferedThisSemesterToolStripMenuItem.Text = "All Classes Offered This Semester";
+            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.ForeColor = System.Drawing.Color.Black;
+            this.button19.Location = new System.Drawing.Point(578, 40);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(28, 28);
+            this.button19.TabIndex = 57;
+            this.button19.Text = "W";
+            this.toolTip1.SetToolTip(this.button19, "btnTest might be use to display local variables");
+            this.button19.UseVisualStyleBackColor = false;
             // 
-            // allClassesOfferedThisSemesterToolStripMenuItem1
+            // button20
             // 
-            this.allClassesOfferedThisSemesterToolStripMenuItem1.Name = "allClassesOfferedThisSemesterToolStripMenuItem1";
-            this.allClassesOfferedThisSemesterToolStripMenuItem1.Size = new System.Drawing.Size(376, 34);
-            this.allClassesOfferedThisSemesterToolStripMenuItem1.Text = "All Classes Offered This Semester";
+            this.button20.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
+            this.button20.FlatAppearance.BorderSize = 0;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Location = new System.Drawing.Point(8, 35);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(30, 35);
+            this.button20.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.button20, "Navegate To The Previous Logical Record Within The View");
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
-            // emailToolStripMenuItem
+            // button21
             // 
-            this.emailToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thisClassToolStripMenuItem2,
-            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem,
-            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem,
-            this.allClassesToolStripMenuItem1,
-            this.allClassesTaughtThisSemesterToolStripMenuItem});
-            this.emailToolStripMenuItem.Name = "emailToolStripMenuItem";
-            this.emailToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
-            this.emailToolStripMenuItem.Text = "Email Professors Currently Teaching";
+            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.ForeColor = System.Drawing.Color.Black;
+            this.button21.Location = new System.Drawing.Point(674, 40);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(28, 28);
+            this.button21.TabIndex = 59;
+            this.button21.Text = "Z";
+            this.toolTip1.SetToolTip(this.button21, "btnTest might be use to display local variables");
+            this.button21.UseVisualStyleBackColor = false;
             // 
-            // allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem
+            // button22
             // 
-            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem.Name = "allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem";
-            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
-            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem.Text = "All Classes in View";
+            this.button22.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
+            this.button22.FlatAppearance.BorderSize = 0;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.Location = new System.Drawing.Point(778, 67);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(35, 30);
+            this.button22.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.button22, "Navegate To The Last Logical Record Within The View");
+            this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
-            // allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem
+            // button23
             // 
-            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem.Name = "allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem";
-            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
-            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem.Text = "All Classes Matching This Search";
+            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.ForeColor = System.Drawing.Color.Black;
+            this.button23.Location = new System.Drawing.Point(226, 40);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(28, 28);
+            this.button23.TabIndex = 58;
+            this.button23.Text = "V";
+            this.toolTip1.SetToolTip(this.button23, "btnTest might be use to display local variables");
+            this.button23.UseVisualStyleBackColor = false;
             // 
-            // thisClassToolStripMenuItem2
+            // button24
             // 
-            this.thisClassToolStripMenuItem2.Name = "thisClassToolStripMenuItem2";
-            this.thisClassToolStripMenuItem2.Size = new System.Drawing.Size(368, 34);
-            this.thisClassToolStripMenuItem2.Text = "This Class";
+            this.button24.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
+            this.button24.FlatAppearance.BorderSize = 0;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Location = new System.Drawing.Point(71, 35);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(30, 35);
+            this.button24.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.button24, "Navegate To The Next Logical Record Within The View");
+            this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
-            // allClassesToolStripMenuItem1
+            // button25
             // 
-            this.allClassesToolStripMenuItem1.Name = "allClassesToolStripMenuItem1";
-            this.allClassesToolStripMenuItem1.Size = new System.Drawing.Size(368, 34);
-            this.allClassesToolStripMenuItem1.Text = "All Classes";
+            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.ForeColor = System.Drawing.Color.Black;
+            this.button25.Location = new System.Drawing.Point(226, 7);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(28, 28);
+            this.button25.TabIndex = 56;
+            this.button25.Text = "D";
+            this.toolTip1.SetToolTip(this.button25, "btnTest might be use to display local variables");
+            this.button25.UseVisualStyleBackColor = false;
             // 
-            // allClassesTaughtThisSemesterToolStripMenuItem
+            // button26
             // 
-            this.allClassesTaughtThisSemesterToolStripMenuItem.Name = "allClassesTaughtThisSemesterToolStripMenuItem";
-            this.allClassesTaughtThisSemesterToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
-            this.allClassesTaughtThisSemesterToolStripMenuItem.Text = "All Classes Taught This Semester";
+            this.button26.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
+            this.button26.FlatAppearance.BorderSize = 0;
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.Location = new System.Drawing.Point(748, 35);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(30, 35);
+            this.button26.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.button26, "Navegate To The Previous Logical Record Within The View");
+            this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
-            // allClassesOfferedToolStripMenuItem
+            // button27
             // 
-            this.allClassesOfferedToolStripMenuItem.Name = "allClassesOfferedToolStripMenuItem";
-            this.allClassesOfferedToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
-            this.allClassesOfferedToolStripMenuItem.Text = "All Classes Offered";
+            this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button27.ForeColor = System.Drawing.Color.Black;
+            this.button27.Location = new System.Drawing.Point(258, 7);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(28, 28);
+            this.button27.TabIndex = 55;
+            this.button27.Text = "E";
+            this.toolTip1.SetToolTip(this.button27, "btnTest might be use to display local variables");
+            this.button27.UseVisualStyleBackColor = false;
             // 
-            // numerOfClassesToolStripMenuItem
+            // button28
             // 
-            this.numerOfClassesToolStripMenuItem.Name = "numerOfClassesToolStripMenuItem";
-            this.numerOfClassesToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
-            this.numerOfClassesToolStripMenuItem.Text = "Numer Of Classes Offered";
+            this.button28.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
+            this.button28.FlatAppearance.BorderSize = 0;
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.Location = new System.Drawing.Point(811, 35);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(30, 35);
+            this.button28.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.button28, "Navegate To The Next Logical Record Within The View");
+            this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
+            // 
+            // button29
+            // 
+            this.button29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button29.ForeColor = System.Drawing.Color.Black;
+            this.button29.Location = new System.Drawing.Point(290, 7);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(28, 28);
+            this.button29.TabIndex = 54;
+            this.button29.Text = "F";
+            this.toolTip1.SetToolTip(this.button29, "btnTest might be use to display local variables");
+            this.button29.UseVisualStyleBackColor = false;
+            // 
+            // button30
+            // 
+            this.button30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button30.ForeColor = System.Drawing.Color.Black;
+            this.button30.Location = new System.Drawing.Point(386, 7);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(28, 28);
+            this.button30.TabIndex = 52;
+            this.button30.Text = "I";
+            this.toolTip1.SetToolTip(this.button30, "btnTest might be use to display local variables");
+            this.button30.UseVisualStyleBackColor = false;
+            // 
+            // button31
+            // 
+            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button31.ForeColor = System.Drawing.Color.Black;
+            this.button31.Location = new System.Drawing.Point(354, 7);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(28, 28);
+            this.button31.TabIndex = 53;
+            this.button31.Text = "H";
+            this.toolTip1.SetToolTip(this.button31, "btnTest might be use to display local variables");
+            this.button31.UseVisualStyleBackColor = false;
+            // 
+            // button32
+            // 
+            this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button32.ForeColor = System.Drawing.Color.Black;
+            this.button32.Location = new System.Drawing.Point(130, 7);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(28, 28);
+            this.button32.TabIndex = 36;
+            this.button32.Text = "A";
+            this.toolTip1.SetToolTip(this.button32, "btnTest might be use to display local variables");
+            this.button32.UseVisualStyleBackColor = false;
+            // 
+            // button33
+            // 
+            this.button33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.button33.Location = new System.Drawing.Point(162, 7);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(28, 28);
+            this.button33.TabIndex = 41;
+            this.button33.Text = "B";
+            this.toolTip1.SetToolTip(this.button33, "btnTest might be use to display local variables");
+            this.button33.UseVisualStyleBackColor = false;
+            this.button33.Click += new System.EventHandler(this.button33_Click_1);
+            // 
+            // button34
+            // 
+            this.button34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button34.ForeColor = System.Drawing.Color.Black;
+            this.button34.Location = new System.Drawing.Point(418, 7);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(28, 28);
+            this.button34.TabIndex = 51;
+            this.button34.Text = "J";
+            this.toolTip1.SetToolTip(this.button34, "btnTest might be use to display local variables");
+            this.button34.UseVisualStyleBackColor = false;
+            // 
+            // button35
+            // 
+            this.button35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.button35.Location = new System.Drawing.Point(194, 7);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(28, 28);
+            this.button35.TabIndex = 42;
+            this.button35.Text = "C";
+            this.toolTip1.SetToolTip(this.button35, "btnTest might be use to display local variables");
+            this.button35.UseVisualStyleBackColor = false;
+            this.button35.Click += new System.EventHandler(this.button35_Click_1);
+            // 
+            // button36
+            // 
+            this.button36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button36.ForeColor = System.Drawing.Color.Black;
+            this.button36.Location = new System.Drawing.Point(450, 7);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(28, 28);
+            this.button36.TabIndex = 50;
+            this.button36.Text = "K";
+            this.toolTip1.SetToolTip(this.button36, "btnTest might be use to display local variables");
+            this.button36.UseVisualStyleBackColor = false;
+            // 
+            // button37
+            // 
+            this.button37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button37.ForeColor = System.Drawing.Color.Black;
+            this.button37.Location = new System.Drawing.Point(674, 7);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(28, 28);
+            this.button37.TabIndex = 43;
+            this.button37.Text = "R";
+            this.toolTip1.SetToolTip(this.button37, "btnTest might be use to display local variables");
+            this.button37.UseVisualStyleBackColor = false;
+            // 
+            // button38
+            // 
+            this.button38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button38.ForeColor = System.Drawing.Color.Black;
+            this.button38.Location = new System.Drawing.Point(482, 7);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(28, 28);
+            this.button38.TabIndex = 49;
+            this.button38.Text = "L";
+            this.toolTip1.SetToolTip(this.button38, "btnTest might be use to display local variables");
+            this.button38.UseVisualStyleBackColor = false;
+            // 
+            // button39
+            // 
+            this.button39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button39.ForeColor = System.Drawing.Color.Black;
+            this.button39.Location = new System.Drawing.Point(642, 7);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(28, 28);
+            this.button39.TabIndex = 44;
+            this.button39.Text = "Q";
+            this.toolTip1.SetToolTip(this.button39, "btnTest might be use to display local variables");
+            this.button39.UseVisualStyleBackColor = false;
+            // 
+            // button40
+            // 
+            this.button40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.button40.Location = new System.Drawing.Point(514, 7);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(28, 28);
+            this.button40.TabIndex = 48;
+            this.button40.Text = "M";
+            this.toolTip1.SetToolTip(this.button40, "btnTest might be use to display local variables");
+            this.button40.UseVisualStyleBackColor = false;
+            this.button40.Click += new System.EventHandler(this.button40_Click_1);
+            // 
+            // button41
+            // 
+            this.button41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button41.ForeColor = System.Drawing.Color.Black;
+            this.button41.Location = new System.Drawing.Point(610, 7);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(28, 28);
+            this.button41.TabIndex = 45;
+            this.button41.Text = "P";
+            this.toolTip1.SetToolTip(this.button41, "btnTest might be use to display local variables");
+            this.button41.UseVisualStyleBackColor = false;
+            // 
+            // button42
+            // 
+            this.button42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button42.ForeColor = System.Drawing.Color.Black;
+            this.button42.Location = new System.Drawing.Point(546, 7);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(28, 28);
+            this.button42.TabIndex = 47;
+            this.button42.Text = "N";
+            this.toolTip1.SetToolTip(this.button42, "btnTest might be use to display local variables");
+            this.button42.UseVisualStyleBackColor = false;
+            // 
+            // button43
+            // 
+            this.button43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button43.ForeColor = System.Drawing.Color.Black;
+            this.button43.Location = new System.Drawing.Point(578, 7);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(28, 28);
+            this.button43.TabIndex = 46;
+            this.button43.Text = "O";
+            this.toolTip1.SetToolTip(this.button43, "btnTest might be use to display local variables");
+            this.button43.UseVisualStyleBackColor = false;
             // 
             // ClassList
             // 
@@ -2424,6 +3006,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.ClientSize = new System.Drawing.Size(880, 695);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2465,6 +3048,8 @@
             this.menuStrip1.PerformLayout();
             this.pnlNavigation.ResumeLayout(false);
             this.pnlNavigation.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2660,6 +3245,45 @@
         private System.Windows.Forms.ToolStripMenuItem allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem allClassesToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem allClassesTaughtThisSemesterToolStripMenuItem;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Button button33;
+        private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button button37;
+        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button button39;
+        private System.Windows.Forms.Button button40;
+        private System.Windows.Forms.Button button41;
+        private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Button button43;
     }
 }
 

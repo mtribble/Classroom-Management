@@ -1594,5 +1594,90 @@ namespace LibraryApp1
         {
 
         }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            currClass = 2;
+            FillFormVariables();
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            currClass = 0;
+            FillFormVariables();
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            currClass = 1;
+            FillFormVariables();
+        }
+
+        private void button33_Click_1(object sender, EventArgs e)
+        {
+            currClass = 2;
+            FillFormVariables();
+        }
+
+        private void button35_Click_1(object sender, EventArgs e)
+        {
+            currClass = 0;
+            FillFormVariables();
+        }
+
+        private void button40_Click_1(object sender, EventArgs e)
+        {
+            currClass = 1;
+            FillFormVariables();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            currClass = (numClasses + currClass - 1) % numClasses;
+            FillFormVariables();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+
+            currClass = 0;
+            FillFormVariables();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            currClass = numClasses - 1;
+            FillFormVariables();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            currClass = (numClasses + currClass - 1) % numClasses;
+            FillFormVariables();
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            currClass = (numClasses + currClass - 1) % numClasses;
+            FillFormVariables();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            currClass = 0;
+            FillFormVariables();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            currClass = (numClasses + currClass - 1) % numClasses;
+            FillFormVariables();
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            currClass = numClasses - 1;
+            FillFormVariables();
+        }
     }
 }
