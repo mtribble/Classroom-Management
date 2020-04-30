@@ -30,3 +30,5 @@ C:\Users\18322\Documents\software\Classroom-Management\ClassroomManagement-Maste
 C:\Users\18322\Documents\software\Classroom-Management\ClassroomManagement-Master\LibraryApp1\obj\Debug\ClassroomManagementClassList.csproj.GenerateResource.cache
 C:\Users\18322\Documents\software\Classroom-Management\ClassroomManagement-Master\LibraryApp1\obj\Debug\LibraryApp1.exe
 C:\Users\18322\Documents\software\Classroom-Management\ClassroomManagement-Master\LibraryApp1\obj\Debug\LibraryApp1.pdb
+C:\Users\18322\Documents\software\Classroom-Management\ClassroomManagement-Master\LibraryApp1\obj\Debug\LibraryApp1.ProfSearch.resources
+C:\Users\18322\Documents\software\Classroom-Management\ClassroomManagement-Master\LibraryApp1\obj\Debug\LibraryApp1.ProfSelect.resources

@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnTest = new System.Windows.Forms.Button();
             this.btnA = new System.Windows.Forms.Button();
@@ -68,15 +68,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.btnUp = new System.Windows.Forms.Button();
-            this.btnUp2 = new System.Windows.Forms.Button();
-            this.btnDown = new System.Windows.Forms.Button();
-            this.btnLeft = new System.Windows.Forms.Button();
-            this.btnDown2 = new System.Windows.Forms.Button();
-            this.btnRight = new System.Windows.Forms.Button();
-            this.btnLeft2 = new System.Windows.Forms.Button();
-            this.btnRight2 = new System.Windows.Forms.Button();
-            this.btnCellPhone = new System.Windows.Forms.Button();
             this.btnClassTransfer = new System.Windows.Forms.Button();
             this.btnEmailProfessor = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -207,6 +198,29 @@
             this.cbOrderBy = new System.Windows.Forms.ComboBox();
             this.lbTrace = new System.Windows.Forms.ListBox();
             this.btnNewSec = new System.Windows.Forms.Button();
+            this.btnCellPhone = new System.Windows.Forms.Button();
+            this.btnRight2 = new System.Windows.Forms.Button();
+            this.btnLeft2 = new System.Windows.Forms.Button();
+            this.btnRight = new System.Windows.Forms.Button();
+            this.btnDown2 = new System.Windows.Forms.Button();
+            this.btnLeft = new System.Windows.Forms.Button();
+            this.btnDown = new System.Windows.Forms.Button();
+            this.btnUp2 = new System.Windows.Forms.Button();
+            this.btnUp = new System.Windows.Forms.Button();
+            this.thisClassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesMatchingThisSearchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thisClassToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesOfferedThisSemesterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesOfferedThisSemesterToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.emailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thisClassToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesTaughtThisSemesterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allClassesOfferedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.numerOfClassesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.PersonalInfo.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -682,124 +696,6 @@
             this.button6.Text = "Go To Course";
             this.toolTip1.SetToolTip(this.button6, "Go To Course Subsystem");
             this.button6.UseVisualStyleBackColor = false;
-            // 
-            // btnUp
-            // 
-            this.btnUp.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
-            this.btnUp.FlatAppearance.BorderSize = 0;
-            this.btnUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUp.Location = new System.Drawing.Point(38, 5);
-            this.btnUp.Name = "btnUp";
-            this.btnUp.Size = new System.Drawing.Size(35, 30);
-            this.btnUp.TabIndex = 39;
-            this.toolTip1.SetToolTip(this.btnUp, "Navegate To The First Logical Record Within The View");
-            this.btnUp.UseVisualStyleBackColor = true;
-            this.btnUp.Click += new System.EventHandler(this.BtnUp_Click_1);
-            // 
-            // btnUp2
-            // 
-            this.btnUp2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
-            this.btnUp2.FlatAppearance.BorderSize = 0;
-            this.btnUp2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUp2.Location = new System.Drawing.Point(778, 5);
-            this.btnUp2.Name = "btnUp2";
-            this.btnUp2.Size = new System.Drawing.Size(35, 30);
-            this.btnUp2.TabIndex = 39;
-            this.toolTip1.SetToolTip(this.btnUp2, "Navegate To The First Logical Record Within The View");
-            this.btnUp2.UseVisualStyleBackColor = true;
-            this.btnUp2.Click += new System.EventHandler(this.BtnUp2_Click_1);
-            // 
-            // btnDown
-            // 
-            this.btnDown.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
-            this.btnDown.FlatAppearance.BorderSize = 0;
-            this.btnDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDown.Location = new System.Drawing.Point(38, 67);
-            this.btnDown.Name = "btnDown";
-            this.btnDown.Size = new System.Drawing.Size(35, 30);
-            this.btnDown.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.btnDown, "Navegate To The Last Logical Record Within The View");
-            this.btnDown.UseVisualStyleBackColor = true;
-            this.btnDown.Click += new System.EventHandler(this.BtnDown_Click_1);
-            // 
-            // btnLeft
-            // 
-            this.btnLeft.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
-            this.btnLeft.FlatAppearance.BorderSize = 0;
-            this.btnLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLeft.Location = new System.Drawing.Point(8, 35);
-            this.btnLeft.Name = "btnLeft";
-            this.btnLeft.Size = new System.Drawing.Size(30, 35);
-            this.btnLeft.TabIndex = 37;
-            this.toolTip1.SetToolTip(this.btnLeft, "Navegate To The Previous Logical Record Within The View");
-            this.btnLeft.UseVisualStyleBackColor = true;
-            this.btnLeft.Click += new System.EventHandler(this.BtnLeft_Click_1);
-            // 
-            // btnDown2
-            // 
-            this.btnDown2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
-            this.btnDown2.FlatAppearance.BorderSize = 0;
-            this.btnDown2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDown2.Location = new System.Drawing.Point(778, 67);
-            this.btnDown2.Name = "btnDown2";
-            this.btnDown2.Size = new System.Drawing.Size(35, 30);
-            this.btnDown2.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.btnDown2, "Navegate To The Last Logical Record Within The View");
-            this.btnDown2.UseVisualStyleBackColor = true;
-            this.btnDown2.Click += new System.EventHandler(this.BtnDown2_Click_1);
-            // 
-            // btnRight
-            // 
-            this.btnRight.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
-            this.btnRight.FlatAppearance.BorderSize = 0;
-            this.btnRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRight.Location = new System.Drawing.Point(71, 35);
-            this.btnRight.Name = "btnRight";
-            this.btnRight.Size = new System.Drawing.Size(30, 35);
-            this.btnRight.TabIndex = 36;
-            this.toolTip1.SetToolTip(this.btnRight, "Navegate To The Next Logical Record Within The View");
-            this.btnRight.UseVisualStyleBackColor = true;
-            this.btnRight.Click += new System.EventHandler(this.BtnRight_Click_1);
-            // 
-            // btnLeft2
-            // 
-            this.btnLeft2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
-            this.btnLeft2.FlatAppearance.BorderSize = 0;
-            this.btnLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLeft2.Location = new System.Drawing.Point(748, 35);
-            this.btnLeft2.Name = "btnLeft2";
-            this.btnLeft2.Size = new System.Drawing.Size(30, 35);
-            this.btnLeft2.TabIndex = 37;
-            this.toolTip1.SetToolTip(this.btnLeft2, "Navegate To The Previous Logical Record Within The View");
-            this.btnLeft2.UseVisualStyleBackColor = true;
-            this.btnLeft2.Click += new System.EventHandler(this.BtnLeft2_Click_1);
-            // 
-            // btnRight2
-            // 
-            this.btnRight2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
-            this.btnRight2.FlatAppearance.BorderSize = 0;
-            this.btnRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRight2.Location = new System.Drawing.Point(811, 35);
-            this.btnRight2.Name = "btnRight2";
-            this.btnRight2.Size = new System.Drawing.Size(30, 35);
-            this.btnRight2.TabIndex = 36;
-            this.toolTip1.SetToolTip(this.btnRight2, "Navegate To The Next Logical Record Within The View");
-            this.btnRight2.UseVisualStyleBackColor = true;
-            this.btnRight2.Click += new System.EventHandler(this.BtnRight2_Click_1);
-            // 
-            // btnCellPhone
-            // 
-            this.btnCellPhone.BackgroundImage = global::LibraryApp1.Properties.Resources.phoneTrans;
-            this.btnCellPhone.FlatAppearance.BorderSize = 0;
-            this.btnCellPhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCellPhone.Location = new System.Drawing.Point(819, 214);
-            this.btnCellPhone.Name = "btnCellPhone";
-            this.btnCellPhone.Size = new System.Drawing.Size(30, 31);
-            this.btnCellPhone.TabIndex = 35;
-            this.toolTip1.SetToolTip(this.btnCellPhone, "Dialing Cell Phone");
-            this.btnCellPhone.UseVisualStyleBackColor = true;
-            this.btnCellPhone.Visible = false;
-            this.btnCellPhone.Click += new System.EventHandler(this.BtnCellPhone_Click);
             // 
             // btnClassTransfer
             // 
@@ -1472,14 +1368,14 @@
             // 
             this.dataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -1494,8 +1390,8 @@
             // 
             // dataGridViewTextBoxColumn1
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle18;
             this.dataGridViewTextBoxColumn1.HeaderText = "Course ID";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
@@ -1570,14 +1466,14 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.UserID,
@@ -1882,14 +1778,14 @@
             // 
             this.dataGridView3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial", 9.75F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Arial", 9.75F);
+            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
@@ -1934,7 +1830,6 @@
             // 
             this.menuStrip1.AllowMerge = false;
             this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addToolStripMenuItem,
@@ -1952,7 +1847,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.ShowItemToolTips = true;
-            this.menuStrip1.Size = new System.Drawing.Size(1167, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(880, 33);
             this.menuStrip1.TabIndex = 32;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.MenuStrip1_ItemClicked);
@@ -2040,9 +1935,12 @@
             // repotsToolStripMenuItem
             // 
             this.repotsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.allClassesOfferedToolStripMenuItem,
+            this.numerOfClassesToolStripMenuItem,
             this.printAllInfoForToolStripMenuItem,
             this.printContactListToolStripMenuItem,
-            this.printLabelsForToolStripMenuItem});
+            this.printLabelsForToolStripMenuItem,
+            this.emailToolStripMenuItem});
             this.repotsToolStripMenuItem.Name = "repotsToolStripMenuItem";
             this.repotsToolStripMenuItem.Size = new System.Drawing.Size(89, 29);
             this.repotsToolStripMenuItem.Text = "Reports";
@@ -2052,9 +1950,11 @@
             this.printAllInfoForToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thisUserToolStripMenuItem,
             this.allUsersInViewToolStripMenuItem,
-            this.allUsersMatchingThisSearchToolStripMenuItem});
+            this.allUsersMatchingThisSearchToolStripMenuItem,
+            this.allClassesToolStripMenuItem,
+            this.allClassesOfferedThisSemesterToolStripMenuItem1});
             this.printAllInfoForToolStripMenuItem.Name = "printAllInfoForToolStripMenuItem";
-            this.printAllInfoForToolStripMenuItem.Size = new System.Drawing.Size(247, 34);
+            this.printAllInfoForToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
             this.printAllInfoForToolStripMenuItem.Text = "Print All Info for";
             // 
             // thisUserToolStripMenuItem
@@ -2067,7 +1967,7 @@
             // 
             this.allUsersInViewToolStripMenuItem.Name = "allUsersInViewToolStripMenuItem";
             this.allUsersInViewToolStripMenuItem.Size = new System.Drawing.Size(363, 34);
-            this.allUsersInViewToolStripMenuItem.Text = "All Classes in view";
+            this.allUsersInViewToolStripMenuItem.Text = "All Classes in View";
             // 
             // allUsersMatchingThisSearchToolStripMenuItem
             // 
@@ -2079,17 +1979,20 @@
             // printContactListToolStripMenuItem
             // 
             this.printContactListToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thisClassToolStripMenuItem,
+            this.allUsersInViewToolStripMenuItem2,
+            this.allClassesMatchingThisSearchToolStripMenuItem,
             this.allUsersToolStripMenuItem1,
-            this.allUsersInViewToolStripMenuItem2});
+            this.allClassesOfferedThisSemesterToolStripMenuItem});
             this.printContactListToolStripMenuItem.Name = "printContactListToolStripMenuItem";
-            this.printContactListToolStripMenuItem.Size = new System.Drawing.Size(247, 34);
-            this.printContactListToolStripMenuItem.Text = "Print Contact List";
+            this.printContactListToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
+            this.printContactListToolStripMenuItem.Text = "Print Professor\'s Contact For";
             // 
             // allUsersToolStripMenuItem1
             // 
             this.allUsersToolStripMenuItem1.Name = "allUsersToolStripMenuItem1";
-            this.allUsersToolStripMenuItem1.Size = new System.Drawing.Size(258, 34);
-            this.allUsersToolStripMenuItem1.Text = "All ";
+            this.allUsersToolStripMenuItem1.Size = new System.Drawing.Size(368, 34);
+            this.allUsersToolStripMenuItem1.Text = "All Classes";
             // 
             // allUsersInViewToolStripMenuItem2
             // 
@@ -2100,12 +2003,13 @@
             // printLabelsForToolStripMenuItem
             // 
             this.printLabelsForToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.allUsersToolStripMenuItem,
+            this.thisClassToolStripMenuItem1,
             this.allUsersInViewToolStripMenuItem1,
-            this.allUsersWhoOweMoneyToolStripMenuItem,
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem});
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem,
+            this.allUsersToolStripMenuItem,
+            this.allUsersWhoOweMoneyToolStripMenuItem});
             this.printLabelsForToolStripMenuItem.Name = "printLabelsForToolStripMenuItem";
-            this.printLabelsForToolStripMenuItem.Size = new System.Drawing.Size(247, 34);
+            this.printLabelsForToolStripMenuItem.Size = new System.Drawing.Size(339, 34);
             this.printLabelsForToolStripMenuItem.Text = "Print Labels For";
             // 
             // allUsersToolStripMenuItem
@@ -2123,14 +2027,16 @@
             // allUsersWhoOweMoneyToolStripMenuItem
             // 
             this.allUsersWhoOweMoneyToolStripMenuItem.Name = "allUsersWhoOweMoneyToolStripMenuItem";
-            this.allUsersWhoOweMoneyToolStripMenuItem.Size = new System.Drawing.Size(409, 34);
+            this.allUsersWhoOweMoneyToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
             this.allUsersWhoOweMoneyToolStripMenuItem.Text = "All Classes Offered This Semester";
+            this.allUsersWhoOweMoneyToolStripMenuItem.Click += new System.EventHandler(this.allUsersWhoOweMoneyToolStripMenuItem_Click);
             // 
             // allUsersWhoHaveBooksOverdueToolStripMenuItem
             // 
             this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Name = "allUsersWhoHaveBooksOverdueToolStripMenuItem";
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Size = new System.Drawing.Size(409, 34);
-            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Text = "All Classes That Match Current Search";
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Text = "All Classes Matching This Search";
+            this.allUsersWhoHaveBooksOverdueToolStripMenuItem.Click += new System.EventHandler(this.allUsersWhoHaveBooksOverdueToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -2232,7 +2138,7 @@
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(452, 85);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(72, 29);
+            this.label24.Size = new System.Drawing.Size(44, 20);
             this.label24.TabIndex = 43;
             this.label24.Text = "Filter";
             // 
@@ -2250,16 +2156,16 @@
             "Offered In The Fall"});
             this.cbSelect.Location = new System.Drawing.Point(524, 79);
             this.cbSelect.Name = "cbSelect";
-            this.cbSelect.Size = new System.Drawing.Size(178, 37);
+            this.cbSelect.Size = new System.Drawing.Size(178, 28);
             this.cbSelect.TabIndex = 42;
-            this.cbSelect.Text = "All Users";
+            this.cbSelect.Text = "All Classes";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(143, 85);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(114, 29);
+            this.label19.Size = new System.Drawing.Size(71, 20);
             this.label19.TabIndex = 41;
             this.label19.Text = "Order By";
             // 
@@ -2274,7 +2180,7 @@
             "Most Recent Professor"});
             this.cbOrderBy.Location = new System.Drawing.Point(236, 79);
             this.cbOrderBy.Name = "cbOrderBy";
-            this.cbOrderBy.Size = new System.Drawing.Size(178, 37);
+            this.cbOrderBy.Size = new System.Drawing.Size(178, 28);
             this.cbOrderBy.TabIndex = 40;
             this.cbOrderBy.Text = "Name";
             // 
@@ -2304,14 +2210,220 @@
             this.btnNewSec.UseVisualStyleBackColor = false;
             this.btnNewSec.Click += new System.EventHandler(this.button10_Click);
             // 
+            // btnCellPhone
+            // 
+            this.btnCellPhone.BackgroundImage = global::LibraryApp1.Properties.Resources.phoneTrans;
+            this.btnCellPhone.FlatAppearance.BorderSize = 0;
+            this.btnCellPhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCellPhone.Location = new System.Drawing.Point(819, 214);
+            this.btnCellPhone.Name = "btnCellPhone";
+            this.btnCellPhone.Size = new System.Drawing.Size(30, 31);
+            this.btnCellPhone.TabIndex = 35;
+            this.toolTip1.SetToolTip(this.btnCellPhone, "Dialing Cell Phone");
+            this.btnCellPhone.UseVisualStyleBackColor = true;
+            this.btnCellPhone.Visible = false;
+            this.btnCellPhone.Click += new System.EventHandler(this.BtnCellPhone_Click);
+            // 
+            // btnRight2
+            // 
+            this.btnRight2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
+            this.btnRight2.FlatAppearance.BorderSize = 0;
+            this.btnRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRight2.Location = new System.Drawing.Point(811, 35);
+            this.btnRight2.Name = "btnRight2";
+            this.btnRight2.Size = new System.Drawing.Size(30, 35);
+            this.btnRight2.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.btnRight2, "Navegate To The Next Logical Record Within The View");
+            this.btnRight2.UseVisualStyleBackColor = true;
+            this.btnRight2.Click += new System.EventHandler(this.BtnRight2_Click_1);
+            // 
+            // btnLeft2
+            // 
+            this.btnLeft2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
+            this.btnLeft2.FlatAppearance.BorderSize = 0;
+            this.btnLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLeft2.Location = new System.Drawing.Point(748, 35);
+            this.btnLeft2.Name = "btnLeft2";
+            this.btnLeft2.Size = new System.Drawing.Size(30, 35);
+            this.btnLeft2.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.btnLeft2, "Navegate To The Previous Logical Record Within The View");
+            this.btnLeft2.UseVisualStyleBackColor = true;
+            this.btnLeft2.Click += new System.EventHandler(this.BtnLeft2_Click_1);
+            // 
+            // btnRight
+            // 
+            this.btnRight.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
+            this.btnRight.FlatAppearance.BorderSize = 0;
+            this.btnRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRight.Location = new System.Drawing.Point(71, 35);
+            this.btnRight.Name = "btnRight";
+            this.btnRight.Size = new System.Drawing.Size(30, 35);
+            this.btnRight.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.btnRight, "Navegate To The Next Logical Record Within The View");
+            this.btnRight.UseVisualStyleBackColor = true;
+            this.btnRight.Click += new System.EventHandler(this.BtnRight_Click_1);
+            // 
+            // btnDown2
+            // 
+            this.btnDown2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
+            this.btnDown2.FlatAppearance.BorderSize = 0;
+            this.btnDown2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDown2.Location = new System.Drawing.Point(778, 67);
+            this.btnDown2.Name = "btnDown2";
+            this.btnDown2.Size = new System.Drawing.Size(35, 30);
+            this.btnDown2.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.btnDown2, "Navegate To The Last Logical Record Within The View");
+            this.btnDown2.UseVisualStyleBackColor = true;
+            this.btnDown2.Click += new System.EventHandler(this.BtnDown2_Click_1);
+            // 
+            // btnLeft
+            // 
+            this.btnLeft.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
+            this.btnLeft.FlatAppearance.BorderSize = 0;
+            this.btnLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLeft.Location = new System.Drawing.Point(8, 35);
+            this.btnLeft.Name = "btnLeft";
+            this.btnLeft.Size = new System.Drawing.Size(30, 35);
+            this.btnLeft.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.btnLeft, "Navegate To The Previous Logical Record Within The View");
+            this.btnLeft.UseVisualStyleBackColor = true;
+            this.btnLeft.Click += new System.EventHandler(this.BtnLeft_Click_1);
+            // 
+            // btnDown
+            // 
+            this.btnDown.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
+            this.btnDown.FlatAppearance.BorderSize = 0;
+            this.btnDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDown.Location = new System.Drawing.Point(38, 67);
+            this.btnDown.Name = "btnDown";
+            this.btnDown.Size = new System.Drawing.Size(35, 30);
+            this.btnDown.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.btnDown, "Navegate To The Last Logical Record Within The View");
+            this.btnDown.UseVisualStyleBackColor = true;
+            this.btnDown.Click += new System.EventHandler(this.BtnDown_Click_1);
+            // 
+            // btnUp2
+            // 
+            this.btnUp2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
+            this.btnUp2.FlatAppearance.BorderSize = 0;
+            this.btnUp2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUp2.Location = new System.Drawing.Point(778, 5);
+            this.btnUp2.Name = "btnUp2";
+            this.btnUp2.Size = new System.Drawing.Size(35, 30);
+            this.btnUp2.TabIndex = 39;
+            this.toolTip1.SetToolTip(this.btnUp2, "Navegate To The First Logical Record Within The View");
+            this.btnUp2.UseVisualStyleBackColor = true;
+            this.btnUp2.Click += new System.EventHandler(this.BtnUp2_Click_1);
+            // 
+            // btnUp
+            // 
+            this.btnUp.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
+            this.btnUp.FlatAppearance.BorderSize = 0;
+            this.btnUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUp.Location = new System.Drawing.Point(38, 5);
+            this.btnUp.Name = "btnUp";
+            this.btnUp.Size = new System.Drawing.Size(35, 30);
+            this.btnUp.TabIndex = 39;
+            this.toolTip1.SetToolTip(this.btnUp, "Navegate To The First Logical Record Within The View");
+            this.btnUp.UseVisualStyleBackColor = true;
+            this.btnUp.Click += new System.EventHandler(this.BtnUp_Click_1);
+            // 
+            // thisClassToolStripMenuItem
+            // 
+            this.thisClassToolStripMenuItem.Name = "thisClassToolStripMenuItem";
+            this.thisClassToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
+            this.thisClassToolStripMenuItem.Text = "This Class";
+            // 
+            // allClassesToolStripMenuItem
+            // 
+            this.allClassesToolStripMenuItem.Name = "allClassesToolStripMenuItem";
+            this.allClassesToolStripMenuItem.Size = new System.Drawing.Size(363, 34);
+            this.allClassesToolStripMenuItem.Text = "All Classes";
+            // 
+            // allClassesMatchingThisSearchToolStripMenuItem
+            // 
+            this.allClassesMatchingThisSearchToolStripMenuItem.Name = "allClassesMatchingThisSearchToolStripMenuItem";
+            this.allClassesMatchingThisSearchToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
+            this.allClassesMatchingThisSearchToolStripMenuItem.Text = "All Classes Matching This Search";
+            // 
+            // thisClassToolStripMenuItem1
+            // 
+            this.thisClassToolStripMenuItem1.Name = "thisClassToolStripMenuItem1";
+            this.thisClassToolStripMenuItem1.Size = new System.Drawing.Size(376, 34);
+            this.thisClassToolStripMenuItem1.Text = "This Class";
+            // 
+            // allClassesOfferedThisSemesterToolStripMenuItem
+            // 
+            this.allClassesOfferedThisSemesterToolStripMenuItem.Name = "allClassesOfferedThisSemesterToolStripMenuItem";
+            this.allClassesOfferedThisSemesterToolStripMenuItem.Size = new System.Drawing.Size(376, 34);
+            this.allClassesOfferedThisSemesterToolStripMenuItem.Text = "All Classes Offered This Semester";
+            // 
+            // allClassesOfferedThisSemesterToolStripMenuItem1
+            // 
+            this.allClassesOfferedThisSemesterToolStripMenuItem1.Name = "allClassesOfferedThisSemesterToolStripMenuItem1";
+            this.allClassesOfferedThisSemesterToolStripMenuItem1.Size = new System.Drawing.Size(376, 34);
+            this.allClassesOfferedThisSemesterToolStripMenuItem1.Text = "All Classes Offered This Semester";
+            // 
+            // emailToolStripMenuItem
+            // 
+            this.emailToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thisClassToolStripMenuItem2,
+            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem,
+            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem,
+            this.allClassesToolStripMenuItem1,
+            this.allClassesTaughtThisSemesterToolStripMenuItem});
+            this.emailToolStripMenuItem.Name = "emailToolStripMenuItem";
+            this.emailToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
+            this.emailToolStripMenuItem.Text = "Email Professors Currently Teaching";
+            // 
+            // allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem
+            // 
+            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem.Name = "allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem";
+            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
+            this.allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem.Text = "All Classes in View";
+            // 
+            // allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem
+            // 
+            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem.Name = "allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem";
+            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
+            this.allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem.Text = "All Classes Matching This Search";
+            // 
+            // thisClassToolStripMenuItem2
+            // 
+            this.thisClassToolStripMenuItem2.Name = "thisClassToolStripMenuItem2";
+            this.thisClassToolStripMenuItem2.Size = new System.Drawing.Size(368, 34);
+            this.thisClassToolStripMenuItem2.Text = "This Class";
+            // 
+            // allClassesToolStripMenuItem1
+            // 
+            this.allClassesToolStripMenuItem1.Name = "allClassesToolStripMenuItem1";
+            this.allClassesToolStripMenuItem1.Size = new System.Drawing.Size(368, 34);
+            this.allClassesToolStripMenuItem1.Text = "All Classes";
+            // 
+            // allClassesTaughtThisSemesterToolStripMenuItem
+            // 
+            this.allClassesTaughtThisSemesterToolStripMenuItem.Name = "allClassesTaughtThisSemesterToolStripMenuItem";
+            this.allClassesTaughtThisSemesterToolStripMenuItem.Size = new System.Drawing.Size(368, 34);
+            this.allClassesTaughtThisSemesterToolStripMenuItem.Text = "All Classes Taught This Semester";
+            // 
+            // allClassesOfferedToolStripMenuItem
+            // 
+            this.allClassesOfferedToolStripMenuItem.Name = "allClassesOfferedToolStripMenuItem";
+            this.allClassesOfferedToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
+            this.allClassesOfferedToolStripMenuItem.Text = "All Classes Offered";
+            // 
+            // numerOfClassesToolStripMenuItem
+            // 
+            this.numerOfClassesToolStripMenuItem.Name = "numerOfClassesToolStripMenuItem";
+            this.numerOfClassesToolStripMenuItem.Size = new System.Drawing.Size(393, 34);
+            this.numerOfClassesToolStripMenuItem.Text = "Numer Of Classes Offered";
+            // 
             // ClassList
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.ClientSize = new System.Drawing.Size(880, 695);
-            this.Controls.Add(this.lbTrace);
-            this.Controls.Add(this.pnlNavigation);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2403,7 +2515,6 @@
         private System.Windows.Forms.TextBox txtName3;
         private System.Windows.Forms.TextBox txtID3;
         private System.Windows.Forms.Button btnTest;
-        private System.Windows.Forms.Button btnCellPhone;
         private System.Windows.Forms.Button btnA;
         private System.Windows.Forms.Button btnB;
         private System.Windows.Forms.Button btnC;
@@ -2438,14 +2549,6 @@
         private System.Windows.Forms.ComboBox cbSelect;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ComboBox cbOrderBy;
-        private System.Windows.Forms.Button btnUp;
-        private System.Windows.Forms.Button btnUp2;
-        private System.Windows.Forms.Button btnDown;
-        private System.Windows.Forms.Button btnLeft;
-        private System.Windows.Forms.Button btnDown2;
-        private System.Windows.Forms.Button btnRight;
-        private System.Windows.Forms.Button btnLeft2;
-        private System.Windows.Forms.Button btnRight2;
         private System.Windows.Forms.ListBox lbTrace;
         private System.Windows.Forms.Panel pnlCheckoutList;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -2534,6 +2637,29 @@
         private System.Windows.Forms.TextBox txtName4;
         private System.Windows.Forms.TextBox txtID4;
         private System.Windows.Forms.Button btnNewSec;
+        private System.Windows.Forms.Button btnCellPhone;
+        private System.Windows.Forms.ToolStripMenuItem allClassesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thisClassToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem allClassesMatchingThisSearchToolStripMenuItem;
+        private System.Windows.Forms.Button btnUp;
+        private System.Windows.Forms.Button btnUp2;
+        private System.Windows.Forms.Button btnDown;
+        private System.Windows.Forms.Button btnLeft;
+        private System.Windows.Forms.Button btnDown2;
+        private System.Windows.Forms.Button btnRight;
+        private System.Windows.Forms.Button btnLeft2;
+        private System.Windows.Forms.Button btnRight2;
+        private System.Windows.Forms.ToolStripMenuItem thisClassToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem allClassesOfferedToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem numerOfClassesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem allClassesOfferedThisSemesterToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem allClassesOfferedThisSemesterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem emailToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thisClassToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem allProfessorsCurrentlyTeachingThisCourseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem allProfessorsCurentlyTeachingAnyCourseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem allClassesToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem allClassesTaughtThisSemesterToolStripMenuItem;
     }
 }
 

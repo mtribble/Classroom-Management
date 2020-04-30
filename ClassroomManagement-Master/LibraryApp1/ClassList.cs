@@ -329,7 +329,7 @@ namespace LibraryApp1
                 txtNotes.Text = "Satisfies the applications requirement";
                
                 
-                txtProfessor.Text = "Lewis";
+                txtProfessor.Text = "Lewis, Mark";
                 
                 bool tmp = pf.UserInEditMode;
                 pf.UserInEditMode = true;
@@ -358,7 +358,7 @@ namespace LibraryApp1
                 txtNotes.Text = "Required for the Math Major";
                
                 
-                txtProfessor.Text = "Elaydi";
+                txtProfessor.Text = "Elaydi, Saber";
                 
                 bool tmp = pf.UserInEditMode;
                 pf.UserInEditMode = true;
@@ -386,7 +386,7 @@ namespace LibraryApp1
                 txtNotes.Text = "Includes a required field trip";
 
 
-                txtProfessor.Text = "Smith";
+                txtProfessor.Text = "Smith, Dave";
                 
                 bool tmp = pf.UserInEditMode;
                 pf.UserInEditMode = true;
@@ -1410,6 +1410,11 @@ namespace LibraryApp1
 
         }
 
+        public void updateProf(string txt)
+        {
+            txtProfessor.Text = txt;
+        }
+
         private void BtnCheckOutTransfer_Click(object sender, EventArgs e)
         {
             pf.ClassForm.Show();
@@ -1505,7 +1510,7 @@ namespace LibraryApp1
         {
             if (pf.UserInEditMode)
             {
-                pf.LaunchSearchWindow("Search For A Professor", "Enter Name", "Hicks");
+                pf.LaunchProfSearchWindow("Search For A Professor", "Enter Name", "Hicks");
             }
             else
             {
@@ -1578,6 +1583,16 @@ namespace LibraryApp1
             pf.ClassForm.Show();
             pf.ClassForm.BringToFront();
             //pf.ClassForm.EditMode();
+        }
+
+        private void allUsersWhoHaveBooksOverdueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void allUsersWhoOweMoneyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
