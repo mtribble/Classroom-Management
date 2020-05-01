@@ -17,7 +17,7 @@ namespace LibraryApp1
         String Database = "Trinity";
         long Port = 12345;
         bool DataToggle = true;
-        String QuickLinkText = "Full Name";
+        String QuickLinkText = "Course Code";
         int currClass = 0;
         int numClasses = 3;
         Boolean pastVis = false;
@@ -514,6 +514,8 @@ namespace LibraryApp1
             toolTip1.SetToolTip(btnX, "Load The First Record Whose " + QuickLinkText + " Begins With An 'X'");
             toolTip1.SetToolTip(btnY, "Load The First Record Whose " + QuickLinkText + " Begins With A 'Y'");
             toolTip1.SetToolTip(btnZ, "Load The First Record Whose " + QuickLinkText + " Begins With A 'Z'");
+            //Console.WriteLine("rl");
+            
         }
 
         //===========================================================================//
@@ -1678,6 +1680,21 @@ namespace LibraryApp1
         {
             currClass = numClasses - 1;
             FillFormVariables();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(0);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(0);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(0);
         }
     }
 }
