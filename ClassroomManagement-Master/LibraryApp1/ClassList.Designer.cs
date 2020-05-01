@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnTest = new System.Windows.Forms.Button();
             this.btnA = new System.Windows.Forms.Button();
@@ -85,6 +85,40 @@
             this.btnDown = new System.Windows.Forms.Button();
             this.btnUp2 = new System.Windows.Forms.Button();
             this.btnUp = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.button40 = new System.Windows.Forms.Button();
+            this.button41 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.button43 = new System.Windows.Forms.Button();
             this.txtNotes = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.PersonalInfo = new System.Windows.Forms.TabPage();
@@ -222,44 +256,8 @@
             this.cbOrderBy = new System.Windows.Forms.ComboBox();
             this.lbTrace = new System.Windows.Forms.ListBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button11 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
-            this.button12 = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.PersonalInfo.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -275,7 +273,6 @@
             this.pastSectionsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.menuStrip1.SuspendLayout();
-            this.pnlNavigation.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -708,6 +705,7 @@
             this.button2.Text = "Go To Course";
             this.toolTip1.SetToolTip(this.button2, "Go To Course Subsystem");
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button7
             // 
@@ -722,6 +720,7 @@
             this.button7.Text = "Go To Course";
             this.toolTip1.SetToolTip(this.button7, "Go To Course Subsystem");
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -736,6 +735,7 @@
             this.button6.Text = "Go To Course";
             this.toolTip1.SetToolTip(this.button6, "Go To Course Subsystem");
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // btnClassTransfer
             // 
@@ -961,7 +961,7 @@
             this.btnUp2.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
             this.btnUp2.FlatAppearance.BorderSize = 0;
             this.btnUp2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUp2.Location = new System.Drawing.Point(778, 5);
+            this.btnUp2.Location = new System.Drawing.Point(778, 6);
             this.btnUp2.Name = "btnUp2";
             this.btnUp2.Size = new System.Drawing.Size(35, 30);
             this.btnUp2.TabIndex = 39;
@@ -981,6 +981,451 @@
             this.toolTip1.SetToolTip(this.btnUp, "Navegate To The First Logical Record Within The View");
             this.btnUp.UseVisualStyleBackColor = true;
             this.btnUp.Click += new System.EventHandler(this.BtnUp_Click_1);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.ForeColor = System.Drawing.Color.Black;
+            this.button10.Location = new System.Drawing.Point(610, 40);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(28, 28);
+            this.button10.TabIndex = 65;
+            this.button10.Text = "X";
+            this.toolTip1.SetToolTip(this.button10, "btnTest might be use to display local variables");
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.ForeColor = System.Drawing.Color.Black;
+            this.button11.Location = new System.Drawing.Point(322, 7);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(28, 28);
+            this.button11.TabIndex = 64;
+            this.button11.Text = "G";
+            this.toolTip1.SetToolTip(this.button11, "btnTest might be use to display local variables");
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.ForeColor = System.Drawing.Color.Black;
+            this.button12.Location = new System.Drawing.Point(130, 40);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(28, 28);
+            this.button12.TabIndex = 63;
+            this.button12.Text = "S";
+            this.toolTip1.SetToolTip(this.button12, "btnTest might be use to display local variables");
+            this.button12.UseVisualStyleBackColor = false;
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.ForeColor = System.Drawing.Color.Black;
+            this.button13.Location = new System.Drawing.Point(162, 40);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(28, 28);
+            this.button13.TabIndex = 62;
+            this.button13.Text = "T";
+            this.toolTip1.SetToolTip(this.button13, "btnTest might be use to display local variables");
+            this.button13.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            this.button14.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Location = new System.Drawing.Point(38, 5);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(35, 30);
+            this.button14.TabIndex = 39;
+            this.toolTip1.SetToolTip(this.button14, "Navegate To The First Logical Record Within The View");
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.ForeColor = System.Drawing.Color.Black;
+            this.button15.Location = new System.Drawing.Point(194, 40);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(28, 28);
+            this.button15.TabIndex = 61;
+            this.button15.Text = "U";
+            this.toolTip1.SetToolTip(this.button15, "btnTest might be use to display local variables");
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            this.button16.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Location = new System.Drawing.Point(778, 5);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(35, 30);
+            this.button16.TabIndex = 39;
+            this.toolTip1.SetToolTip(this.button16, "Navegate To The First Logical Record Within The View");
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.ForeColor = System.Drawing.Color.Black;
+            this.button17.Location = new System.Drawing.Point(642, 40);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(28, 28);
+            this.button17.TabIndex = 60;
+            this.button17.Text = "Y";
+            this.toolTip1.SetToolTip(this.button17, "btnTest might be use to display local variables");
+            this.button17.UseVisualStyleBackColor = false;
+            // 
+            // button18
+            // 
+            this.button18.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
+            this.button18.FlatAppearance.BorderSize = 0;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Location = new System.Drawing.Point(38, 67);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(35, 30);
+            this.button18.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.button18, "Navegate To The Last Logical Record Within The View");
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // button19
+            // 
+            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.ForeColor = System.Drawing.Color.Black;
+            this.button19.Location = new System.Drawing.Point(578, 40);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(28, 28);
+            this.button19.TabIndex = 57;
+            this.button19.Text = "W";
+            this.toolTip1.SetToolTip(this.button19, "btnTest might be use to display local variables");
+            this.button19.UseVisualStyleBackColor = false;
+            // 
+            // button20
+            // 
+            this.button20.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
+            this.button20.FlatAppearance.BorderSize = 0;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Location = new System.Drawing.Point(8, 35);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(30, 35);
+            this.button20.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.button20, "Navegate To The Previous Logical Record Within The View");
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.ForeColor = System.Drawing.Color.Black;
+            this.button21.Location = new System.Drawing.Point(674, 40);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(28, 28);
+            this.button21.TabIndex = 59;
+            this.button21.Text = "Z";
+            this.toolTip1.SetToolTip(this.button21, "btnTest might be use to display local variables");
+            this.button21.UseVisualStyleBackColor = false;
+            // 
+            // button22
+            // 
+            this.button22.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
+            this.button22.FlatAppearance.BorderSize = 0;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.Location = new System.Drawing.Point(778, 67);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(35, 30);
+            this.button22.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.button22, "Navegate To The Last Logical Record Within The View");
+            this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
+            // 
+            // button23
+            // 
+            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.ForeColor = System.Drawing.Color.Black;
+            this.button23.Location = new System.Drawing.Point(226, 40);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(28, 28);
+            this.button23.TabIndex = 58;
+            this.button23.Text = "V";
+            this.toolTip1.SetToolTip(this.button23, "btnTest might be use to display local variables");
+            this.button23.UseVisualStyleBackColor = false;
+            // 
+            // button24
+            // 
+            this.button24.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
+            this.button24.FlatAppearance.BorderSize = 0;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Location = new System.Drawing.Point(71, 35);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(30, 35);
+            this.button24.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.button24, "Navegate To The Next Logical Record Within The View");
+            this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
+            // 
+            // button25
+            // 
+            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.ForeColor = System.Drawing.Color.Black;
+            this.button25.Location = new System.Drawing.Point(226, 7);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(28, 28);
+            this.button25.TabIndex = 56;
+            this.button25.Text = "D";
+            this.toolTip1.SetToolTip(this.button25, "btnTest might be use to display local variables");
+            this.button25.UseVisualStyleBackColor = false;
+            // 
+            // button26
+            // 
+            this.button26.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
+            this.button26.FlatAppearance.BorderSize = 0;
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.Location = new System.Drawing.Point(748, 35);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(30, 35);
+            this.button26.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.button26, "Navegate To The Previous Logical Record Within The View");
+            this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
+            // 
+            // button27
+            // 
+            this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button27.ForeColor = System.Drawing.Color.Black;
+            this.button27.Location = new System.Drawing.Point(258, 7);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(28, 28);
+            this.button27.TabIndex = 55;
+            this.button27.Text = "E";
+            this.toolTip1.SetToolTip(this.button27, "btnTest might be use to display local variables");
+            this.button27.UseVisualStyleBackColor = false;
+            // 
+            // button28
+            // 
+            this.button28.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
+            this.button28.FlatAppearance.BorderSize = 0;
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.Location = new System.Drawing.Point(811, 35);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(30, 35);
+            this.button28.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.button28, "Navegate To The Next Logical Record Within The View");
+            this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
+            // 
+            // button29
+            // 
+            this.button29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button29.ForeColor = System.Drawing.Color.Black;
+            this.button29.Location = new System.Drawing.Point(290, 7);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(28, 28);
+            this.button29.TabIndex = 54;
+            this.button29.Text = "F";
+            this.toolTip1.SetToolTip(this.button29, "btnTest might be use to display local variables");
+            this.button29.UseVisualStyleBackColor = false;
+            // 
+            // button30
+            // 
+            this.button30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button30.ForeColor = System.Drawing.Color.Black;
+            this.button30.Location = new System.Drawing.Point(386, 7);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(28, 28);
+            this.button30.TabIndex = 52;
+            this.button30.Text = "I";
+            this.toolTip1.SetToolTip(this.button30, "btnTest might be use to display local variables");
+            this.button30.UseVisualStyleBackColor = false;
+            // 
+            // button31
+            // 
+            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button31.ForeColor = System.Drawing.Color.Black;
+            this.button31.Location = new System.Drawing.Point(354, 7);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(28, 28);
+            this.button31.TabIndex = 53;
+            this.button31.Text = "H";
+            this.toolTip1.SetToolTip(this.button31, "btnTest might be use to display local variables");
+            this.button31.UseVisualStyleBackColor = false;
+            // 
+            // button32
+            // 
+            this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button32.ForeColor = System.Drawing.Color.Black;
+            this.button32.Location = new System.Drawing.Point(130, 7);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(28, 28);
+            this.button32.TabIndex = 36;
+            this.button32.Text = "A";
+            this.toolTip1.SetToolTip(this.button32, "btnTest might be use to display local variables");
+            this.button32.UseVisualStyleBackColor = false;
+            // 
+            // button33
+            // 
+            this.button33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.button33.Location = new System.Drawing.Point(162, 7);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(28, 28);
+            this.button33.TabIndex = 41;
+            this.button33.Text = "B";
+            this.toolTip1.SetToolTip(this.button33, "btnTest might be use to display local variables");
+            this.button33.UseVisualStyleBackColor = false;
+            this.button33.Click += new System.EventHandler(this.button33_Click_1);
+            // 
+            // button34
+            // 
+            this.button34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button34.ForeColor = System.Drawing.Color.Black;
+            this.button34.Location = new System.Drawing.Point(418, 7);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(28, 28);
+            this.button34.TabIndex = 51;
+            this.button34.Text = "J";
+            this.toolTip1.SetToolTip(this.button34, "btnTest might be use to display local variables");
+            this.button34.UseVisualStyleBackColor = false;
+            // 
+            // button35
+            // 
+            this.button35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.button35.Location = new System.Drawing.Point(194, 7);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(28, 28);
+            this.button35.TabIndex = 42;
+            this.button35.Text = "C";
+            this.toolTip1.SetToolTip(this.button35, "btnTest might be use to display local variables");
+            this.button35.UseVisualStyleBackColor = false;
+            this.button35.Click += new System.EventHandler(this.button35_Click_1);
+            // 
+            // button36
+            // 
+            this.button36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button36.ForeColor = System.Drawing.Color.Black;
+            this.button36.Location = new System.Drawing.Point(450, 7);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(28, 28);
+            this.button36.TabIndex = 50;
+            this.button36.Text = "K";
+            this.toolTip1.SetToolTip(this.button36, "btnTest might be use to display local variables");
+            this.button36.UseVisualStyleBackColor = false;
+            // 
+            // button37
+            // 
+            this.button37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button37.ForeColor = System.Drawing.Color.Black;
+            this.button37.Location = new System.Drawing.Point(674, 7);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(28, 28);
+            this.button37.TabIndex = 43;
+            this.button37.Text = "R";
+            this.toolTip1.SetToolTip(this.button37, "btnTest might be use to display local variables");
+            this.button37.UseVisualStyleBackColor = false;
+            // 
+            // button38
+            // 
+            this.button38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button38.ForeColor = System.Drawing.Color.Black;
+            this.button38.Location = new System.Drawing.Point(482, 7);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(28, 28);
+            this.button38.TabIndex = 49;
+            this.button38.Text = "L";
+            this.toolTip1.SetToolTip(this.button38, "btnTest might be use to display local variables");
+            this.button38.UseVisualStyleBackColor = false;
+            // 
+            // button39
+            // 
+            this.button39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button39.ForeColor = System.Drawing.Color.Black;
+            this.button39.Location = new System.Drawing.Point(642, 7);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(28, 28);
+            this.button39.TabIndex = 44;
+            this.button39.Text = "Q";
+            this.toolTip1.SetToolTip(this.button39, "btnTest might be use to display local variables");
+            this.button39.UseVisualStyleBackColor = false;
+            // 
+            // button40
+            // 
+            this.button40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.button40.Location = new System.Drawing.Point(514, 7);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(28, 28);
+            this.button40.TabIndex = 48;
+            this.button40.Text = "M";
+            this.toolTip1.SetToolTip(this.button40, "btnTest might be use to display local variables");
+            this.button40.UseVisualStyleBackColor = false;
+            this.button40.Click += new System.EventHandler(this.button40_Click_1);
+            // 
+            // button41
+            // 
+            this.button41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button41.ForeColor = System.Drawing.Color.Black;
+            this.button41.Location = new System.Drawing.Point(610, 7);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(28, 28);
+            this.button41.TabIndex = 45;
+            this.button41.Text = "P";
+            this.toolTip1.SetToolTip(this.button41, "btnTest might be use to display local variables");
+            this.button41.UseVisualStyleBackColor = false;
+            // 
+            // button42
+            // 
+            this.button42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button42.ForeColor = System.Drawing.Color.Black;
+            this.button42.Location = new System.Drawing.Point(546, 7);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(28, 28);
+            this.button42.TabIndex = 47;
+            this.button42.Text = "N";
+            this.toolTip1.SetToolTip(this.button42, "btnTest might be use to display local variables");
+            this.button42.UseVisualStyleBackColor = false;
+            // 
+            // button43
+            // 
+            this.button43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
+            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button43.ForeColor = System.Drawing.Color.Black;
+            this.button43.Location = new System.Drawing.Point(578, 7);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(28, 28);
+            this.button43.TabIndex = 46;
+            this.button43.Text = "O";
+            this.toolTip1.SetToolTip(this.button43, "btnTest might be use to display local variables");
+            this.button43.UseVisualStyleBackColor = false;
             // 
             // txtNotes
             // 
@@ -1466,9 +1911,9 @@
             this.CheckOut.Controls.Add(this.txtID3);
             this.CheckOut.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CheckOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.CheckOut.Location = new System.Drawing.Point(4, 29);
+            this.CheckOut.Location = new System.Drawing.Point(4, 38);
             this.CheckOut.Name = "CheckOut";
-            this.CheckOut.Size = new System.Drawing.Size(866, 351);
+            this.CheckOut.Size = new System.Drawing.Size(866, 342);
             this.CheckOut.TabIndex = 2;
             this.CheckOut.Text = "PreRequisites";
             this.CheckOut.Click += new System.EventHandler(this.Checkout_Click);
@@ -1542,14 +1987,14 @@
             // 
             this.dataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle41.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle41.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle41.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle41.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle41.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle41.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle41;
+            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle37.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle37.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle37.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -1564,8 +2009,8 @@
             // 
             // dataGridViewTextBoxColumn1
             // 
-            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle42;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle38;
             this.dataGridViewTextBoxColumn1.HeaderText = "Course ID";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
@@ -1640,14 +2085,14 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle43.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle43.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle43.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle43;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle39.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle39;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.UserID,
@@ -1952,14 +2397,14 @@
             // 
             this.dataGridView3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle44.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle44.Font = new System.Drawing.Font("Arial", 9.75F);
-            dataGridViewCellStyle44.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle44;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle40.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Arial", 9.75F);
+            dataGridViewCellStyle40.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle40;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
@@ -2355,55 +2800,17 @@
             // 
             // pnlNavigation
             // 
-            this.pnlNavigation.Controls.Add(this.label24);
-            this.pnlNavigation.Controls.Add(this.btnX);
-            this.pnlNavigation.Controls.Add(this.cbSelect);
-            this.pnlNavigation.Controls.Add(this.btnG);
-            this.pnlNavigation.Controls.Add(this.label19);
-            this.pnlNavigation.Controls.Add(this.btnS);
-            this.pnlNavigation.Controls.Add(this.cbOrderBy);
-            this.pnlNavigation.Controls.Add(this.btnT);
-            this.pnlNavigation.Controls.Add(this.btnUp);
-            this.pnlNavigation.Controls.Add(this.btnU);
-            this.pnlNavigation.Controls.Add(this.btnUp2);
-            this.pnlNavigation.Controls.Add(this.btnY);
-            this.pnlNavigation.Controls.Add(this.btnDown);
-            this.pnlNavigation.Controls.Add(this.btnW);
-            this.pnlNavigation.Controls.Add(this.btnLeft);
-            this.pnlNavigation.Controls.Add(this.btnZ);
-            this.pnlNavigation.Controls.Add(this.btnDown2);
-            this.pnlNavigation.Controls.Add(this.btnV);
-            this.pnlNavigation.Controls.Add(this.btnRight);
-            this.pnlNavigation.Controls.Add(this.btnD);
-            this.pnlNavigation.Controls.Add(this.btnLeft2);
-            this.pnlNavigation.Controls.Add(this.btnE);
-            this.pnlNavigation.Controls.Add(this.btnRight2);
-            this.pnlNavigation.Controls.Add(this.btnF);
-            this.pnlNavigation.Controls.Add(this.btnI);
-            this.pnlNavigation.Controls.Add(this.btnH);
-            this.pnlNavigation.Controls.Add(this.btnA);
-            this.pnlNavigation.Controls.Add(this.btnB);
-            this.pnlNavigation.Controls.Add(this.btnJ);
-            this.pnlNavigation.Controls.Add(this.btnC);
-            this.pnlNavigation.Controls.Add(this.btnK);
-            this.pnlNavigation.Controls.Add(this.btnR);
-            this.pnlNavigation.Controls.Add(this.btnL);
-            this.pnlNavigation.Controls.Add(this.btnQ);
-            this.pnlNavigation.Controls.Add(this.btnM);
-            this.pnlNavigation.Controls.Add(this.btnP);
-            this.pnlNavigation.Controls.Add(this.btnN);
-            this.pnlNavigation.Controls.Add(this.btnO);
-            this.pnlNavigation.Location = new System.Drawing.Point(12, 427);
+            this.pnlNavigation.Location = new System.Drawing.Point(0, 0);
             this.pnlNavigation.Name = "pnlNavigation";
-            this.pnlNavigation.Size = new System.Drawing.Size(851, 118);
-            this.pnlNavigation.TabIndex = 67;
+            this.pnlNavigation.Size = new System.Drawing.Size(200, 100);
+            this.pnlNavigation.TabIndex = 0;
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(452, 85);
+            this.label24.Location = new System.Drawing.Point(431, 84);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(44, 20);
+            this.label24.Size = new System.Drawing.Size(72, 29);
             this.label24.TabIndex = 43;
             this.label24.Text = "Filter";
             // 
@@ -2419,9 +2826,9 @@
             "Four Credit Hour Classes",
             "Offered In The Spring",
             "Offered In The Fall"});
-            this.cbSelect.Location = new System.Drawing.Point(524, 79);
+            this.cbSelect.Location = new System.Drawing.Point(493, 79);
             this.cbSelect.Name = "cbSelect";
-            this.cbSelect.Size = new System.Drawing.Size(178, 28);
+            this.cbSelect.Size = new System.Drawing.Size(209, 37);
             this.cbSelect.TabIndex = 42;
             this.cbSelect.Text = "All Classes";
             // 
@@ -2430,7 +2837,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(143, 85);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(71, 20);
+            this.label19.Size = new System.Drawing.Size(114, 29);
             this.label19.TabIndex = 41;
             this.label19.Text = "Order By";
             // 
@@ -2445,7 +2852,7 @@
             "Most Recent Professor"});
             this.cbOrderBy.Location = new System.Drawing.Point(236, 79);
             this.cbOrderBy.Name = "cbOrderBy";
-            this.cbOrderBy.Size = new System.Drawing.Size(178, 28);
+            this.cbOrderBy.Size = new System.Drawing.Size(178, 37);
             this.cbOrderBy.TabIndex = 40;
             this.cbOrderBy.Text = "Name";
             // 
@@ -2461,101 +2868,53 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.label15);
+            this.panel3.Controls.Add(this.label24);
+            this.panel3.Controls.Add(this.btnX);
+            this.panel3.Controls.Add(this.cbSelect);
+            this.panel3.Controls.Add(this.btnG);
+            this.panel3.Controls.Add(this.label19);
+            this.panel3.Controls.Add(this.btnS);
+            this.panel3.Controls.Add(this.cbOrderBy);
+            this.panel3.Controls.Add(this.btnT);
+            this.panel3.Controls.Add(this.btnUp);
+            this.panel3.Controls.Add(this.btnU);
+            this.panel3.Controls.Add(this.btnUp2);
+            this.panel3.Controls.Add(this.btnY);
+            this.panel3.Controls.Add(this.btnDown);
+            this.panel3.Controls.Add(this.btnW);
+            this.panel3.Controls.Add(this.btnLeft);
+            this.panel3.Controls.Add(this.btnZ);
+            this.panel3.Controls.Add(this.btnDown2);
+            this.panel3.Controls.Add(this.btnV);
+            this.panel3.Controls.Add(this.btnRight);
+            this.panel3.Controls.Add(this.btnD);
+            this.panel3.Controls.Add(this.btnLeft2);
+            this.panel3.Controls.Add(this.btnE);
+            this.panel3.Controls.Add(this.btnRight2);
+            this.panel3.Controls.Add(this.btnF);
+            this.panel3.Controls.Add(this.btnI);
+            this.panel3.Controls.Add(this.btnH);
+            this.panel3.Controls.Add(this.btnA);
+            this.panel3.Controls.Add(this.btnB);
+            this.panel3.Controls.Add(this.btnJ);
+            this.panel3.Controls.Add(this.btnC);
+            this.panel3.Controls.Add(this.btnK);
+            this.panel3.Controls.Add(this.btnR);
+            this.panel3.Controls.Add(this.btnL);
+            this.panel3.Controls.Add(this.btnQ);
+            this.panel3.Controls.Add(this.btnM);
+            this.panel3.Controls.Add(this.btnP);
+            this.panel3.Controls.Add(this.btnN);
+            this.panel3.Controls.Add(this.btnO);
             this.panel3.Controls.Add(this.button10);
-            this.panel3.Controls.Add(this.comboBox1);
             this.panel3.Controls.Add(this.button11);
             this.panel3.Controls.Add(this.label16);
             this.panel3.Controls.Add(this.button12);
             this.panel3.Controls.Add(this.comboBox2);
-            this.panel3.Controls.Add(this.button13);
-            this.panel3.Controls.Add(this.button14);
-            this.panel3.Controls.Add(this.button15);
-            this.panel3.Controls.Add(this.button16);
-            this.panel3.Controls.Add(this.button17);
-            this.panel3.Controls.Add(this.button18);
-            this.panel3.Controls.Add(this.button19);
-            this.panel3.Controls.Add(this.button20);
-            this.panel3.Controls.Add(this.button21);
-            this.panel3.Controls.Add(this.button22);
-            this.panel3.Controls.Add(this.button23);
-            this.panel3.Controls.Add(this.button24);
-            this.panel3.Controls.Add(this.button25);
-            this.panel3.Controls.Add(this.button26);
-            this.panel3.Controls.Add(this.button27);
-            this.panel3.Controls.Add(this.button28);
-            this.panel3.Controls.Add(this.button29);
-            this.panel3.Controls.Add(this.button30);
-            this.panel3.Controls.Add(this.button31);
-            this.panel3.Controls.Add(this.button32);
-            this.panel3.Controls.Add(this.button33);
-            this.panel3.Controls.Add(this.button34);
-            this.panel3.Controls.Add(this.button35);
-            this.panel3.Controls.Add(this.button36);
-            this.panel3.Controls.Add(this.button37);
-            this.panel3.Controls.Add(this.button38);
-            this.panel3.Controls.Add(this.button39);
-            this.panel3.Controls.Add(this.button40);
-            this.panel3.Controls.Add(this.button41);
-            this.panel3.Controls.Add(this.button42);
-            this.panel3.Controls.Add(this.button43);
             this.panel3.Location = new System.Drawing.Point(12, 431);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(851, 118);
             this.panel3.TabIndex = 68;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(452, 85);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(72, 29);
-            this.label15.TabIndex = 43;
-            this.label15.Text = "Filter";
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.ForeColor = System.Drawing.Color.Black;
-            this.button10.Location = new System.Drawing.Point(610, 40);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(28, 28);
-            this.button10.TabIndex = 65;
-            this.button10.Text = "X";
-            this.toolTip1.SetToolTip(this.button10, "btnTest might be use to display local variables");
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "All Classes",
-            "One Credit Hour Classes",
-            "Two Credit Hour Classes",
-            "Three Credit Hour Classes",
-            "Four Credit Hour Classes",
-            "Offered In The Spring",
-            "Offered In The Fall"});
-            this.comboBox1.Location = new System.Drawing.Point(524, 79);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(178, 37);
-            this.comboBox1.TabIndex = 42;
-            this.comboBox1.Text = "All Classes";
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.ForeColor = System.Drawing.Color.Black;
-            this.button11.Location = new System.Drawing.Point(322, 7);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(28, 28);
-            this.button11.TabIndex = 64;
-            this.button11.Text = "G";
-            this.toolTip1.SetToolTip(this.button11, "btnTest might be use to display local variables");
-            this.button11.UseVisualStyleBackColor = false;
             // 
             // label16
             // 
@@ -2565,19 +2924,6 @@
             this.label16.Size = new System.Drawing.Size(114, 29);
             this.label16.TabIndex = 41;
             this.label16.Text = "Order By";
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.ForeColor = System.Drawing.Color.Black;
-            this.button12.Location = new System.Drawing.Point(130, 40);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(28, 28);
-            this.button12.TabIndex = 63;
-            this.button12.Text = "S";
-            this.toolTip1.SetToolTip(this.button12, "btnTest might be use to display local variables");
-            this.button12.UseVisualStyleBackColor = false;
             // 
             // comboBox2
             // 
@@ -2593,412 +2939,6 @@
             this.comboBox2.Size = new System.Drawing.Size(178, 37);
             this.comboBox2.TabIndex = 40;
             this.comboBox2.Text = "Course Code";
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.ForeColor = System.Drawing.Color.Black;
-            this.button13.Location = new System.Drawing.Point(162, 40);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(28, 28);
-            this.button13.TabIndex = 62;
-            this.button13.Text = "T";
-            this.toolTip1.SetToolTip(this.button13, "btnTest might be use to display local variables");
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(38, 5);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(35, 30);
-            this.button14.TabIndex = 39;
-            this.toolTip1.SetToolTip(this.button14, "Navegate To The First Logical Record Within The View");
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.ForeColor = System.Drawing.Color.Black;
-            this.button15.Location = new System.Drawing.Point(194, 40);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(28, 28);
-            this.button15.TabIndex = 61;
-            this.button15.Text = "U";
-            this.toolTip1.SetToolTip(this.button15, "btnTest might be use to display local variables");
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            this.button16.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowUp;
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(778, 5);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(35, 30);
-            this.button16.TabIndex = 39;
-            this.toolTip1.SetToolTip(this.button16, "Navegate To The First Logical Record Within The View");
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
-            // 
-            // button17
-            // 
-            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.ForeColor = System.Drawing.Color.Black;
-            this.button17.Location = new System.Drawing.Point(642, 40);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(28, 28);
-            this.button17.TabIndex = 60;
-            this.button17.Text = "Y";
-            this.toolTip1.SetToolTip(this.button17, "btnTest might be use to display local variables");
-            this.button17.UseVisualStyleBackColor = false;
-            // 
-            // button18
-            // 
-            this.button18.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(38, 67);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(35, 30);
-            this.button18.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.button18, "Navegate To The Last Logical Record Within The View");
-            this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
-            // 
-            // button19
-            // 
-            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.ForeColor = System.Drawing.Color.Black;
-            this.button19.Location = new System.Drawing.Point(578, 40);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(28, 28);
-            this.button19.TabIndex = 57;
-            this.button19.Text = "W";
-            this.toolTip1.SetToolTip(this.button19, "btnTest might be use to display local variables");
-            this.button19.UseVisualStyleBackColor = false;
-            // 
-            // button20
-            // 
-            this.button20.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(8, 35);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(30, 35);
-            this.button20.TabIndex = 37;
-            this.toolTip1.SetToolTip(this.button20, "Navegate To The Previous Logical Record Within The View");
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
-            // 
-            // button21
-            // 
-            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.ForeColor = System.Drawing.Color.Black;
-            this.button21.Location = new System.Drawing.Point(674, 40);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(28, 28);
-            this.button21.TabIndex = 59;
-            this.button21.Text = "Z";
-            this.toolTip1.SetToolTip(this.button21, "btnTest might be use to display local variables");
-            this.button21.UseVisualStyleBackColor = false;
-            // 
-            // button22
-            // 
-            this.button22.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowDown;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Location = new System.Drawing.Point(778, 67);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(35, 30);
-            this.button22.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.button22, "Navegate To The Last Logical Record Within The View");
-            this.button22.UseVisualStyleBackColor = true;
-            this.button22.Click += new System.EventHandler(this.button22_Click);
-            // 
-            // button23
-            // 
-            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.ForeColor = System.Drawing.Color.Black;
-            this.button23.Location = new System.Drawing.Point(226, 40);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(28, 28);
-            this.button23.TabIndex = 58;
-            this.button23.Text = "V";
-            this.toolTip1.SetToolTip(this.button23, "btnTest might be use to display local variables");
-            this.button23.UseVisualStyleBackColor = false;
-            // 
-            // button24
-            // 
-            this.button24.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Location = new System.Drawing.Point(71, 35);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(30, 35);
-            this.button24.TabIndex = 36;
-            this.toolTip1.SetToolTip(this.button24, "Navegate To The Next Logical Record Within The View");
-            this.button24.UseVisualStyleBackColor = true;
-            this.button24.Click += new System.EventHandler(this.button24_Click);
-            // 
-            // button25
-            // 
-            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.ForeColor = System.Drawing.Color.Black;
-            this.button25.Location = new System.Drawing.Point(226, 7);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(28, 28);
-            this.button25.TabIndex = 56;
-            this.button25.Text = "D";
-            this.toolTip1.SetToolTip(this.button25, "btnTest might be use to display local variables");
-            this.button25.UseVisualStyleBackColor = false;
-            // 
-            // button26
-            // 
-            this.button26.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowLeft;
-            this.button26.FlatAppearance.BorderSize = 0;
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Location = new System.Drawing.Point(748, 35);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(30, 35);
-            this.button26.TabIndex = 37;
-            this.toolTip1.SetToolTip(this.button26, "Navegate To The Previous Logical Record Within The View");
-            this.button26.UseVisualStyleBackColor = true;
-            this.button26.Click += new System.EventHandler(this.button26_Click);
-            // 
-            // button27
-            // 
-            this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.ForeColor = System.Drawing.Color.Black;
-            this.button27.Location = new System.Drawing.Point(258, 7);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(28, 28);
-            this.button27.TabIndex = 55;
-            this.button27.Text = "E";
-            this.toolTip1.SetToolTip(this.button27, "btnTest might be use to display local variables");
-            this.button27.UseVisualStyleBackColor = false;
-            // 
-            // button28
-            // 
-            this.button28.BackgroundImage = global::LibraryApp1.Properties.Resources.arrowRight1;
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Location = new System.Drawing.Point(811, 35);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(30, 35);
-            this.button28.TabIndex = 36;
-            this.toolTip1.SetToolTip(this.button28, "Navegate To The Next Logical Record Within The View");
-            this.button28.UseVisualStyleBackColor = true;
-            this.button28.Click += new System.EventHandler(this.button28_Click);
-            // 
-            // button29
-            // 
-            this.button29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.ForeColor = System.Drawing.Color.Black;
-            this.button29.Location = new System.Drawing.Point(290, 7);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(28, 28);
-            this.button29.TabIndex = 54;
-            this.button29.Text = "F";
-            this.toolTip1.SetToolTip(this.button29, "btnTest might be use to display local variables");
-            this.button29.UseVisualStyleBackColor = false;
-            // 
-            // button30
-            // 
-            this.button30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.ForeColor = System.Drawing.Color.Black;
-            this.button30.Location = new System.Drawing.Point(386, 7);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(28, 28);
-            this.button30.TabIndex = 52;
-            this.button30.Text = "I";
-            this.toolTip1.SetToolTip(this.button30, "btnTest might be use to display local variables");
-            this.button30.UseVisualStyleBackColor = false;
-            // 
-            // button31
-            // 
-            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.ForeColor = System.Drawing.Color.Black;
-            this.button31.Location = new System.Drawing.Point(354, 7);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(28, 28);
-            this.button31.TabIndex = 53;
-            this.button31.Text = "H";
-            this.toolTip1.SetToolTip(this.button31, "btnTest might be use to display local variables");
-            this.button31.UseVisualStyleBackColor = false;
-            // 
-            // button32
-            // 
-            this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.ForeColor = System.Drawing.Color.Black;
-            this.button32.Location = new System.Drawing.Point(130, 7);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(28, 28);
-            this.button32.TabIndex = 36;
-            this.button32.Text = "A";
-            this.toolTip1.SetToolTip(this.button32, "btnTest might be use to display local variables");
-            this.button32.UseVisualStyleBackColor = false;
-            // 
-            // button33
-            // 
-            this.button33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.button33.Location = new System.Drawing.Point(162, 7);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(28, 28);
-            this.button33.TabIndex = 41;
-            this.button33.Text = "B";
-            this.toolTip1.SetToolTip(this.button33, "btnTest might be use to display local variables");
-            this.button33.UseVisualStyleBackColor = false;
-            this.button33.Click += new System.EventHandler(this.button33_Click_1);
-            // 
-            // button34
-            // 
-            this.button34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.ForeColor = System.Drawing.Color.Black;
-            this.button34.Location = new System.Drawing.Point(418, 7);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(28, 28);
-            this.button34.TabIndex = 51;
-            this.button34.Text = "J";
-            this.toolTip1.SetToolTip(this.button34, "btnTest might be use to display local variables");
-            this.button34.UseVisualStyleBackColor = false;
-            // 
-            // button35
-            // 
-            this.button35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.button35.Location = new System.Drawing.Point(194, 7);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(28, 28);
-            this.button35.TabIndex = 42;
-            this.button35.Text = "C";
-            this.toolTip1.SetToolTip(this.button35, "btnTest might be use to display local variables");
-            this.button35.UseVisualStyleBackColor = false;
-            this.button35.Click += new System.EventHandler(this.button35_Click_1);
-            // 
-            // button36
-            // 
-            this.button36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button36.ForeColor = System.Drawing.Color.Black;
-            this.button36.Location = new System.Drawing.Point(450, 7);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(28, 28);
-            this.button36.TabIndex = 50;
-            this.button36.Text = "K";
-            this.toolTip1.SetToolTip(this.button36, "btnTest might be use to display local variables");
-            this.button36.UseVisualStyleBackColor = false;
-            // 
-            // button37
-            // 
-            this.button37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button37.ForeColor = System.Drawing.Color.Black;
-            this.button37.Location = new System.Drawing.Point(674, 7);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(28, 28);
-            this.button37.TabIndex = 43;
-            this.button37.Text = "R";
-            this.toolTip1.SetToolTip(this.button37, "btnTest might be use to display local variables");
-            this.button37.UseVisualStyleBackColor = false;
-            // 
-            // button38
-            // 
-            this.button38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button38.ForeColor = System.Drawing.Color.Black;
-            this.button38.Location = new System.Drawing.Point(482, 7);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(28, 28);
-            this.button38.TabIndex = 49;
-            this.button38.Text = "L";
-            this.toolTip1.SetToolTip(this.button38, "btnTest might be use to display local variables");
-            this.button38.UseVisualStyleBackColor = false;
-            // 
-            // button39
-            // 
-            this.button39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button39.ForeColor = System.Drawing.Color.Black;
-            this.button39.Location = new System.Drawing.Point(642, 7);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(28, 28);
-            this.button39.TabIndex = 44;
-            this.button39.Text = "Q";
-            this.toolTip1.SetToolTip(this.button39, "btnTest might be use to display local variables");
-            this.button39.UseVisualStyleBackColor = false;
-            // 
-            // button40
-            // 
-            this.button40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.button40.Location = new System.Drawing.Point(514, 7);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(28, 28);
-            this.button40.TabIndex = 48;
-            this.button40.Text = "M";
-            this.toolTip1.SetToolTip(this.button40, "btnTest might be use to display local variables");
-            this.button40.UseVisualStyleBackColor = false;
-            this.button40.Click += new System.EventHandler(this.button40_Click_1);
-            // 
-            // button41
-            // 
-            this.button41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button41.ForeColor = System.Drawing.Color.Black;
-            this.button41.Location = new System.Drawing.Point(610, 7);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(28, 28);
-            this.button41.TabIndex = 45;
-            this.button41.Text = "P";
-            this.toolTip1.SetToolTip(this.button41, "btnTest might be use to display local variables");
-            this.button41.UseVisualStyleBackColor = false;
-            // 
-            // button42
-            // 
-            this.button42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button42.ForeColor = System.Drawing.Color.Black;
-            this.button42.Location = new System.Drawing.Point(546, 7);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(28, 28);
-            this.button42.TabIndex = 47;
-            this.button42.Text = "N";
-            this.toolTip1.SetToolTip(this.button42, "btnTest might be use to display local variables");
-            this.button42.UseVisualStyleBackColor = false;
-            // 
-            // button43
-            // 
-            this.button43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(134)))), ((int)(((byte)(179)))));
-            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button43.ForeColor = System.Drawing.Color.Black;
-            this.button43.Location = new System.Drawing.Point(578, 7);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(28, 28);
-            this.button43.TabIndex = 46;
-            this.button43.Text = "O";
-            this.toolTip1.SetToolTip(this.button43, "btnTest might be use to display local variables");
-            this.button43.UseVisualStyleBackColor = false;
             // 
             // ClassList
             // 
@@ -3046,8 +2986,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.pnlNavigation.ResumeLayout(false);
-            this.pnlNavigation.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
@@ -3246,9 +3184,7 @@
         private System.Windows.Forms.ToolStripMenuItem allClassesToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem allClassesTaughtThisSemesterToolStripMenuItem;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button button12;

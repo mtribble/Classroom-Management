@@ -1679,5 +1679,20 @@ namespace LibraryApp1
             currClass = numClasses - 1;
             FillFormVariables();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(0);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(0);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(0);
+        }
     }
 }
