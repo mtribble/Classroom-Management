@@ -1394,7 +1394,7 @@ namespace LibraryApp1
 
         private void ByIDToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            pf.LaunchSearchWindow("Search Course By ID", "Enter ID", "223");
+            pf.LaunchSearchWindow("Search Course By Coure Code", "Enter Course Code", "CSCI-3321");
         }
 
         private void ByUniversityIDToolStripMenuItem_Click(object sender, EventArgs e)
