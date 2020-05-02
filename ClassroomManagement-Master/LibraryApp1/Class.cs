@@ -115,6 +115,10 @@ namespace LibraryApp1
             changeLogin.Text = "Log In As Teacher";
             Date1.Enabled = Date2.Enabled = Date3.Enabled = ClassDescription.Enabled = false;
             HideDelete.Visible = true;
+            button1.Visible = false;
+            button4.Visible = false;
+            button5.Visible = false;
+            addstud.Visible = false;
         }
 
         public void loadAsTeacher()
@@ -126,6 +130,10 @@ namespace LibraryApp1
             changeLogin.Text = "Log In As Student";
             Date1.Enabled = Date2.Enabled = Date3.Enabled = ClassDescription.Enabled = true;
             HideDelete.Visible = false;
+            button1.Visible = true;
+            button4.Visible = true;
+            button5.Visible = true;
+            addstud.Visible = true;
         }
 
         public void fillData1()
@@ -133,6 +141,8 @@ namespace LibraryApp1
             leftLoaded = true;
             ClassTitle.Text = "Software Engineering";
             ClassTime.Text = "11:20 - 12:30 MWF";
+            ClassRoom.Text = "MMS-120";
+            Prof.Text = "Dr. Hicks";
             Semester.Text = "Spring 2020";
             ClassDescription.Text = "An introduction to Software Engineering where students learn principles of design, databases, and Windows Forms.";
             Assn1.Text = "SQL Query Practice";
@@ -154,7 +164,9 @@ namespace LibraryApp1
             leftLoaded = false;
             ClassTitle.Text = "Functional Programming";
             ClassTime.Text = "10:20 - 11:30 TTH";
+            Prof.Text = "Dr. Hicks";
             Semester.Text = "Spring 2020";
+            ClassRoom.Text = "CSI-240";
             ClassDescription.Text = "Teaches the fundamentals of Functional Programming using the language Haskell over the course of several application-based projects";
             Assn1.Text = "Text Classification";
             Assn2.Text = "Scrabble Bot";
@@ -168,6 +180,27 @@ namespace LibraryApp1
             Mail1.Text = "lbown@trinity.edu";
             Mail2.Text = "ahicks@trinity.edu";
             Mail3.Text = "lbrooks@trinity.edu";
+        }
+        public void fillDataNone()
+        {
+            ClassTitle.Text = "";
+            ClassTime.Text = "";
+            Prof.Text = "";
+            Semester.Text = "";
+            ClassRoom.Text = "";
+            ClassDescription.Text = "";
+            Assn1.Text = "";
+            Assn2.Text = "";
+            Assn3.Text = "";
+            Date1.Text = "";
+            Date2.Text = "";
+            Date3.Text = "";
+            Stud1.Text = "";
+            Stud2.Text = "";
+            Stud3.Text = "";
+            Mail1.Text = "";
+            Mail2.Text = "";
+            Mail3.Text = "";
         }
 
         private void changeLogin_Click(object sender, EventArgs e)
@@ -265,7 +298,7 @@ namespace LibraryApp1
 
         private void load3_Click(object sender, EventArgs e)
         {
-            if(leftLoaded) Process.Start("http://carme.cs.trinity.edu/thicks/3321/Labs/Project-Prototype-1-HW.pdf");
+            Process.Start("http://carme.cs.trinity.edu/thicks/3321/Labs/Project-Prototype-1-HW.pdf");
         }
 
         private void sub3_Click(object sender, EventArgs e)
@@ -317,6 +350,42 @@ namespace LibraryApp1
         private void Class_Load_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ClassDescription_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Semester_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (leftLoaded) fillData1();
+            else fillData2();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            fillDataNone();
         }
 
         //--------------------------------------------------------------------------------
