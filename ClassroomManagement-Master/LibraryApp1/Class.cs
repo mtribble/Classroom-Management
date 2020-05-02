@@ -388,6 +388,11 @@ namespace LibraryApp1
             fillDataNone();
         }
 
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         //--------------------------------------------------------------------------------
         #endregion ------------- Dr. Hicks MySQL Initializtion Utilities -----------------
         //--------------------------------------------------------------------------------
